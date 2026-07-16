@@ -125,3 +125,32 @@ outputs/
 # OS
 .DS_Store
 Thumbs.db
+
+---
+
+### 2. Docstrings + Light Comments for `simulation.py`
+
+Add these to your `simulation.py`:
+
+#### At the very top (Header)
+
+```python
+"""
+Coherence Pump v1.7.3
+=====================
+
+A multi-scale dynamical system exploring convergence, polarization,
+and recursive coherence through a three-layer quaternion graph flow model.
+
+Key Features:
+- Three-scale quaternion-delta layers (Fine / Mid / Coarse)
+- Explicit graph flow with directed cyclic currents
+- Horocycle-style averaging across layers
+- Coherence-gated polarization (bifurcation)
+- Emergent wildcard behavior
+- Self-referential modulation
+- Recursive contraction + coherence locking
+
+Author: Cole
+License: Apache 2.0
+"""
