@@ -203,127 +203,136 @@ def combined_dynamics(t, y, adj_matrix, beta_base, C_mean, D_mean, w_mean,
             L6b_effect[burst_nodes] += L6b_burst_strength * marker_strength
 
     # ====================== FULL GRAPH FLOW LAYER ======================
-    if gate_open:
-        angle_fine = 2 * np.arccos(np.clip(Q_fine[0], -1., 1.))
-        angle_mid = 2 * np.arccos(np.clip(Q_mid[0], -1., 1.))
-        angle_coarse = 2 * np.arccos(np.clip(Q_coarse[0], -1., 1.))
+if gate_open:
+    # Calculate current angles of the three quaternion layers
+    angle_fine = 2 * np.arccos(np.clip(Q_fine[0], -1., 1.))
+    angle_mid = 2 * np.arccos(np.clip(Q_mid[0], -1., 1.))
+    angle_coarse = 2 * np.arccos(np.clip(Q_coarse[0], -1., 1.))
 
-        base_current = 0.8 * gate_strength * current_propagation
+    base_current = 0.8 * gate_strength * current_propagation
 
-        J_fine_to_mid   = base_current * (angle_fine   + 0.1)
-        J_mid_to_coarse = base_current * (angle_mid    + 0.1)
-        J_coarse_to_fine = base_current * (angle_coarse + 0.1)
+    # Initialize the three directed currents between layers
+    J_fine_to_mid   = base_current * (angle_fine   + 0.1)
+    J_mid_to_coarse = base_current * (angle_mid    + 0.1)
+    J_coarse_to_fine = base_current * (angle_coarse + 0.1)
 
-        net_cycle_current = J_fine_to_mid + J_mid_to_coarse + J_coarse_to_fine
+    net_cycle_current = J_fine_to_mid + J_mid_to_coarse + J_coarse_to_fine
 
-        # Phase-gradient modulation
-        phase_strength = 0.5 * gate_strength * coupling_density
-        phase_scale_fine   = 1.0
-        phase_scale_mid    = 0.7
-        phase_scale_coarse = 0.45
+    # --- Phase-gradient modulation ---
+    # Adds wave-like behavior to the currents based on layer angles
+    phase_strength = 0.5 * gate_strength * coupling_density
+    phase_scale_fine   = 1.0
+    phase_scale_mid    = 0.7
+    phase_scale_coarse = 0.45
 
-        J_fine_to_mid   *= (1 + phase_strength * phase_scale_fine   * np.sin(angle_fine))
-        J_mid_to_coarse *= (1 + phase_strength * phase_scale_mid    * np.sin(angle_mid))
-        J_coarse_to_fine *= (1 + phase_strength * phase_scale_coarse * np.sin(angle_coarse))
+    J_fine_to_mid   *= (1 + phase_strength * phase_scale_fine   * np.sin(angle_fine))
+    J_mid_to_coarse *= (1 + phase_strength * phase_scale_mid    * np.sin(angle_mid))
+    J_coarse_to_fine *= (1 + phase_strength * phase_scale_coarse * np.sin(angle_coarse))
 
-        # Drift damping
-        drift_damping = 0.18 * gate_strength * coupling_density
-        J_fine_to_mid   *= (1 - drift_damping)
-        J_mid_to_coarse *= (1 - drift_damping)
-        J_coarse_to_fine *= (1 - drift_damping)
+    # --- Drift damping ---
+    # Reduces excessive movement in currents as coherence increases
+    drift_damping = 0.18 * gate_strength * coupling_density
+    J_fine_to_mid   *= (1 - drift_damping)
+    J_mid_to_coarse *= (1 - drift_damping)
+    J_coarse_to_fine *= (1 - drift_damping)
 
-        # Mirror / Reflection
-        mirror_factor = 0.25 * gate_strength
-        J_fine_to_mid   -= mirror_factor * J_coarse_to_fine
-        J_mid_to_coarse -= mirror_factor * J_fine_to_mid
-        J_coarse_to_fine -= mirror_factor * J_mid_to_coarse
+    # --- Mirror / Reflection coupling ---
+    # Creates a reflective relationship between opposing currents
+    mirror_factor = 0.25 * gate_strength
+    J_fine_to_mid   -= mirror_factor * J_coarse_to_fine
+    J_mid_to_coarse -= mirror_factor * J_fine_to_mid
+    J_coarse_to_fine -= mirror_factor * J_mid_to_coarse
 
-        net_cycle_current = J_fine_to_mid + J_mid_to_coarse + J_coarse_to_fine
+    net_cycle_current = J_fine_to_mid + J_mid_to_coarse + J_coarse_to_fine
 
-        # Emergent Wildcard (Tonnetz-inspired)
-        wildcard_activation = (J_fine_to_mid * J_mid_to_coarse * J_coarse_to_fine) ** (1/3)
-        wildcard_strength = 0.35 * gate_strength * coupling_density * (wildcard_activation / (base_current + 1e-6))
+    # --- Emergent Wildcard Layer (Tonnetz-inspired) ---
+    # Appears when all three currents are strong — represents emergent behavior
+    wildcard_activation = (J_fine_to_mid * J_mid_to_coarse * J_coarse_to_fine) ** (1/3)
+    wildcard_strength = 0.35 * gate_strength * coupling_density * (wildcard_activation / (base_current + 1e-6))
 
-        J_fine_to_mid   += wildcard_strength * 0.3
-        J_mid_to_coarse += wildcard_strength * 0.3
-        J_coarse_to_fine += wildcard_strength * 0.3
+    J_fine_to_mid   += wildcard_strength * 0.3
+    J_mid_to_coarse += wildcard_strength * 0.3
+    J_coarse_to_fine += wildcard_strength * 0.3
 
-        net_cycle_current = J_fine_to_mid + J_mid_to_coarse + J_coarse_to_fine
+    net_cycle_current = J_fine_to_mid + J_mid_to_coarse + J_coarse_to_fine
 
-        # Self-referential modulation
-        layer_alignment = 1.0 - (abs(angle_fine - angle_mid) + abs(angle_mid - angle_coarse) + abs(angle_coarse - angle_fine)) / (3 * np.pi)
-        self_ref_strength = 0.3 * gate_strength * coupling_density * layer_alignment
+    # --- Self-referential modulation ---
+    # The system's own layer alignment influences its dynamics
+    layer_alignment = 1.0 - (abs(angle_fine - angle_mid) + abs(angle_mid - angle_coarse) + abs(angle_coarse - angle_fine)) / (3 * np.pi)
+    self_ref_strength = 0.3 * gate_strength * coupling_density * layer_alignment
 
-        J_fine_to_mid   += self_ref_strength * np.sin(angle_fine)
-        J_mid_to_coarse += self_ref_strength * np.sin(angle_mid)
-        J_coarse_to_fine += self_ref_strength * np.sin(angle_coarse)
+    J_fine_to_mid   += self_ref_strength * np.sin(angle_fine)
+    J_mid_to_coarse += self_ref_strength * np.sin(angle_mid)
+    J_coarse_to_fine += self_ref_strength * np.sin(angle_coarse)
 
-        net_cycle_current = J_fine_to_mid + J_mid_to_coarse + J_coarse_to_fine
+    net_cycle_current = J_fine_to_mid + J_mid_to_coarse + J_coarse_to_fine
 
-        # ====================== BIFURCATION / POLARIZATION TERM ======================
-        angle_diff = (abs(angle_fine - angle_mid) + 
-                      abs(angle_mid - angle_coarse) + 
-                      abs(angle_coarse - angle_fine)) / 3
+    # ====================== BIFURCATION / POLARIZATION TERM ======================
+    # Higher global coherence → increased differentiation between layers
+    angle_diff = (abs(angle_fine - angle_mid) + 
+                  abs(angle_mid - angle_coarse) + 
+                  abs(angle_coarse - angle_fine)) / 3
 
-        polarization_strength = 0.25 * gate_strength * coupling_density * (1 + angle_diff)
+    polarization_strength = 0.25 * gate_strength * coupling_density * (1 + angle_diff)
 
-        dQ_fine_dt   += polarization_strength * np.sign(angle_fine - angle_mid)   * 0.15
-        dQ_mid_dt    += polarization_strength * np.sign(angle_mid - angle_coarse) * 0.15
-        dQ_coarse_dt += polarization_strength * np.sign(angle_coarse - angle_fine) * 0.15
+    dQ_fine_dt   += polarization_strength * np.sign(angle_fine - angle_mid)   * 0.15
+    dQ_mid_dt    += polarization_strength * np.sign(angle_mid - angle_coarse) * 0.15
+    dQ_coarse_dt += polarization_strength * np.sign(angle_coarse - angle_fine) * 0.15
 
-        polarization_damping = 0.12 * polarization_strength
-        J_fine_to_mid   *= (1 - polarization_damping)
-        J_mid_to_coarse *= (1 - polarization_damping)
-        J_coarse_to_fine *= (1 - polarization_damping)
+    polarization_damping = 0.12 * polarization_strength
+    J_fine_to_mid   *= (1 - polarization_damping)
+    J_mid_to_coarse *= (1 - polarization_damping)
+    J_coarse_to_fine *= (1 - polarization_damping)
 
-        net_cycle_current = J_fine_to_mid + J_mid_to_coarse + J_coarse_to_fine
+    net_cycle_current = J_fine_to_mid + J_mid_to_coarse + J_coarse_to_fine
 
-        # ====================== HOROCYCLE-STYLE AVERAGING ======================
-        if coupling_density > 0.6:
-            avg_strength = 0.22 * gate_strength * coupling_density
+    # ====================== HOROCYCLE-STYLE AVERAGING ======================
+    # Allows structured information sharing between layers (inspired by horocycle averaging)
+    if coupling_density > 0.6:
+        avg_strength = 0.22 * gate_strength * coupling_density
 
-            avg_fine_mid   = 0.6 * (Q_fine + Q_mid) / 2
-            avg_mid_coarse = 0.6 * (Q_mid + Q_coarse) / 2
-            avg_fine_coarse = 0.3 * (Q_fine + Q_coarse) / 2
+        avg_fine_mid   = 0.6 * (Q_fine + Q_mid) / 2
+        avg_mid_coarse = 0.6 * (Q_mid + Q_coarse) / 2
+        avg_fine_coarse = 0.3 * (Q_fine + Q_coarse) / 2
 
-            dQ_fine_dt   += avg_strength * (avg_fine_mid   + avg_fine_coarse - 2 * Q_fine)   * 0.4
-            dQ_mid_dt    += avg_strength * (avg_fine_mid   + avg_mid_coarse - 2 * Q_mid)    * 0.5
-            dQ_coarse_dt += avg_strength * (avg_mid_coarse + avg_fine_coarse - 2 * Q_coarse) * 0.4
+        dQ_fine_dt   += avg_strength * (avg_fine_mid   + avg_fine_coarse - 2 * Q_fine)   * 0.4
+        dQ_mid_dt    += avg_strength * (avg_fine_mid   + avg_mid_coarse - 2 * Q_mid)    * 0.5
+        dQ_coarse_dt += avg_strength * (avg_mid_coarse + avg_fine_coarse - 2 * Q_coarse) * 0.4
 
-        # Coherence Locking
-        if coupling_density > 0.82:
-            lock_strength = 0.35 * (coupling_density - 0.82) / 0.18
-            J_fine_to_mid   *= (1 - lock_strength * 0.6)
-            J_mid_to_coarse *= (1 - lock_strength * 0.6)
-            J_coarse_to_fine *= (1 - lock_strength * 0.6)
+    # --- Coherence Locking ---
+    # Strongly stabilizes the system at very high coherence
+    if coupling_density > 0.82:
+        lock_strength = 0.35 * (coupling_density - 0.82) / 0.18
+        J_fine_to_mid   *= (1 - lock_strength * 0.6)
+        J_mid_to_coarse *= (1 - lock_strength * 0.6)
+        J_coarse_to_fine *= (1 - lock_strength * 0.6)
 
-            lock_anchor = 0.3 * lock_strength
-            dQ_fine_dt   -= lock_anchor * (Q_fine   - np.array([1.,0.,0.,0.]))
-            dQ_mid_dt    -= lock_anchor * (Q_mid    - np.array([1.,0.,0.,0.]))
-            dQ_coarse_dt -= lock_anchor * (Q_coarse - np.array([1.,0.,0.,0.]))
+        lock_anchor = 0.3 * lock_strength
+        dQ_fine_dt   -= lock_anchor * (Q_fine   - np.array([1.,0.,0.,0.]))
+        dQ_mid_dt    -= lock_anchor * (Q_mid    - np.array([1.,0.,0.,0.]))
+        dQ_coarse_dt -= lock_anchor * (Q_coarse - np.array([1.,0.,0.,0.]))
 
-        # Lattice stacking
-        stack_influence = 0.45 * gate_strength * coupling_density
-        dQ_fine_dt   += stack_influence * (Q_coarse - Q_fine) * 0.75
-        dQ_mid_dt    += stack_influence * (Q_coarse - Q_mid)  * 0.55
-        dQ_coarse_dt += stack_influence * (Q_mid   - Q_coarse) * 0.35
+    # --- Lattice Stacking + Recursive Contraction ---
+    stack_influence = 0.45 * gate_strength * coupling_density
+    dQ_fine_dt   += stack_influence * (Q_coarse - Q_fine) * 0.75
+    dQ_mid_dt    += stack_influence * (Q_coarse - Q_mid)  * 0.55
+    dQ_coarse_dt += stack_influence * (Q_mid   - Q_coarse) * 0.35
 
-        # Recursive contraction
-        contraction = 0.32 * gate_strength
-        lattice_invariant = (angle_fine * angle_mid * angle_coarse) ** 0.33 + coupling_density * 2.0
-        attractor_strength = (coupling_density ** 1.6) * (1 + 0.15 * lattice_invariant)
+    contraction = 0.32 * gate_strength
+    lattice_invariant = (angle_fine * angle_mid * angle_coarse) ** 0.33 + coupling_density * 2.0
+    attractor_strength = (coupling_density ** 1.6) * (1 + 0.15 * lattice_invariant)
 
-        J_fine_to_mid   *= (1 - contraction * attractor_strength)
-        J_mid_to_coarse *= (1 - contraction * attractor_strength)
-        J_coarse_to_fine *= (1 - contraction * attractor_strength)
+    J_fine_to_mid   *= (1 - contraction * attractor_strength)
+    J_mid_to_coarse *= (1 - contraction * attractor_strength)
+    J_coarse_to_fine *= (1 - contraction * attractor_strength)
 
-        dQ_fine_dt   += 0.4 * attractor_strength * (Q_fine - np.array([1.,0.,0.,0.]))
-        dQ_mid_dt    += 0.25 * attractor_strength * (Q_mid  - np.array([1.,0.,0.,0.]))
-        dQ_coarse_dt += 0.15 * attractor_strength * (Q_coarse - np.array([1.,0.,0.,0.]))
+    dQ_fine_dt   += 0.4 * attractor_strength * (Q_fine - np.array([1.,0.,0.,0.]))
+    dQ_mid_dt    += 0.25 * attractor_strength * (Q_mid  - np.array([1.,0.,0.,0.]))
+    dQ_coarse_dt += 0.15 * attractor_strength * (Q_coarse - np.array([1.,0.,0.,0.]))
 
-        L6b_effect *= (1 + 0.22 * net_cycle_current + 0.12 * stack_influence + 0.1 * wildcard_strength + 0.08 * self_ref_strength)
-    else:
-        J_fine_to_mid = J_mid_to_coarse = J_coarse_to_fine = 0.0
+    L6b_effect *= (1 + 0.22 * net_cycle_current + 0.12 * stack_influence + 0.1 * wildcard_strength + 0.08 * self_ref_strength)
+else:
+    J_fine_to_mid = J_mid_to_coarse = J_coarse_to_fine = 0.0
 
     # Combined quaternion effect
     if gate_open:
