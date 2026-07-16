@@ -1,4 +1,45 @@
+"""
+Coherence Pump v1.7.3
+=====================
+
+A multi-scale dynamical system exploring convergence, polarization,
+and recursive coherence through a three-layer quaternion graph flow model.
+
+Core Components:
+- 56-node base system with Mereon-style nesting and oscillatory layer
+- L6b-style control layer for modulation and improvisation
+- Three-scale quaternion-delta structure (Fine / Mid / Coarse)
+- Explicit graph flow layer with directed cyclic currents
+- Multiple higher-order behaviors:
+    • Phase-gradient modulation
+    • Emergent wildcard layer
+    • Self-referential modulation
+    • Coherence-gated polarization (bifurcation)
+    • Horocycle-style averaging across scales
+    • Recursive contraction toward attractor
+    • Coherence locking at high density
+
+Key Dynamics:
+- Coupling density acts as a continuous gating variable
+- Gate with hysteresis controls activation of higher-order mechanisms
+- Convergence and polarization occur together as coherence increases
+- Self-reference allows the system to influence its own trajectory
+
+Usage:
+    python simulation.py
+
+Outputs:
+    - v1.7.3_coherence_run.csv (main simulation data)
+    - Can be visualized using animate.py
+
+Author: Cole (with iterative development alongside Grok)
+License: Apache 2.0
+"""
+
 import numpy as np
+from scipy.integrate import solve_ivp
+import pandas as pd
+from numpy.linalg import eigimport numpy as np
 from scipy.integrate import solve_ivp
 import pandas as pd
 from numpy.linalg import eig
