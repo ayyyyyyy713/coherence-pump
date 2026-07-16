@@ -1,18 +1,23 @@
 # Coherence Pump
 
-A multi-scale dynamical system that explores **convergence and polarization** through a three-layer quaternion graph flow model.
+A multi-scale dynamical system that explores how **convergence and polarization** can occur simultaneously in complex systems.
 
-## Overview
+## What This Project Explores
 
-The Coherence Pump models how systems can simultaneously move toward higher coherence while becoming more differentiated across scales. It features:
+Most systems either converge toward order *or* differentiate into specialized parts. This project investigates what happens when both processes happen **at the same time**.
 
-- Three-scale quaternion layers (Fine / Mid / Coarse) with down-sampling
-- Explicit directed graph flow with cyclic currents
-- Horocycle-style averaging across layers
-- Emergent wildcard behavior
-- Self-referential modulation
-- Coherence-gated polarization
-- Recursive contraction toward an attractor
+The Coherence Pump models this tension using:
+- A three-scale quaternion structure (Fine / Mid / Coarse)
+- An explicit graph flow layer with directed currents
+- Higher-order mechanisms that activate once a coherence threshold is crossed
+
+Key behaviors include:
+- **Recursive contraction** toward an attractor
+- **Polarization** — layers become more distinct as global coherence increases
+- **Horocycle-style averaging** — structured information sharing across scales
+- **Emergent wildcard behavior** — new dynamics appear from the interaction of the three layers
+
+This framework draws inspiration from horocycle methods in analytic number theory, multi-scale emergence, and recursive self-referential systems.
 
 ## Quick Start
 
