@@ -461,19 +461,30 @@ def run_regime(use_breath=True, use_mereon=True, use_offloading=True, offloading
         del combined_dynamics.gate_open
 
     sol = solve_ivp(
-        fun=lambda t, y: combined_dynamics(t, y, adj_matrix, beta_base, C_mean, D_mean, w_mean,
-                                           omega0, angle_factor, light_speed_scale,
-                                           breath_frequency, breath_amplitude if use_breath else 0.0, use_breath,
-                                           layer, layer_coupling, use_mereon,
-                                           use_offloading, offloading_strength,
-                                           use_persistence, 0.02, 0.005,
-                                           use_dynamic_T, T_activation_threshold, 0.15,
-                                           use_engineered, structure_stabilization,
-                                           use_release, release_strength, 0.3,
-                                           N_L6b, L6b_modulation_strength, L6b_base_facilitation,
-                                           L6b_improvisation_factor, L6b_burst_probability, L6b_burst_strength, L6b_to_main_base,
-                                           GATE_ACTIVATION_THRESHOLD, GATE_DEACTIVATION_THRESHOLD,
-                                           DOWN_SAMPLE_FINE_TO_MID, DOWN_SAMPLE_MID_TO_COARSE),
+        fun=lambda t, y: combined_dynamicsdef combined_dynamics(t, y, adj_matrix, beta_base, C_mean, D_mean, w_mean,
+                      omega0, angle_factor, light_speed_scale,
+                      breath_frequency, breath_amplitude, USE_BREATH_RHYTHM,
+                      layer, layer_coupling, USE_MEREON_NESTING,
+                      USE_OFFLOADING, offloading_strength,
+                      USE_PERSISTENCE, persistence_rate, persistence_decay,
+                      USE_DYNAMIC_T, T_activation_threshold, T_smoothing,
+                      USE_ENGINEERED_STRUCTURE, structure_stabilization,
+                      USE_HYPERDIMENSIONAL_RELEASE, release_strength, release_activation_bonus,
+                      N_L6b, L6b_modulation_strength, L6b_base_facilitation,
+                      L6b_improvisation_factor, L6b_burst_probability, L6b_burst_strength, L6b_to_main_base,
+                      GATE_ACTIVATION_THRESHOLD, GATE_DEACTIVATION_THRESHOLD):
+    """
+    Core dynamics function for the Coherence Pump.
+
+    Computes derivatives for:
+    - Main system energy (E)
+    - Oscillatory layer (x, v)
+    - Persistence (P)
+    - L6b control layer
+    - Three quaternion layers (Q_fine, Q_mid, Q_coarse)
+
+    Higher-order behaviors activate when the gate opens based on coupling density.
+    """
         t_span=(0, 500),
         y0=y0,
         t_eval=np.linspace(0, 500, 1500),
@@ -615,7 +626,23 @@ def combined_dynamics(t, y, adj_matrix, ...):
     Higher-order behaviors (polarization, horocycle averaging, etc.)
     activate when the gate is open (based on coupling density).
     """
-    def run_regime(...):
+    def run_regimedef run_regime(use_breath=True, use_mereon=True, use_offloading=True, offloading_strength=0.7,
+               use_persistence=True, use_dynamic_T=True, T_activation_threshold=0.55,
+               use_engineered=True, structure_stabilization=0.4,
+               use_release=True, release_strength=0.5,
+               use_L6b=True,
+               ema_alpha=0.1,
+               snap_threshold=0.9,
+               USE_EMA_COHERENCE=True,
+               name='v1.7.3 Full Model'):
+    """
+    Runs the full Coherence Pump simulation and returns results.
+
+    Returns a dictionary containing:
+    - Time series data (global_E, coupling_density, currents, angles)
+    - Snap time (when coherence crosses threshold)
+    - Eigenvalue analysis of final state
+    """
     """
     Runs the full simulation and returns a dictionary of results.
 
