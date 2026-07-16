@@ -1,21 +1,49 @@
-MIT License
 
-Copyright (c) 2026 ayyyyyyy713
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+### 3. `index.html` (Simple GitHub Pages Site)
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Save this as `index.html` in the root. It will work automatically if you enable GitHub Pages on the repo.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coherence Pump</title>
+    <style>
+        body { font-family: system-ui, sans-serif; background: #0a0a0a; color: #ddd; max-width: 720px; margin: 40px auto; padding: 20px; line-height: 1.6; }
+        h1 { color: #7dd3fc; }
+        a { color: #7dd3fc; }
+        .card { background: #111; padding: 24px; border-radius: 12px; margin: 24px 0; }
+    </style>
+</head>
+<body>
+    <h1>Coherence Pump</h1>
+    <p>A multi-scale dynamical system exploring <strong>convergence + polarization</strong> through a three-layer quaternion graph flow model.</p>
+
+    <div class="card">
+        <h2>What is this?</h2>
+        <p>The Coherence Pump models how systems can converge toward higher coherence while simultaneously differentiating across scales. It features recursive contraction, horocycle-style averaging, emergent behavior, and coherence-gated polarization.</p>
+    </div>
+
+    <div class="card">
+        <h2>Repository</h2>
+        <p><a href="https://github.com/yourusername/coherence-pump">github.com/yourusername/coherence-pump</a></p>
+        <p>Includes the full simulation, animation script, and logged outputs.</p>
+    </div>
+
+    <div class="card">
+        <h2>Quick Start</h2>
+        <pre><code>git clone https://github.com/yourusername/coherence-pump.git
+cd coherence-pump
+pip install -r requirements.txt
+python simulation.py</code></pre>
+    </div>
+
+    <footer style="margin-top: 60px; font-size: 0.9em; color: #666;">
+        Built with Grok • Experimental framework exploring recursive coherence and multi-scale dynamics
+    </footer>
+</body>
+</html>
