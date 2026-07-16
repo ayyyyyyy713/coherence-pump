@@ -600,3 +600,31 @@ if __name__ == "__main__":
     })
     df.to_csv('v1.7.3_coherence_run.csv', index=False)
     print("Data saved to v1.7.3_coherence_run.csv")
+def combined_dynamics(t, y, adj_matrix, ...):
+    """
+    Core dynamical system combining a 56-node base system with a 
+    three-scale quaternion graph flow layer.
+
+    This function computes the derivatives for:
+    - Main system energy (E)
+    - Oscillatory layer (x, v)
+    - Persistence variable (P)
+    - L6b control layer (E_L6b)
+    - Three quaternion layers (Q_fine, Q_mid, Q_coarse)
+
+    Higher-order behaviors (polarization, horocycle averaging, etc.)
+    activate when the gate is open (based on coupling density).
+    """
+    def run_regime(...):
+    """
+    Runs the full simulation and returns a dictionary of results.
+
+    Includes:
+    - Time series of global coherence (with optional EMA)
+    - Snap detection (when coherence crosses threshold)
+    - Graph currents and quaternion angles over time
+    - Eigenvalue analysis of the final state
+
+    Parameters control various subsystems (breath rhythm, persistence, 
+    engineered structure, etc.).
+    """
