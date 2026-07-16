@@ -1,33 +1,23 @@
 # Coherence Pump
 
-A multi-scale dynamical system exploring convergence, polarization, and recursive coherence through a three-layer quaternion graph flow model.
+A multi-scale dynamical system that explores **convergence and polarization** through a three-layer quaternion graph flow model.
 
-## Core Idea
+## Overview
 
-The Coherence Pump models how systems can simultaneously **converge** toward higher-order coherence while **polarizing** (differentiating) across scales. It combines:
+The Coherence Pump models how systems can simultaneously move toward higher coherence while becoming more differentiated across scales. It features:
 
-- Three-scale quaternion-delta layers (Fine / Mid / Coarse)
+- Three-scale quaternion layers (Fine / Mid / Coarse) with down-sampling
 - Explicit directed graph flow with cyclic currents
 - Horocycle-style averaging across layers
 - Emergent wildcard behavior
 - Self-referential modulation
 - Coherence-gated polarization
-
-This creates dynamics where stronger global coherence enables sharper internal differentiation — a computational exploration of convergence and polarization happening together.
-
-## Features
-
-- Full 56-node dynamical system with Mereon-style nesting
-- Controllable gate with hysteresis based on coupling density
-- Real-time logging of graph currents and layer angles
-- Exponential moving average (EMA) coherence tracking with toggle
-- Exportable data for visualization
+- Recursive contraction toward an attractor
 
 ## Quick Start
 
 ```bash
+git clone https://github.com/ayyyyyyy713/coherence-pump.git
+cd coherence-pump
 pip install -r requirements.txt
-python simulation.py# coherence-pump
-## License
-
-Licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details.
+python simulation.py
