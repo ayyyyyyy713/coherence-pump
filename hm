@@ -1,0 +1,3 @@
+mkdir -p archive/v1.7.3-broken
+git mv simulation.py archive/v1.7.3-broken/simulation.py
+echo "Non-parsing kernel. Kept as record. See FOR_THE_AUTHOR.md / Curse 3." > archive/v1.7.3-broken/README.md
