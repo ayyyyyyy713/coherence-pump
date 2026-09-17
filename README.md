@@ -1,29 +1,29 @@
 # Coherence Pump
 
-A multi-scale dynamical system exploring **convergence and polarization** happening simultaneously through a three-layer quaternion graph flow.
+A single-stepper dynamical kernel with pack-as-readout.
 
-## Core Idea
+`coherence_pump.py` integrates an N=56 energy field with one `solve_ivp` call. The gate lives in a closure, not in the state vector. After the run, `pack()` / `receipt()` print a frozen record. That record is not a second integration.
 
-Most complex systems either converge toward order *or* differentiate into specialized components. This project investigates what happens when **both processes occur at the same time**.
+This is not a consciousness engine, trading signal, healing protocol, or cosmological simulator. Honesty of the file is the feature.
 
-The model uses:
-- A three-scale quaternion structure (Fine / Mid / Coarse)
-- An explicit graph flow layer with directed cyclic currents
-- Higher-order mechanisms that activate once a coherence threshold is crossed
+## What the kernel does
 
-Key emergent behaviors include:
-- **Recursive contraction** toward an attractor
-- **Polarization** — layers become more functionally distinct as global coherence rises
-- **Horocycle-style averaging** — structured information sharing across scales
-- **Emergent wildcard layer** — new dynamics appear from the interaction of the three currents
+- State `y` is length **N** (DEFERRED) or **N+3** (LIVE).
+- DEFERRED integrates the energy sheet only. LIVE adds three containing clocks.
+- Faces that may enter `dE`: ness, seed, load. LIVE may also admit gated holonomy.
+- Load is a sink. Ness is withheld on the load nodes.
+- `R_event` stays **DIRTY**. A snap time is a candidate, not an event.
+- `pump_live` is a soft flag. Do not read it as “learned to pump.”
 
-This framework draws conceptual inspiration from horocycle methods in number theory, multi-scale emergence, and recursive self-referential systems.
+Same present energy readout can sit under two theses. LIVE and DEFERRED are different legal next moves, not two spellings of one story.
+
+Receipt keys are frozen in [`receipt.schema.md`](receipt.schema.md) (`mbcad.receipt.v0`).
 
 ## Quick Start
-Prior kernel v1.7.3 did not parse and is in `archive/v1.7.3-broken/`.
-License: Apache-2.0.
+
 ```bash
 git clone https://github.com/ayyyyyyy713/coherence-pump.git
 cd coherence-pump
 pip install -r requirements.txt
 python coherence_pump.py --deferred --no-plot
+python coherence_pump.py --no-plot
