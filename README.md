@@ -20,7 +20,8 @@ Key emergent behaviors include:
 This framework draws conceptual inspiration from horocycle methods in number theory, multi-scale emergence, and recursive self-referential systems.
 
 ## Quick Start
-
+Prior kernel v1.7.3 did not parse and is in `archive/v1.7.3-broken/`.
+License: Apache-2.0.
 ```bash
 git clone https://github.com/ayyyyyyy713/coherence-pump.git
 cd coherence-pump
