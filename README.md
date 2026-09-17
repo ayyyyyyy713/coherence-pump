@@ -25,4 +25,4 @@ This framework draws conceptual inspiration from horocycle methods in number the
 git clone https://github.com/ayyyyyyy713/coherence-pump.git
 cd coherence-pump
 pip install -r requirements.txt
-python simulation.py
+python coherence_pump.py --deferred --no-plot
