@@ -473,6 +473,58 @@ def receipt(result):
     return "\n".join(lines)
 
 
+
+def _scalar_keys(result):
+    gates = np.asarray(result.get("gate_upcross_times", []), dtype=float)
+    return {
+        "thesis": result["thesis"],
+        "FACE_BUNDLE": result["residuals"]["FACE_BUNDLE"],
+        "SINK": tuple(result["residuals"]["SINK"]),
+        "pump_live": bool(result["residuals"]["pump_live"]),
+        "load_final": float(result["load_final"]),
+        "contain_E_end": float(result["contain_E"][-1]),
+        "gate_frac_on": float(result["gate_frac_on"]),
+        "final_global_E": float(result["final_global_E"]),
+        "y0_mean": float(result["y0_mean"]),
+        "R_event_gate": result.get("R_event_gate", "ABSENT"),
+        "gate_upcross0": float(gates[0]) if gates.size else None,
+        "nfev": int(result["nfev"]),
+    }
+
+
+def confirm(y0, graph=None):
+    """Second solve_ivp on frozen (y0, graph, faces). Pack stays readout."""
+    y0 = np.asarray(y0, dtype=float).copy()
+    graph = default_graph() if graph is None else graph
+    a = run(y0, graph=graph)
+    b = run(y0, graph=graph)
+    ka, kb = _scalar_keys(a), _scalar_keys(b)
+    drift = []
+    for k in ka:
+        va, vb = ka[k], kb[k]
+        if isinstance(va, float) and va is not None and vb is not None:
+            if abs(va - vb) > 1e-9:
+                drift.append(f"{k}: {va} vs {vb}")
+        elif va != vb:
+            drift.append(f"{k}: {va} vs {vb}")
+    status = "DRIFT" if drift else "CONFIRMED"
+    lines = [
+        f"confirm:       {status}",
+        f"frozen y_shape: {int(y0.size)}",
+        f"faces:         {sorted(faces_in_dE_for(a['thesis']))}",
+        f"series_a nfev: {ka['nfev']}",
+        f"series_b nfev: {kb['nfev']}",
+        f"load_final:    {ka['load_final']:.6f} / {kb['load_final']:.6f}",
+        f"contain_E_end: {ka['contain_E_end']:.6f} / {kb['contain_E_end']:.6f}",
+        f"gate_frac_on:  {ka['gate_frac_on']:.4f} / {kb['gate_frac_on']:.4f}",
+        f"R_event_gate:  {ka['R_event_gate']} / {kb['R_event_gate']}",
+        f"gate_upcross:  {ka['gate_upcross0']} / {kb['gate_upcross0']}",
+    ]
+    if drift:
+        lines.append("drift:         " + " | ".join(drift))
+    return status, "\n".join(lines), a, b
+
+
 def detroit_receipt(result):
     r = result["residuals"]
     return "\n".join(
@@ -496,6 +548,7 @@ if __name__ == "__main__":
     p.add_argument("--no-plot", action="store_true")
     p.add_argument("--detroit-receipt", action="store_true")
     p.add_argument("--ic", choices=("cold", "colder", "hot"), default="cold")
+    p.add_argument("--confirm", action="store_true")
     args = p.parse_args()
 
     if not args.no_plot:
@@ -509,6 +562,10 @@ if __name__ == "__main__":
         y0 = y0_cold()
     if args.deferred:
         y0 = y0[:N]
+    if args.confirm:
+        status, text, _, _ = confirm(y0)
+        print(text)
+        sys.exit(0 if status == "CONFIRMED" else 2)
     result = run(y0)
     print(detroit_receipt(result) if args.detroit_receipt else receipt(result))
     sys.exit(0)
