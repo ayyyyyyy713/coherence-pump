@@ -1,51 +1,59 @@
-# Theory Overview — Coherence Pump
+# Theory — published kernel (`coherence_pump.py`)
 
-## Core Concept
+Honesty of the file is the feature. This page describes the running stepper.
+The v1.7.3 quaternion / wildcard / horocycle story is archived at
+`archive/v1.7.3-broken/theory.md` and does not apply here.
 
-The Coherence Pump is a computational model that explores how systems can **converge** toward higher-order coherence while simultaneously **polarizing** (differentiating) across multiple scales.
+## Current state
 
-It treats coherence not as a simple on/off state, but as a continuous, dynamic variable that gates higher-order behaviors.
+Thin kernel on `main`. Three clocks in LIVE, not three quaternion layers.
+`v1.7.3` is in `archive/`.
 
-## Key Mechanisms
+## What integrates
 
-### 1. Three-Scale Quaternion Structure
-- **Fine, Mid, and Coarse** layers with down-sampling between them.
-- Each layer maintains its own quaternion state.
-- Information flows between layers through an explicit graph flow system.
+One `solve_ivp` call. State `y` is length **N=56** (thesis DEFERRED) or **N+3**
+(thesis LIVE). The first N entries are an energy sheet `E`. LIVE appends three
+containing clocks `θ`.
 
-### 2. Graph Flow Layer
-Directed cyclic currents between the three layers, modulated by:
-- Phase-gradient terms
-- Mirror/reflection coupling
-- Emergent wildcard behavior (when all three currents interact strongly)
-- Self-referential modulation
+The gate is **not** in `y`. It is a closure (`HysteresisGate`) on raw `mean(E)`:
 
-### 3. Gate + Coupling Density
-A dynamic threshold (with hysteresis) that activates higher-order mechanisms once a critical level of coherence is reached. This creates phase-transition-like behavior.
+- open when `mean(E) ≥ 0.55`
+- close when `mean(E) ≤ 0.42`
 
-### 4. Convergence + Polarization
-As global coherence increases:
-- The system is pulled toward an attractor (convergence).
-- The three layers become more functionally differentiated (polarization).
-- Horocycle-style averaging provides structured information sharing across scales.
+Pack / receipt run after the integration. They are readout, not a second steep.
+`--confirm` is a second `solve_ivp` on frozen `(y0, graph, faces)`. CONFIRMED
+is a restep, not a face.
 
-### 5. Emergent Behavior
-New dynamics (wildcard layer, self-referential feedback, polarization) emerge naturally from the interaction of simpler components once the gate opens.
+## Faces that may enter Ė
 
-## Inspirations
+| Face | Role | Who feels it |
+|---|---|---|
+| ness | restore toward `E_STAR`, damp outliers | all nodes except load |
+| seed | restore toward `E_CORE` | seed mask (default last 12) |
+| load | leak `-κ_L E` | load mask (default first 4) |
+| holonomy | `κ_H (K E) sin(θ_mid)`, multiplied by gate | LIVE only |
 
-- Recursive self-similar systems and attractors
-- Horocycle averaging techniques from analytic number theory
-- Multi-scale emergence and phase transitions
-- The tension between global coherence and local differentiation
+`K` is the skew part of the adjacency (default: cycle). Participation / coupling
+is readout of `||K E|| / ||E||`. It is not a face in Ė.
 
-## Current State
+`flow` is gone. There is no graph-current ODE.
 
-Version `v1.7.3` includes:
-- Full three-scale quaternion pump
-- Graph flow with polarization and horocycle-style averaging
-- Real-time logging of currents and layer angles
-- Toggleable EMA coherence tracking
-- Exportable data for visualization
+## Theses
 
-This framework is experimental and intended as a tool for exploring ideas around recursive coherence, multi-scale dynamics, and the interplay between convergence and polarization.
+- **DEFERRED** — integrate `E` only. Holonomy is a sink. FACE_BUNDLE prints `UNPAIRED`.
+- **LIVE** — integrate `E` and `θ`. Holonomy may enter Ė when the gate is on.
+  FACE_BUNDLE prints `LOAD-HOLONOMY`.
+
+FACE_BUNDLE is a label, not a nest test. `PAIR` is an alias for one cycle.
+`pump_live` is `LIVE and load_final > 0.15`. Soft flag.
+`R_event` stays DIRTY. `R_event_gate` may be NATIVE.
+
+## Default graph
+
+Cycle of 56 nodes. Load on `0:4`. Seed on `44:55`. Street names are an external
+legend, not in the kernel.
+
+## What this is not
+
+Not a consciousness engine, trading signal, healing protocol, cosmological
+simulator, or music release. Those stacks stay separate.
