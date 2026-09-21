@@ -13,7 +13,11 @@ This is not a consciousness engine, trading signal, healing protocol, or cosmolo
 - Faces that may enter `dE`: ness, seed, load. LIVE may also admit gated holonomy.
 - Load is a sink. Ness is withheld on the load nodes.
 - `R_event` stays **DIRTY**. A snap time is a candidate, not an event.
+- `R_event_gate` is **NATIVE** or **ABSENT**. Rising `mean(E)-0.55` from `solve_ivp` events=. Snap is not this.
+- `--ic colder` starts below the latch so the gate can rise.
+- `--confirm` is a second `solve_ivp` on frozen `(y0, graph, faces)`. CONFIRMED is a restep, not a face.
 - `pump_live` is a soft flag. Do not read it as “learned to pump.”
+- `FACE_BUNDLE` is `LOAD-HOLONOMY` or `UNPAIRED`. `PAIR` is an alias. Not a nest test.
 
 Same present energy readout can sit under two theses. LIVE and DEFERRED are different legal next moves, not two spellings of one story.
 
@@ -27,3 +31,6 @@ cd coherence-pump
 pip install -r requirements.txt
 python coherence_pump.py --deferred --no-plot
 python coherence_pump.py --no-plot
+python coherence_pump.py --detroit-receipt --no-plot
+python coherence_pump.py --ic colder --no-plot
+python coherence_pump.py --ic colder --confirm --no-plot
