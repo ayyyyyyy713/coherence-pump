@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""coherence_pump.py — local copy for mbcad translation exercise."""
+"""coherence_pump.py — published thin kernel.
+
+N | N+3 energy sheet. One solve_ivp. Gate in a closure. Pack is readout.
+Not a consciousness engine. Honesty of the file is the feature.
+"""
 from __future__ import annotations
 
 import numpy as np
@@ -291,9 +295,9 @@ def pack(sol, graph, gate_fn, face_fn_, faces_in_dE, claim_snap_is_event=False):
         "R_event": 1.0 if (snap_time is not None and claim_snap_is_event) else 0.0,
         "R_event_dirty": True,
         "R_circ": float(len(sink)),
-        "R_pair": 1.0,
         "thesis": thesis,
         "SINK": sink,
+        "FACE_BUNDLE": "LOAD-HOLONOMY" if thesis == "LIVE" else "UNPAIRED",
         "PAIR": "LOAD-HOLONOMY" if thesis == "LIVE" else "UNPAIRED",
         "pump_live": pump_live,
     }
@@ -351,11 +355,26 @@ def y0_cold(rng=None):
     return np.concatenate([E, theta])
 
 
+def y0_colder(rng=None):
+    rng = np.random.default_rng(56 if rng is None else rng)
+    E = rng.uniform(0.18, 0.37, size=N)
+    theta = np.array([0.20, -0.10, 0.05], dtype=float)
+    return np.concatenate([E, theta])
+
+
 def y0_hot(rng=None):
     rng = np.random.default_rng(56 if rng is None else rng)
     E = rng.uniform(0.82, 0.98, size=N)
     theta = np.array([0.20, -0.10, 0.05], dtype=float)
     return np.concatenate([E, theta])
+
+
+def _gate_upcross_event(t, y):
+    return float(np.mean(np.asarray(y, dtype=float)[:N]) - GATE_ON)
+
+
+_gate_upcross_event.direction = 1.0
+_gate_upcross_event.terminal = False
 
 
 def run(y0, graph=None, start_open=None):
@@ -379,6 +398,7 @@ def run(y0, graph=None, start_open=None):
         rtol=RTOL,
         atol=ATOL,
         dense_output=False,
+        events=_gate_upcross_event,
     )
     if not sol.success:
         raise RuntimeError(sol.message)
@@ -399,6 +419,10 @@ def run(y0, graph=None, start_open=None):
     result["ema_max"] = float(result["ema"].max())
     result["gate_frac_on"] = float(np.mean(result["gate_strength"] >= 0.5))
     result["y0_mean"] = ebar0
+    ev = getattr(sol, "t_events", None)
+    gate_events = np.asarray(ev[0], dtype=float) if ev and len(ev) and ev[0] is not None else np.array([])
+    result["gate_upcross_times"] = gate_events
+    result["R_event_gate"] = "NATIVE" if gate_events.size else "ABSENT"
     result["coupling_mean"] = float(np.mean(result["coupling_density"]))
     result["coupling_max"] = float(np.max(result["coupling_density"]))
     result["hol_rms_max"] = float(np.max(result["holonomy_rms"]))
@@ -412,7 +436,6 @@ def receipt(result):
     seed_m = float(np.max(np.abs(result["seed_force"])))
     hol_mean_m = float(np.max(np.abs(result["holonomy_force"])))
     hol_rms_m = float(np.max(result["holonomy_rms"]))
-    flow_m = float(np.max(result.get("flow_rms", np.array([0.0]))))
     coup_m = float(np.max(result["coupling_density"]))
     if result["rates"] is None:
         thd_m, thd_b = 0.0, "ABSENT"
@@ -423,18 +446,20 @@ def receipt(result):
         f"thesis:        {th}",
         f"snap_time:     {result['snap_time']}",
         f"SINK:          {r['SINK']}",
-        f"PAIR:          {r['PAIR']}",
+        f"FACE_BUNDLE:   {r['FACE_BUNDLE']}",
+        f"PAIR:          {r['PAIR']}   (alias of FACE_BUNDLE; not a nest test)",
         f"pump_live:     {r['pump_live']}",
         f"ness band:     {band(ness_m):<6}  max={ness_m:.2e}",
         f"seed band:     {band(seed_m):<6}  max={seed_m:.2e}",
         f"holonomy mean: {band(hol_mean_m, absent=('holonomy' in r['SINK'])):<6}  max={hol_mean_m:.2e}   (structurally ~0)",
         f"holonomy rms:  {band(hol_rms_m, absent=('holonomy' in r['SINK'])):<6}  max={hol_rms_m:.2e}",
-        f"flow rms:      {band(flow_m, absent=('flow' in r['SINK'])):<6}  max={flow_m:.2e}",
         f"coupling:      {band(coup_m):<6}  max={coup_m:.2e}  mean={result['coupling_mean']:.2e}",
         f"theta_dot:     {thd_b:<6}  max={thd_m:.2e}",
         f"load_final:    {result['load_final']:.3f}   floor={result['load_floor']:.3f}",
         f"contain_E_end: {result['contain_E'][-1]:.3f}",
-        f"R_event        DIRTY",
+        f"R_event        DIRTY   (snap is a candidate)",
+        f"R_event_gate   {result.get('R_event_gate', 'ABSENT')}",
+        f"gate_upcross   {np.asarray(result.get('gate_upcross_times', [])).tolist()}",
         f"R_circ         {r['R_circ']}",
         "",
         f"success:        {result['success']}",
@@ -448,6 +473,20 @@ def receipt(result):
     return "\n".join(lines)
 
 
+def detroit_receipt(result):
+    r = result["residuals"]
+    return "\n".join(
+        [
+            f"thesis:        {result['thesis']}",
+            f"SINK:          {r['SINK']}",
+            f"pump_live:     {r['pump_live']}",
+            f"load_final:    {result['load_final']:.3f}",
+            f"contain_E_end: {result['contain_E'][-1]:.3f}",
+            f"gate_frac_on:  {result['gate_frac_on']:.2f}",
+        ]
+    )
+
+
 if __name__ == "__main__":
     import argparse
     import sys
@@ -455,12 +494,22 @@ if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("--deferred", action="store_true")
     p.add_argument("--no-plot", action="store_true")
+    p.add_argument("--detroit-receipt", action="store_true")
+    p.add_argument("--ic", choices=("cold", "colder", "hot"), default="cold")
     args = p.parse_args()
 
-    y0 = y0_cold()
+    if not args.no_plot:
+        print("plot: ABSENT — published kernel has no plotter (pass --no-plot to silence)", file=sys.stderr)
+
+    if args.ic == "colder":
+        y0 = y0_colder()
+    elif args.ic == "hot":
+        y0 = y0_hot()
+    else:
+        y0 = y0_cold()
     if args.deferred:
         y0 = y0[:N]
     result = run(y0)
-    print(receipt(result))
+    print(detroit_receipt(result) if args.detroit_receipt else receipt(result))
     sys.exit(0)
 

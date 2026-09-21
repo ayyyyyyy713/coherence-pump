@@ -1,4 +1,3 @@
 numpy
 scipy
-pandas
-matplotlib
+# animate.py (archived-era) needs: pandas matplotlib
