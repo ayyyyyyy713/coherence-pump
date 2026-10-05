@@ -53,6 +53,13 @@ FACE_BUNDLE is a label, not a nest test. `PAIR` is an alias for one cycle.
 Cycle of 56 nodes. Load on `0:4`. Seed on `44:55`. Street names are an external
 legend, not in the kernel.
 
+
+## Unreplayed
+
+`--graph` and `--probe` are **UNREPLAYED**. The published stepper has one graph constructor, `default_graph()`: a directed cycle, load on `0:4`, seed on `44:55`. There is no probe flag and no second graph family. A receipt that names `--graph` or `--probe` is a fluent reading until those printers land on this file. They must not enter `dE`.
+
+`PHI` and `OMEGA0` stay. They enter `dθ` only, as the three containing-clock rates. They are not faces.
+
 ## What this is not
 
 Not a consciousness engine, trading signal, healing protocol, cosmological

@@ -11,13 +11,14 @@ This is not a consciousness engine, trading signal, healing protocol, or cosmolo
 - State `y` is length **N** (DEFERRED) or **N+3** (LIVE).
 - DEFERRED integrates the energy sheet only. LIVE adds three containing clocks.
 - Faces that may enter `dE`: ness, seed, load. LIVE may also admit gated holonomy.
-- Load is a sink. Ness is withheld on the load nodes.
+- Load is a leak face, `-κ_L E` on nodes `0:4`. Ness is withheld there. Pack-SINK means withheld from `dE`. Holonomy is the SINK, and only under DEFERRED.
 - `R_event` stays **DIRTY**. A snap time is a candidate, not an event.
 - `R_event_gate` is **NATIVE** or **ABSENT**. Rising `mean(E)-0.55` from `solve_ivp` events=. Snap is not this.
 - `--ic colder` starts below the latch so the gate can rise.
 - `--confirm` is a second `solve_ivp` on frozen `(y0, graph, faces)`. CONFIRMED is a restep, not a face.
 - `pump_live` is a soft flag. Do not read it as “learned to pump.”
 - `FACE_BUNDLE` is `LOAD-HOLONOMY` or `UNPAIRED`. `PAIR` is an alias. Not a nest test.
+- `--graph` and `--probe` are **UNREPLAYED**. They are not flags on this file. A local receipt that names them is a fluent reading until it lands here. Do not add a face to make them true.
 
 Same present energy readout can sit under two theses. LIVE and DEFERRED are different legal next moves, not two spellings of one story.
 
