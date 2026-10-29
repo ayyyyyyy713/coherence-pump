@@ -3,25 +3,26 @@
 Loads a validated mbcad.receipt.v0 dict and one greybin artifact.
 Emits a side report. Shares no state with the stepper.
 No import path to any face function or to solve_ivp.
+The mock greybin is explicitly a stub, not a measured receipt.
 """
 
 from typing import Dict, Any
 
-# Mock greybin artifact (Mnetv1-style mesh stats).
-# In a real reader this would be loaded from a file or another process.
-MOCK_MNETV1 = {
+# Explicit stub. Not a measured Mnetv1 receipt.
+STUB_GREYBIN = {
+    "source": "STUB",
     "chi": 2,
     "P": 12,
     "levels": "L0–L5",
-    "note": "χ=2 held; no shared adjacency with energy sheet",
+    "note": "stub only; no shared adjacency with energy sheet",
 }
 
 def parallel_read(receipt: Dict[str, Any], greybin: Dict[str, Any] = None) -> Dict[str, Any]:
     """Juxtapose a validated receipt with a greybin artifact. No merge."""
     if greybin is None:
-        greybin = MOCK_MNETV1
+        greybin = STUB_GREYBIN
     report = {
-        "schema": "mbcad.receipt.v0",
+        "schema": "pack-side.report.v0",
         "pack_side": True,
         "receipt_summary": {
             "thesis": receipt.get("thesis"),
@@ -33,14 +34,13 @@ def parallel_read(receipt: Dict[str, Any], greybin: Dict[str, Any] = None) -> Di
         "greybin_summary": greybin,
         "juxtaposition": (
             f"receipt load_final={receipt.get('load_final')}; "
-            f"greybin χ={greybin.get('chi')} held across {greybin.get('levels')}; "
-            "no shared adjacency"
+            f"greybin source={greybin.get('source')} χ={greybin.get('chi')} "
+            f"across {greybin.get('levels')}; no shared adjacency"
         ),
     }
     return report
 
 if __name__ == "__main__":
-    # Example cold receipt (no kernel call)
     example = {
         "thesis": "LIVE",
         "y_shape": 59,
