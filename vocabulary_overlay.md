@@ -1,15 +1,16 @@
 # Vocabulary overlay (pack-side only)
 
 Greybin terms may annotate existing receipt keys. This overlay is never imported by the kernel.
+Named tokens are commentary. They do not claim a measurement the run did not make.
 
 | Greybin term | Receipt key it may annotate | Notes |
 |---|---|---|
-| closure | y_shape / SINK emptiness | Named production only |
-| defect | non-empty SINK | Named production only |
-| topological reduction | holonomy band when LIVE | Named production only |
-| coherence occupancy | side-quest note only | Never a face |
-| seed-forced-closure | named token | Geometric SM production |
-| return-exceeds-perturbation | named token | Self-Return / FVC production |
-| irreducible-under-current-sheet | named token | Ruliobiology production |
+| closure | y_shape / SINK emptiness | commentary only |
+| defect | non-empty SINK | commentary only |
+| topological reduction | holonomy band when LIVE | commentary only |
+| coherence occupancy | side-quest note only | never a face |
+| commentary:seed-forced-closure | named token | commentary only |
+| commentary:return-exceeds-perturbation | named token | commentary only |
+| commentary:irreducible-under-current-sheet | named token | commentary only |
 
-Schema id remains `mbcad.receipt.v0`. No greybin term enters \(\dot E\).
+Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side objects use `pack-side.decorated.v0` and do not reuse the frozen id. No greybin term enters \(\dot E\).
