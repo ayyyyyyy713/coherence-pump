@@ -47,3 +47,14 @@ mbcad reading: higher-order pack that both registers (proxy) and drives (trigger
 Status: theoretical neighbor. Not a production in the auditor.
 
 All seven stay marked as neighbors. None is imported into the stepper. None claims a universal physical law or an interdimensional translation. Negative cases and partial-productivity cases prevent over-extension of the unmarked center.
+
+## Further attested patterns (index only)
+These remain empirical neighbors. None is a production in the auditor.
+
+- Case-marking alignment and word-order change under evolutionary dynamics (Hong et al. 2026; Ebert et al. 2025; Jing et al. 2024).  
+- Lexical change via colexification patterns and sound-symbolism dynamics (Gfeller et al. 2026; Cathcart & Jäger 2024).  
+- Cognitive diversity and reference systems in Amazonian and other non-WEIRD settings (Poblete et al. 2026).  
+- Animal vocalization and collective movement with conserved rhythmic structure in the delta range (Nellissen et al. 2026; Piette et al. 2026).  
+- Explicit statements that languages evolve ergodically (Bickel et al. 2026).  
+
+All stay marked as neighbors. None is imported into the stepper. Schema id on the kernel receipt remains `mbcad.receipt.v0`.
