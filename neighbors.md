@@ -28,4 +28,10 @@ Result: association between sr- onset and contempt appears only among Polish spe
 mbcad reading: negative case. Candidate universal/iconic packing fails to close outside the language-specific lexical source. Gate is lexical and provenance-sensitive; unmarked center remains unmarked.  
 Status: empirical neighbor (negative). Not a production in the auditor.
 
-All four stay marked as neighbors. None is imported into the stepper. None claims a universal physical law or an interdimensional translation. Negative cases prevent over-extension of the unmarked center.
+## 5. Language as both proxy and trigger of behavioral modernity
+Source: Benítez-Burraco (ScienceDirect S2950236526000277 / PsyArXiv a42de_v1).  
+Loop: complex language (rich vocabulary, enhanced categorization, sophisticated syntax) both reflects and enables further social, technological, and symbolic complexification under HSD-mediated prosociality.  
+mbcad reading: higher-order pack that integrates token inventory, categorization operator, and builder; once density and participation are sufficient, it loads further faces that feed back into the language face. Proxy reading is passive readout; trigger reading is active operator under the same gated regime.  
+Status: empirical neighbor. Not a production in the auditor.
+
+All five stay marked as neighbors. None is imported into the stepper. None claims a universal physical law or an interdimensional translation. Negative cases prevent over-extension of the unmarked center.
