@@ -22,4 +22,10 @@ Loop: color terms × emotion terms linked by metaphor/metonymy; humans maintain 
 mbcad reading: minimal blending case. Provenance-sensitive load (language-specific intensity) versus a gated statistical readout that is return-sufficient for the mean yet fail-closed on marked variance.  
 Status: empirical neighbor. Not a production in the auditor.
 
-All three stay marked as neighbors. None is imported into the stepper. None claims a universal physical law or an interdimensional translation.
+## 4. Absence of cross-linguistic phonosymbolism (sr- reduplications)
+Source: Benítez-Burraco, Xu & Lisowska (osf.io/8pdxq_v1).  
+Result: association between sr- onset and contempt appears only among Polish speakers and is stronger for real words than pseudowords; not shared by other Indo-European or non-Indo-European groups.  
+mbcad reading: negative case. Candidate universal/iconic packing fails to close outside the language-specific lexical source. Gate is lexical and provenance-sensitive; unmarked center remains unmarked.  
+Status: empirical neighbor (negative). Not a production in the auditor.
+
+All four stay marked as neighbors. None is imported into the stepper. None claims a universal physical law or an interdimensional translation. Negative cases prevent over-extension of the unmarked center.
