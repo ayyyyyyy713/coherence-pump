@@ -1,6 +1,6 @@
 # Neighbor patterns (schema-adjacent)
 
-These are empirical or simulation neighbors. They are not core laws, not faces, and not isomorphisms.
+These are empirical or theoretical neighbors. They are not core laws, not faces, and not isomorphisms.
 They do not write \(\dot E\). Schema id remains `mbcad.receipt.v0` on the kernel receipt.
 Named tokens remain commentary only.
 
@@ -40,4 +40,10 @@ Loop: semi-idiomatic structures derived from culturally prominent fixed phrases;
 mbcad reading: hybrid gated packing. Culturally marked source + limited open slots; combinatorial extension stays DEFERRED unless structural/semantic and cultural gates are both satisfied.  
 Status: empirical neighbor. Not a production in the auditor.
 
-All six stay marked as neighbors. None is imported into the stepper. None claims a universal physical law or an interdimensional translation. Negative cases and partial-productivity cases prevent over-extension of the unmarked center.
+## 7. Language as both proxy and trigger of behavioral modernity
+Source: Benítez-Burraco (ScienceDirect S2950236526000277; PsyArXiv a42de_v1).  
+Loop: rich vocabulary + enhanced categorization + sophisticated syntax enable precise out-group transmission and further cultural/technological complexification; those in turn feed back into language complexity. HSD/prosociality as coarse gate from esoteric to exoteric forms.  
+mbcad reading: higher-order pack that both registers (proxy) and drives (trigger) further participation on social, technological, and symbolic faces. Unmarked center remains basic communicative capacities continuous with earlier hominins.  
+Status: theoretical neighbor. Not a production in the auditor.
+
+All seven stay marked as neighbors. None is imported into the stepper. None claims a universal physical law or an interdimensional translation. Negative cases and partial-productivity cases prevent over-extension of the unmarked center.
