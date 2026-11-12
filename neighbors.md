@@ -141,3 +141,34 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Geometric packing observation. Can be named as commentary on residual control. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** geometric / theoretical neighbor. Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 16. Constructor-theoretic emergence of duration
+
+**Source:** David Deutsch & Chiara Marletto, “Constructor theory of time.” IOP Publishing, 10.1088/2399-6528/aebd39, 2026. CC-BY 4.0.
+
+**Loop:** Laws stated as possible or impossible transformations by approximate constructors (cycle-capable devices). Null constructors (isolated substrates with attributes 0, B, 1) form equivalence classes under interchangeability; the classes are labeled by duration \( t \). Dynamics are recovered by parameterizing variables with these labels and taking limits to derivatives. Time is not a background parameter.
+
+**mbcad reading:** Duration as a packing observation arising from residual relationships among null constructors. The possible/impossible task specification is a residual-control constraint. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** theoretical neighbor (constructor theory of time). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 17. Jacobian residual-stream lenses (Neuron Lens)
+
+**Source:** stdlogits, neuron-lens.com and github.com/stdlogits/neuron-lens (catalogs on Hugging Face). R-lens and S-lens readings of every MLP neuron and attention head in Qwen3-8B and Gemma 4 12B, 2026.
+
+**Loop:** Two Jacobian estimators (forward R-lens, backward S-lens) are fitted on a fixed corpus and applied to neuron poles and attention QK/OV circuits. The lenses predict steering effect from write vectors (late-layer \( r \ge 0.9 \)) and recover legible activation-flow circuits. Labels and circuit traces are generated pack-side.
+
+**mbcad reading:** Residual-stream packing observation. The lenses supply concise addresses and readers for residual directions without relocating a pre-existing feature object. Validation numbers remain external to the energy sheet.
+
+**Status:** interpretability / residual-control neighbor. Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 18. Independent-path residual control for AI-written scientific software
+
+**Source:** Michael F. Peintinger, “vibe-qc: An Open-Source, General-Purpose Electronic-Structure Code for Molecules and Solids Developed With Generative AI.” *Journal of Computational Chemistry* 47, e70525 (2026). DOI: 10.1002/jcc.70525. Supplemented by the Boys Twice independent-run protocol.
+
+**Loop:** An expert steers multi-agent coding; every method is marked ready only when an independently written program (different integrals, different defaults) agrees to the stated tolerance. A second run of the same code is insufficient. Disagreement tables and explicit labels (VALIDATED / EXPERIMENTAL / FAILED) are retained.
+
+**mbcad reading:** Residual-control packing of scientific software outputs. Agreement on an independent path is the gate; the human who can read the physical assumptions remains outside the stepper. No import path into the energy sheet.
+
+**Status:** formal-methods / scientific-software neighbor. Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
