@@ -110,3 +110,34 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Vocabulary overlay for formal proof. The controlled syntax is a packing observation about how intent is cut and re-unioned under a theorem-prover grammar. No import path into the stepper.
 
 **Status:** formal-methods neighbor (Lean tooling). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 13. Kernel-checked Lean formalization of the Stacks Project
+
+**Source:** stacks.axiommath.ai and github.com/orgs/AxiomMath (Carina Hong et al.). Large-scale Lean formalization of the Stacks Project. Approximately 63k Lean files, ~663k declarations, ~15.8M lines. Every completed proof is kernel-checked by Lean on top of Mathlib. Tagged declarations organized in dependency levels with interactive Treemap. Two tiers: StacksCore (human-reviewed, Mathlib-standard) and StacksFrontier (AI-agent generated, unreviewed but Lean-verified). Open contribution model via GitHub issues and blueprints.
+
+**Loop:** AI agents generate candidate proofs (Frontier); humans review and promote them to Core. Dependency graph, library browser, and claim/contribution workflow are exposed. Related large-scale formalizations (e.g. CFSG) and tools (AXLE, Axplorer) sit in the same infrastructure layer.
+
+**mbcad reading:** Pack-side example of kernel-checked, review-gated mathematical infrastructure. “Kernel-checked” versus “agent-generated” can be named as commentary tokens on an existing receipt. No import path into the stepper. Offline export of tagged declarations and dependency subgraphs is a direct instance of air-gapped lattice storage, still without writing \(\dot{E}\).
+
+**Status:** formal-methods neighbor (verified mathematical infrastructure). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 14. Generalized Quantum Signal Processing for Hamiltonian simulation
+
+**Source:** PennyLane demo (hamiltonian_simulation_gqsp) and PRX Quantum paper 10.1103/3y8f-yrp8. Generalized Quantum Signal Processing (GQSP) techniques for Hamiltonian simulation.
+
+**Loop:** QSP/GQSP constructs polynomial approximations of functions of a Hamiltonian from controlled unitaries and signal-processing angles. Resource cost is expressed in query complexity and circuit depth. The method supplies concrete, resource-bounded implementations for time-evolution operators.
+
+**mbcad reading:** External resource-bounded quantum algorithm technique. Adjacent to the verified circuit synthesis already registered as neighbor 11. Spacetime or query cost can be named as commentary; it does not enter the energy-sheet stepper.
+
+**Status:** quantum-algorithm neighbor. Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 15. Hopf-fibration unification materials
+
+**Source:** enuminous/papers Hopf-Fibration-Unification-Referee-Report-v5 and related records in the same repository. Geometric treatments of the Hopf fibration as a residual-control or unification observation.
+
+**Loop:** Hopf fibration supplies a geometric packing of spheres and projective spaces. The materials examine whether the fibration can serve as a residual-free or low-leakage organization across scales. Claims remain at the level of geometric correspondence and referee analysis.
+
+**mbcad reading:** Geometric packing observation. Can be named as commentary on residual control. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** geometric / theoretical neighbor. Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
