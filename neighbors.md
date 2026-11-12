@@ -58,3 +58,4 @@ These remain empirical neighbors. None is a production in the auditor.
 - Explicit statements that languages evolve ergodically (Bickel et al. 2026).  
 
 All stay marked as neighbors. None is imported into the stepper. Schema id on the kernel receipt remains `mbcad.receipt.v0`.
+[paste the entire ## 8. through ## 12. block here]
