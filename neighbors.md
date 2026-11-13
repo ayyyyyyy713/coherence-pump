@@ -172,3 +172,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of scientific software outputs. Agreement on an independent path is the gate; the human who can read the physical assumptions remains outside the stepper. No import path into the energy sheet.
 
 **Status:** formal-methods / scientific-software neighbor. Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 19. SYLVA Lean/Agda formalization infrastructure
+
+**Source:** github.com/yimeng2026/TOE-SYLVA. Large-scale Lean and Agda formalization project (SYLVA) framed as a meta-research engineering effort. Core modules under zero-sorry audits, dual Lean/Agda verification, hierarchy-of-sciences layering, connection-law databases, and honesty/sorry/validation CI. `All.lean` aggregates modules spanning QuantumGravity, RiemannHypothesis, SpectralAction, StratifiedGeometry, StringTheory, and related areas. Manifesto treats formalization as an ontological event. MIT licensed.
+
+**Loop:** Kernel-checked proofs are promoted through audit gates (zero-sorry core, dual-system verification, known-gap reporting). Generated or exploratory material is separated from the audited core. Connection laws and hierarchy layers are explicit.
+
+**mbcad reading:** Pack-side example of audit-gated, kernel-checked mathematical infrastructure. “Kernel-checked” versus “generated” and “zero-sorry core” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the Stacks Project formalization already registered as neighbor 13.
+
+**Status:** formal-methods neighbor (verified mathematical infrastructure). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
