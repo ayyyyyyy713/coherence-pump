@@ -203,3 +203,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of relational computation under a spatial constraint. The multiplicative component is the residual-control mechanism that makes long-range information available without dense wiring. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** computational / neuroscientific neighbor (topographic packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 22. Shape-controlled topological defect packing on spherical interfaces
+
+**Source:** Jones, Schönhöfer & Glotzer, “Using particle shape to control defects in colloidal crystals on spherical interfaces.” *Soft Matter* 2026, DOI: 10.1039/d5sm01271f. Open access.
+
+**Loop:** Hard rounded polyhedra confined to a sphere (χ = 2) → shape anisotropy selects lattice preference (hexagonal vs square vs honeycomb) → topological charge is redistributed into characteristic defect patterns (12 icosahedral +1 for spheres; 8 three-fold defects in square-antiprismatic symmetry for cubes). Continuous shape deformation interpolates the patterns.
+
+**mbcad reading:** Packing observation of topological residual under a closed surface constraint. Shape is a gate on how defect charge is packed; the total charge is fixed by topology. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** soft-matter / topological packing neighbor. Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
