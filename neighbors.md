@@ -236,3 +236,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of an arbitrary signal–context mapping. Role-model participation is the gate that cuts an open flexible signal to a stable communal usage and re-unions it under that participation. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** ethological / communicative packing neighbor. Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 25. Hybrid mind uploading as process-world-line packing
+
+**Source:** Daniel Burger (@danburonline), “Meditations on Synthetic Consciousness: What Could Be Hybrid about Mind Uploading?” X thread, 14 November 2026. https://x.com/danburonline/status/2121507855979393536
+
+**Loop:** Classical scan-store-simulate path (process world-line breaks into a copy) → hybrid bio-engineered carrier (biological and engineered parts jointly sustain the same process) → transition toward fully synthetic consciousness that continues the original world-line. Continuity is a physical claim about the carrying process, not a report of subjective continuity.
+
+**mbcad reading:** Packing observation of residual continuity under a hybrid transition gate. The hybrid state packs biological and engineered components so that one process world-line is preserved rather than replaced by a separate instance. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** theoretical / consciousness-engineering neighbor (process-world-line packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
