@@ -181,3 +181,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Pack-side example of audit-gated, kernel-checked mathematical infrastructure. “Kernel-checked” versus “generated” and “zero-sorry core” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the Stacks Project formalization already registered as neighbor 13.
 
 **Status:** formal-methods neighbor (verified mathematical infrastructure). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 20. Self-Return embodied residual packing
+
+**Source:** Johnston, Marr & Sheppard, “Self-Return.” Zenodo 21909260, v1, 12 August 2026. DOI: 10.5281/zenodo.21909260. CC-BY 4.0. Related: Self-Return: The FVC Loop (Zenodo 21798379).
+
+**Loop:** Perturbation → proprioceptive–vestibular residual return \(\mathcal{R}\) (coherence restored faster than accumulation) → cortical predictive pinning → defended alpha/theta ratio readout → further return. Fast (150–300 ms) and slower covariance timescales are distinct.
+
+**mbcad reading:** Residual-control packing of a located first-person perspective. Address is maintained by active return rather than passively given. Geometric language is notation only. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** theoretical / physiological neighbor (embodied residual packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
