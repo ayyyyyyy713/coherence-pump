@@ -225,3 +225,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of a base measure under a learned energy correction. Composition of energies is the packing operation that keeps the residual addressable without retraining. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** theoretical / machine-learning neighbor (residual energy packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 24. Chimpanzee unvoiced-call conventions under role-model packing
+
+**Source:** PNAS 123 (47) e2606837123, “A signal convention in natural chimpanzee communication,” 9 November 2026. DOI: 10.1073/pnas.2606837123. Open access.
+
+**Loop:** Flexible unvoiced calls → presence or absence of adult role models → with role models the calls pack to a dominant context (grooming) and stabilize across years and development; without role models the same forms remain open across multiple contexts and unstable. Late introduction of role models shifts usage over ~2 years.
+
+**mbcad reading:** Packing observation of an arbitrary signal–context mapping. Role-model participation is the gate that cuts an open flexible signal to a stable communal usage and re-unions it under that participation. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** ethological / communicative packing neighbor. Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
