@@ -192,3 +192,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of a located first-person perspective. Address is maintained by active return rather than passively given. Geometric language is notation only. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** theoretical / physiological neighbor (embodied residual packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 21. Transformer as canonical cortical microcircuit under topographic packing
+
+**Source:** Shah & Yamins, “The transformer as a candidate canonical cortical microcircuit.” bioRxiv 10.64898/2026.11.01.763457v1, 1 November 2026.
+
+**Loop:** Topographic macrocircuit (spatial smoothness + task) → candidate microcircuits (additive vs. multiplicative, local vs. long-range) → multi-scale cortical signature alignment. Multiplicative relational packing reduces wiring residual while preserving performance.
+
+**mbcad reading:** Packing observation of relational computation under a spatial constraint. The multiplicative component is the residual-control mechanism that makes long-range information available without dense wiring. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** computational / neuroscientific neighbor (topographic packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
