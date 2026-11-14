@@ -214,3 +214,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of topological residual under a closed surface constraint. Shape is a gate on how defect charge is packed; the total charge is fixed by topology. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** soft-matter / topological packing neighbor. Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 23. Energy-based residual packing of machine learning
+
+**Source:** Dai & Du, “An Energy-Based Perspective on Machine Learning.” arXiv 2611.14383, 2026.
+
+**Loop:** Base measure \(p_0\) → residual energy \(E_\theta\) → unnormalized residual EBM → inference (sampling or minimization) → learning by contrastive or likelihood methods → further residual. Composition of energies packs multiple models or constraints at inference time.
+
+**mbcad reading:** Residual-control packing of a base measure under a learned energy correction. Composition of energies is the packing operation that keeps the residual addressable without retraining. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** theoretical / machine-learning neighbor (residual energy packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
