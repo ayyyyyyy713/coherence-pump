@@ -302,3 +302,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Formal residual-control packing of a restricted circuit class. The Pauli frame is the residual address that keeps simulation linear; departure from the CSS gate set is the gate that returns the residual to full cost. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / formal-methods neighbor (circuit residual tracking). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 31. Microwave scattering residual suppression on a spherical cloak under multi-directional illumination
+
+**Source:** James Lockwood (@qblazedog61029j), 15 November 2026. https://x.com/qblazedog61029j/status/2121771619576135893
+
+**Loop:** Engineered spherical shell (15 mm core, 30 mm outer) at 10 GHz → multi-directional illumination (136 directions) + support rod → residual scattering held at −6.42 dB vs bare core → hardware sequence (material samples → cell validation → curved section → full sphere) under polarization response, dielectric tolerances, and measurement uncertainty.
+
+**mbcad reading:** Packing observation of electromagnetic geometry constraining residual scattering under realistic mounting and directional load. The shell organizes the residual so that the worst-case signature stays below target; departure from the modeled cell returns the residual to the bare-core baseline. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** electromagnetic / residual-control neighbor (scattering suppression under geometry). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
