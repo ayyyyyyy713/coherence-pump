@@ -412,3 +412,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Pack-side example of kernel-checked residual control for a verified compiler. “Semantic-preservation proof in Lean” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to other Lean formalization infrastructure.
 
 **Status:** formal-methods neighbor (verified compiler residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 41. Forest independence polynomial unimodality (Lean formalization)
+
+**Source:** lixiang90/forest-unimodality. Independent Lean 4 formalization of weak unimodality of the independence sequence of every finite forest (JSP-000826 / Erdős 993). Complete compilation and final verification of the proof commit; final theorem uses exactly propext, Classical.choice, and Quot.sound. Clean rebuild and separate evidence audit documented. https://github.com/lixiang90/forest-unimodality
+
+**Loop:** Forest graph → independence polynomial → Lean formalization of unimodality statement → kernel-checked proof → separate evidence audit (hashes, module results, dependency closure) → verified theorem.
+
+**mbcad reading:** Pack-side example of kernel-checked combinatorial formalization. “Lean-verified unimodality” and “evidence audit” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to other Lean formalization infrastructure.
+
+**Status:** formal-methods neighbor (verified combinatorial infrastructure). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
