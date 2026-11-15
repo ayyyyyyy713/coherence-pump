@@ -390,3 +390,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of quantum entropy. The residual is the strong-subadditivity defect (product gap) that survives after the subadditive packing; compression and pinching keep the residual addressable without relocating the spectrum. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (entropy packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 39. TheoremOS AI-collaborative Lean verification infrastructure
+
+**Source:** HuggingMath/TheoremOS. AI collaborative research system and formal proof platform for frontier mathematics. Users submit problems in natural language, TeX, or Lean 4; the system formalizes statements, decomposes lemmas, explores proof paths in parallel, and verifies every complete proof with an independent Lean 4 checker. Releases 28 proof records (10 officially accepted by Lean-Eval; 18 independently verified). Modular architecture with knowledge index of re-verifiable lemmas. https://github.com/HuggingMath/TheoremOS · https://theoremos.top
+
+**Loop:** Natural-language / TeX / Lean statement → formalization and independent Lean compilation → lemma decomposition and parallel exploration → re-verification of reused lemmas in target environment → final declaration-level audit → verified lemma stored for retrieval.
+
+**mbcad reading:** Pack-side example of audit-gated, kernel-checked mathematical infrastructure. “Independent Lean checker” and “re-verified lemma” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the Stacks Project formalization and SYLVA Lean/Agda infrastructure.
+
+**Status:** formal-methods neighbor (verified mathematical infrastructure). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
