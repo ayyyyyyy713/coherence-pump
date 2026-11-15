@@ -324,3 +324,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Formal residual-control packing of encoding maps under finite measurement strength. Local enhancement near logical supports is the residual correction that returns recoverability; bulk remains at fixed strength. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / formal-methods neighbor (finite-strength residual control). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 33. Evolving residual control of quantum simulation advantage estimates
+
+**Source:** Jue Xu, Yue Wang & Qi Zhao, “QSim-Arena: an evolving developer for quantum simulation advantage.” arXiv:2611.15000, 2026. https://arxiv.org/pdf/2611.15000
+
+**Loop:** Literature techniques → agent-translated executable components → closed verification + independent cross-checks → corrected resource estimates (runtime reductions, error-bound calibration) → evolving quantum-classical crossover board with append-only logs.
+
+**mbcad reading:** Formal residual-control packing of simulation-advantage claims. Independent-path verification is the residual gate that returns overstated estimates to accountable bounds; estimates remain a maintained state rather than a fixed snapshot. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / formal-methods neighbor (evolving residual validation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
