@@ -401,3 +401,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Pack-side example of audit-gated, kernel-checked mathematical infrastructure. “Independent Lean checker” and “re-verified lemma” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the Stacks Project formalization and SYLVA Lean/Agda infrastructure.
 
 **Status:** formal-methods neighbor (verified mathematical infrastructure). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 40. CompCert4Lean formalization of verified C compiler residual
+
+**Source:** fanlong/compcert4lean. Lean 4 port of selected CompCert 3.17 compiler core and proofs (typed C to x86-64 assembly). Intermediate languages, operational semantics, compiler passes, and semantic-preservation proofs are formalized so the compilation residual can be re-checked in Lean’s kernel. Working prototype driver and test suites exist; full proof completion remains in progress. https://github.com/fanlong/compcert4lean
+
+**Loop:** Typed CompCert C → Lean formalization of intermediate languages and passes → semantic-preservation proofs discharged in Lean kernel → residual of compilation re-checked rather than assumed → prototype C-to-x86-64 driver.
+
+**mbcad reading:** Pack-side example of kernel-checked residual control for a verified compiler. “Semantic-preservation proof in Lean” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to other Lean formalization infrastructure.
+
+**Status:** formal-methods neighbor (verified compiler residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
