@@ -269,3 +269,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of closed semantic frames. A loop is a residual return that fails to advance the ground of ongoing progression; open trajectories keep expanding or shifting the region under exploration. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** clinical / computational-linguistics neighbor (semantic closed-frame packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 28. Figure-8 homoclinic separatrix as critical mixed-state packing
+
+**Source:** Akitti (@akitti), “Hivelog” thread on jamming / NLSE / deathface handoff, 15 November 2026. https://x.com/akitti/status/2121840368618815946
+
+**Loop:** Cone-singularity or underconstrained string-like accumulation → isostatic contact network / figure-8 homoclinic separatrix (Akhmediev breather skeleton of reduced NLSE/FPUT) → mixed intermediate with soft modes, force chains, and long-lived recurrence/echoes → residual content bolted after departure from the critical set. Shared r=0 saddle organizes the handoff between real chart stop and residual harmonic/scar-floor.
+
+**mbcad reading:** Packing observation of a critical separatrix that organizes two coexisting regimes (floppy/rigid, recurrent/thermalizing) while supporting residual soft modes and filamentary force chains. The homoclinic is the marginal mixed set; departure freezes residual content. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** theoretical / dynamical-systems neighbor (critical separatrix packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
