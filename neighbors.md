@@ -423,3 +423,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Pack-side example of kernel-checked combinatorial formalization. “Lean-verified unimodality” and “evidence audit” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to other Lean formalization infrastructure.
 
 **Status:** formal-methods neighbor (verified combinatorial infrastructure). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 42. Residual packing of quantum advantage in market-derived nonlocal games
+
+**Source:** Zhu et al., “Testing Quantum Advantage in High-Frequency Trading with Market-Derived Nonlocal Games.” arXiv:2611.16113, 11 November 2026. https://arxiv.org/pdf/2611.16113
+
+**Loop:** Historical order-book windows → market-derived nonlocal game (P, V) → exact classical optimum C and NPA quantum upper bound Q → residual gap Δ = Q − C → Quantum Strategy Search recovers explicit entangled strategy → end-to-end backtest re-checks whether the residual survives execution frictions.
+
+**mbcad reading:** Residual-control packing of coordination under communication constraints. The quantum-classical payoff residual is the object that is bounded and re-checked rather than assumed. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (market-derived nonlocal games). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
