@@ -280,3 +280,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of a critical separatrix that organizes two coexisting regimes (floppy/rigid, recurrent/thermalizing) while supporting residual soft modes and filamentary force chains. The homoclinic is the marginal mixed set; departure freezes residual content. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** theoretical / dynamical-systems neighbor (critical separatrix packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 29. Geometric packing of meaning in embeddings and Cayley graphs
+
+**Source:** Akitti (@akitti), 14 November 2026. https://x.com/akitti/status/2121730434442629352
+
+**Loop:** Words or algebraic generators → vector embeddings or Cayley graphs → clustered meaning clouds or fractal/hyperbolic networks → directional analogies and relational structure that remain stable across languages or group presentations.
+
+**mbcad reading:** Packing observation of semantic and algebraic content organized into geometric form (clusters, lines, graphs). Embeddings and Cayley graphs cut tokens into coordinates or edges and re-union them under distance or cancellation rules. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** computational / mathematical neighbor (semantic-geometric packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
