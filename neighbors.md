@@ -258,3 +258,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Formal-methods packing of language residual under verified execution bridges. The Lean kernel is the gate that confirms the semantic residual; no shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** formal-methods / language-semantics neighbor (MeTTa execution bridges). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 27. Semantic loops as closed frames in clinical savoring trajectories
+
+**Source:** Leckie et al., PsyArXiv we2gj_v1, draft 14 October 2026. https://osf.io/preprints/psyarxiv/we2gj_v1
+
+**Loop:** Guided positive-memory savoring recountings → contextual embeddings → persistent homology detects closed loops (returns to previously visited regions of meaning space). Higher loop counts associate with elevated depression, anxiety, stress, and negative-fixation content. Structure + content explain modest incremental variance in concurrent ratings but do not mediate treatment-related improvement.
+
+**mbcad reading:** Packing observation of closed semantic frames. A loop is a residual return that fails to advance the ground of ongoing progression; open trajectories keep expanding or shifting the region under exploration. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** clinical / computational-linguistics neighbor (semantic closed-frame packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
