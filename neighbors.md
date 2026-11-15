@@ -346,3 +346,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Geometric residual-control packing of bosonic code dynamics. The optimal path organizes residual exposure so that encoded operations remain recoverable; departure from the path (or from parity-preserving generators) returns residual loss. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / geometric neighbor (optimal-path residual packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 35. Residual packing of tapered quantum phase estimation via DPSS tapers
+
+**Source:** David Raveh, Andrew Sornborger, Yiğit Subaşı & Lukasz Cincio, “Scalable Compilation of Resource-Efficient Tapers Phase Estimation.” arXiv:2611.15076, 2026. https://arxiv.org/pdf/2611.15076
+
+**Loop:** Phase estimation → DPSS (Slepian) tapers concentrate residual failure probability → double-exponential reduction in \(\epsilon\) with \(m = O(\log\log(1/\epsilon))\) → tensor-network compilation (MPO/DMRG/TTN at constant bond dimension) → residual compilation overhead remains modest relative to controlled evolution.
+
+**mbcad reading:** Residual-control packing of quantum phase estimation. The taper organizes residual failure so that confidence rises faster than ancilla cost; tensor-network compilation keeps the residual preparation addressable without exponential bond growth. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / formal-methods neighbor (tapered residual packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
