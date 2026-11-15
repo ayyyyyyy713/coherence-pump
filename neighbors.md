@@ -291,3 +291,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of semantic and algebraic content organized into geometric form (clusters, lines, graphs). Embeddings and Cayley graphs cut tokens into coordinates or edges and re-union them under distance or cancellation rules. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** computational / mathematical neighbor (semantic-geometric packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 30. O(1)-per-gate residual tracking of CSS quantum circuits
+
+**Source:** Craig Gidney & Cody Jones, “CSS Circuits: useful quantum circuits that can be simulated with O(1) cost per gate.” arXiv:2611.14944, 2026. https://arxiv.org/pdf/2611.14944
+
+**Loop:** CSS gates (X, Z, MX, MZ, CNOT) → Pauli-frame residual flags (bit-flip and phase-flip per qubit) → O(1) classical simulation of teleportation, error correction, and purification → non-CSS gates (H, CZ, S) force exit via Bell inequality violation.
+
+**mbcad reading:** Formal residual-control packing of a restricted circuit class. The Pauli frame is the residual address that keeps simulation linear; departure from the CSS gate set is the gate that returns the residual to full cost. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / formal-methods neighbor (circuit residual tracking). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
