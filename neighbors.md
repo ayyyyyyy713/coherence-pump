@@ -335,3 +335,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Formal residual-control packing of simulation-advantage claims. Independent-path verification is the residual gate that returns overstated estimates to accountable bounds; estimates remain a maintained state rather than a fixed snapshot. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / formal-methods neighbor (evolving residual validation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 34. Geometric residual packing of time- and photon-optimal paths in GKP codes
+
+**Source:** Aidan Curtis et al., “Time- and Photon-Optimal Paths for the Preparation and Logical Flip of Gottesman–Kitaev–Preskill States.” arXiv:2611.15018, 2026. https://arxiv.org/pdf/2611.15018
+
+**Loop:** GKP code space → brachistochrone (time-optimal) or photon-optimal (Fermat) path → residual photon exposure under loss → conditional squeezing tracks path with high tangential capacity and parity preservation → residual detection of photon-loss events.
+
+**mbcad reading:** Geometric residual-control packing of bosonic code dynamics. The optimal path organizes residual exposure so that encoded operations remain recoverable; departure from the path (or from parity-preserving generators) returns residual loss. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / geometric neighbor (optimal-path residual packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
