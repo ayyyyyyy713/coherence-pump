@@ -247,3 +247,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of residual continuity under a hybrid transition gate. The hybrid state packs biological and engineered components so that one process world-line is preserved rather than replaced by a separate instance. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** theoretical / consciousness-engineering neighbor (process-world-line packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 26. MeTTa/PeTTa execution bridges under Lean-checked semantics
+
+**Source:** zariuq/MeTTapedia, Lean formalization of MeTTa semantics, PeTTa runtime, MeTTaIL complete-execution sources, and cross-logic bridges. https://github.com/zariuq/MeTTapedia (including lean/mettapedia/Mettapedia/Languages/MeTTa/PeTTa/Bridges/MeTTaIL/CompleteExecution/Source.lean). MIT-licensed.
+
+**Loop:** MeTTa expressions → verified operational semantics and PeTTa/MeTTaIL execution bridges → kernel-checked residual of evaluation and substitution → further cross-logic correspondence (PLN, HOL, etc.). Bridges pack abstract and concrete descriptions of the same object so facts transfer without re-derivation.
+
+**mbcad reading:** Formal-methods packing of language residual under verified execution bridges. The Lean kernel is the gate that confirms the semantic residual; no shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods / language-semantics neighbor (MeTTa execution bridges). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
