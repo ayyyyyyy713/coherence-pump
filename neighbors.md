@@ -379,3 +379,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of molecular encodings. The residual is the success probability that standard readouts discard; finer sharing removes collisions but does not move the residual into the output state itself. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / formal-methods neighbor (molecular residual packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 38. Residual packing of the Nichols–Wootters entropy family under subadditivity
+
+**Source:** Wenlin Zhang, Haobo Ma & Lin Zhang, “Subadditivity and the failure of strong subadditivity in the Nichols–Wootters family of entropies.” arXiv:2611.15431, 2026. https://arxiv.org/pdf/2611.15431
+
+**Loop:** Common ambient dimension → subadditivity of the Nichols–Wootters family (von Neumann to subentropy) → strong-subadditivity defect isolated as a product gap on quantum Markov states → residual entropy controlled by pinching inequality from Haar-averaged compressed entropies → operational reading as retained classical capacity after partial measurement.
+
+**mbcad reading:** Residual-control packing of quantum entropy. The residual is the strong-subadditivity defect (product gap) that survives after the subadditive packing; compression and pinching keep the residual addressable without relocating the spectrum. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (entropy packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
