@@ -368,3 +368,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of quantum measurements. The guided expansion organizes residual sampling cost so that additional compatible groups return variance that shot reallocation alone cannot; local measurements remain the address. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (measurement-group packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 37. Residual packing of molecular graphs in compositional quantum encoders
+
+**Source:** Gautami Sanjay Naik & Ashwanth Krishnan, “One molecule, many outputs; many molecules, one output: exact diagnostics for atom-level compositional quantum encoders.” arXiv:2611.15092, 2026. https://arxiv.org/pdf/2611.15092
+
+**Loop:** Molecular graph → QNLP-style circuit (one cup per bond) → simple angle sharing collapses isomers onto near-identical output states → residual difference lives in postselection success probability (bounded by \(2^{-n}\)) → port-line graph accounts for the packing collisions.
+
+**mbcad reading:** Residual-control packing of molecular encodings. The residual is the success probability that standard readouts discard; finer sharing removes collisions but does not move the residual into the output state itself. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / formal-methods neighbor (molecular residual packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
