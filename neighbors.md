@@ -313,3 +313,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of electromagnetic geometry constraining residual scattering under realistic mounting and directional load. The shell organizes the residual so that the worst-case signature stays below target; departure from the modeled cell returns the residual to the bare-core baseline. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** electromagnetic / residual-control neighbor (scattering suppression under geometry). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 32. Local residual enhancement for finite-strength recoverability in quantum error-correcting codes
+
+**Source:** Tong Xu, Yuanchen Zhao & Dong E. Liu, “Local enhancement of finite-strength code preparation: recoverability and Wilson coherence.” arXiv:2611.14967, 2026. https://arxiv.org/pdf/2611.14967
+
+**Loop:** Finite-strength stabilizer measurements → residual logical leakage along supports → local enhancement of vanishing fraction of checks near logical representatives → restored recoverability (AQEC) at fixed bulk strength; Wilson overlap restored in 3D deconfined phases but not in 2D.
+
+**mbcad reading:** Formal residual-control packing of encoding maps under finite measurement strength. Local enhancement near logical supports is the residual correction that returns recoverability; bulk remains at fixed strength. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / formal-methods neighbor (finite-strength residual control). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
