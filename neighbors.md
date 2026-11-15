@@ -357,3 +357,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of quantum phase estimation. The taper organizes residual failure so that confidence rises faster than ancilla cost; tensor-network compilation keeps the residual preparation addressable without exponential bond growth. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / formal-methods neighbor (tapered residual packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 36. Residual packing of quantum measurement groups via variance-guided construction
+
+**Source:** Taotao Zhao, Qianjun Yao, Mengdi Sun & He Li, “From optimization to construction: Expanding quantum measurement designs.” arXiv:2611.14986, 2026. https://arxiv.org/pdf/2611.14986
+
+**Loop:** Existing measurement bases → joint optimization of coefficients and shot allocations → variance-guided scores identify residual grouping inefficiency → greedy construction of additional QWC groups → re-optimization reduces residual estimator variance (18–23 %).
+
+**mbcad reading:** Residual-control packing of quantum measurements. The guided expansion organizes residual sampling cost so that additional compatible groups return variance that shot reallocation alone cannot; local measurements remain the address. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (measurement-group packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
