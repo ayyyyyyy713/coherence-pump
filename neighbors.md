@@ -434,3 +434,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of coordination under communication constraints. The quantum-classical payoff residual is the object that is bounded and re-checked rather than assumed. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (market-derived nonlocal games). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 43. Coupling-gated cortical coherence under Lean-checked conditional composition
+
+**Source:** meta-introspector/coupling_gated_cortical_coherence. Conditional field model of cortical coherence with machine-checked composition in Lean 4. Noisy mean-field phase model with coupling that drifts through a synchronization threshold; the residual of the claim is the set of eight named hypotheses required for the coupling-gated recovery prediction to be non-vacuous. Associated PsyArXiv preprint. https://github.com/meta-introspector/coupling_gated_cortical_coherence/
+
+**Loop:** Field-coupled phase dynamics → continuum limit and reflexive topology → conditional theorem under eight named hypotheses → Lean kernel audit of the composition → residual of assumptions isolated rather than assumed → testable recovery prediction.
+
+**mbcad reading:** Pack-side example of residual-control packing for a conditional dynamical claim. “Named hypotheses required for non-vacuous recovery” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to other Lean formalization infrastructure.
+
+**Status:** formal-methods / residual-control neighbor (conditional cortical coherence). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
