@@ -445,3 +445,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Pack-side example of residual-control packing for a conditional dynamical claim. “Named hypotheses required for non-vacuous recovery” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to other Lean formalization infrastructure.
 
 **Status:** formal-methods / residual-control neighbor (conditional cortical coherence). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 44. meta-introspector Lean and formal-methods cluster
+
+**Source:** github.com/orgs/meta-introspector. Large public organization (3,000+ repositories) containing multiple independent Lean formalizations and verification workflows, including TheoremOS, emissary-archangel (kernel-checked entailment gate), info-geometry-lean, grothendieck-riemann-roch, lean-rs (Lean–Rust with Aeneas), vstack (TLA+/Z3/Apalache/TLAPS agent workflow), and others. https://github.com/orgs/meta-introspector/repositories
+
+**Loop:** Mathematical claim → Lean formalization or verification workflow → kernel-checked proof or entailment gate → reusable formal artifact.
+
+**mbcad reading:** Pack-side cluster of audit-gated, kernel-checked mathematical infrastructure. Individual formalizations can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the Stacks Project formalization, SYLVA, TheoremOS, and forest-unimodality.
+
+**Status:** formal-methods neighbor (Lean / verification cluster). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
