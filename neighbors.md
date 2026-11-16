@@ -456,3 +456,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Pack-side cluster of audit-gated, kernel-checked mathematical infrastructure. Individual formalizations can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the Stacks Project formalization, SYLVA, TheoremOS, and forest-unimodality.
 
 **Status:** formal-methods neighbor (Lean / verification cluster). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 45. Residual packing of Grover quadratic speedup under local and coherent noise
+
+**Source:** Khan & Faryad, “Loss of the quadratic speedup in Grover search under local and coherent noise.” arXiv:2611.16398, 12 November 2026. https://arxiv.org/pdf/2611.16398
+
+**Loop:** Ideal Grover rotation in the search plane → local Pauli or coherent rotation error after each layer → residual amplitude frozen out of plane or angular uncertainty widening linearly with depth → Bloch-type decay rates for unmarked weight, marked weight, and coherence → quadratic speedup retained only while accumulated residual remains small.
+
+**mbcad reading:** Residual-control packing of the coherent search amplitude. The residual that destroys the quadratic speedup is the object that is bounded and re-checked. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (noisy Grover). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
