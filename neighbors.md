@@ -698,3 +698,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of a literature residual. The residual that remains after extraction is the structured specification residual that is re-checked against conflicts. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** residual-control / packing-observation neighbor (photonics literature residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 67. AxiomMath MMP residual packing of the minimal model program in Lean
+
+**Source:** AxiomMath/MMP. Lean 4 formalization of the minimal model program in dimension ≤4 for projective log-canonical pairs. Kernel-checked (no `sorry`); axioms limited to `propext`, `Classical.choice`, `Quot.sound`. https://github.com/AxiomMath/MMP
+
+**Loop:** Algebraic-geometry residual ((X,B)) → Lean kernel residual of termination and continuation → verified endpoint residual (nef on curves or Mori fibre space).
+
+**mbcad reading:** Formal-methods residual control of an algebraic residual. The residual that is kernel-checked is the MMP residual that is re-checked against the standard axioms. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods neighbor (Lean MMP). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
