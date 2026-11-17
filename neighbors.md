@@ -467,3 +467,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of the coherent search amplitude. The residual that destroys the quadratic speedup is the object that is bounded and re-checked. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (noisy Grover). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 46. Gauge-invariant measure for lattice chiral fermions
+
+**Source:** Nathaniel Craig, “A gauge-invariant measure for lattice chiral fermions,” arXiv:2610.09093. Nonperturbative construction of a gauge-invariant fermion measure for overlap fermions on admissible four-dimensional lattices in nonabelian chiral gauge theories including the Standard Model. Exponentially local current obtained by comparing chiral projectors at successive spacings; Lüscher reconstruction yields a smooth measure. Global integrability proved on all closed loops. Lean verification of the main statements. https://arxiv.org/pdf/2610.09093
+
+**Loop:** Admissible gauge field → chiral projectors at successive spacings → exponentially local measure current → Lüscher reconstruction → gauge-invariant fermion measure → Lean-checked integrability.
+
+**mbcad reading:** Pack-side example of residual-controlled, kernel-checked lattice construction. “Exponentially local measure current” and “Lean-verified integrability” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster.
+
+**Status:** formal-methods / residual-control neighbor (lattice gauge measure). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
