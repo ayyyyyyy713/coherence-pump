@@ -522,3 +522,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of thermal phases. The residual that freezes the mixing time is the strong-decay certificate. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** dynamical-systems / residual-control neighbor (fast mixing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 51. Residual packing of classical control of computational order by fixed-order circuits
+
+**Source:** Mothe & Bavaresco, “Efficient quantum-circuit simulation of classical control of computational order.” arXiv:2611.17454. Any quantum circuit with classical control of computational order on N channels is universally, deterministically, and exactly simulated by a fixed-order circuit using at most N² queries. Quantum control is simulated on unitary channels; catalytic versions recover residual queries. https://arxiv.org/pdf/2611.17454
+
+**Loop:** Quantum circuit with classical (or quantum) control of computational order → fixed-order simulation circuit with at most N² queries → catalytic recovery of residual queries → quadratic upper bound on the advantage of indefinite causal order.
+
+**mbcad reading:** Residual-control packing of higher-order quantum transformations. The residual that remains after fixed-order simulation is the query overhead that is bounded and recovered. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (causal-order simulation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
