@@ -588,3 +588,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of sequential structure under hierarchical residual connectivity. The residual that distinguishes familiar from novel is the participation residual that is re-checked across the hierarchy. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** packing-observation neighbor (musical sequences / predictive temporal memory). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 57. Form–frequency residual packing of grammatical coding asymmetries
+
+**Source:** Martin Haspelmath, “Explaining grammatical coding asymmetries: Form–frequency correspondences and predictability.” Journal of Linguistics 57(3): 605–633, 2021. Less frequent members of minimal meaning oppositions receive special coding; more frequent members are reduced. The pattern holds unless coding is uniformly explicit or uniformly zero. https://doi.org/10.1017/S0022226720000535
+
+**Loop:** Minimal meaning opposition with frequency contrast → higher-frequency face receives reduced coding → lower-frequency face receives special coding → predictability residual under communicative efficiency.
+
+**mbcad reading:** Packing observation of grammatical form under frequency residual. The residual that remains after predictability is imposed is the coding-length asymmetry that is re-checked across languages. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** packing-observation neighbor (grammatical coding asymmetries). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
