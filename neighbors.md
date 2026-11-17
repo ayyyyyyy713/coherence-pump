@@ -478,3 +478,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Pack-side example of residual-controlled, kernel-checked lattice construction. “Exponentially local measure current” and “Lean-verified integrability” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster.
 
 **Status:** formal-methods / residual-control neighbor (lattice gauge measure). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 47. TVE-Formalization (Topological Vacuum Electrodynamics)
+
+**Source:** TruthXVector/TVE-Formalization. Lean 4 formalization of Topological Vacuum Electrodynamics claiming a zero-axiom `[]`) constructive core that maps Beltrami flux-tube geometries and a master action to subsumptions of quantum mechanics, general relativity, and QFT/QCD. Modules include Vacuum, Action, Spectrum, QuantumSubsumption, GeneralRelativitySubsumption, QFTSubsumption, CircularKernel. Companion Zenodo manuscripts. https://github.com/TruthXVector/TVE-Formalization
+
+**Loop:** Beltrami flux-tube residual → master action → Lean-checked subsumption theorems for QM / GR / QFT → zero-axiom core.
+
+**mbcad reading:** Pack-side example of residual-controlled, kernel-checked formalization of a claimed physical residual. “Zero-axiom TVE core” and “Beltrami master action” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster.
+
+**Status:** formal-methods neighbor (Lean TVE formalization). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
