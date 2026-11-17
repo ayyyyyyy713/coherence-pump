@@ -676,3 +676,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of an uncertainty residual. The residual that remains when the covariance fails to be diagonal is the positive gap that is re-checked against the hybrid uncertainty functional. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (hybrid uncertainty). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 65. Machine residual audit of theoretical astrophysics literature
+
+**Source:** Casey Handmer, “A field of physics, audited by machine.” science.caseyhandmer.com/physics. AI screening of 158,059 TAPIR papers and recomputation of 659 highly cited papers. 872 verified errors; 56 persisted through peer review; 159 copied into later papers. Errors persist 7–10 years. https://science.caseyhandmer.com/physics/
+
+**Loop:** Published claim residual → AI recomputation residual → verified error residual → citation-propagation residual that persists after peer review.
+
+**mbcad reading:** Residual-control packing of an error residual in the scientific literature. The residual that remains after verification is the uncorrected claim that is re-checked against later citations. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** residual-control / verification neighbor (machine audit of physics literature). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
