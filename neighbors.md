@@ -621,3 +621,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of verbal coding under a spontaneity residual. The residual that remains after frequency and predictability are imposed is the causative/anticausative asymmetry that is re-checked across languages. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** packing-observation neighbor (causative / anticausative coding). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 60. WALS as residual packing of structural features under areal and genealogical constraints
+
+**Source:** Dryer & Haspelmath (eds.), *The World Atlas of Language Structures Online*. Leipzig: Max Planck Institute for Evolutionary Anthropology, 2013. Database of phonological, morphological, syntactic, and lexical properties documented in chapters that define features, coding criteria, and cross-linguistic maps. https://wals.info/chapter
+
+**Loop:** Individual structural feature → cut and mapped across languages → re-union under areal and genealogical residual → distributional packing rather than innate blueprint.
+
+**mbcad reading:** Packing observation of structural features under areal and genealogical residual. The residual that remains after mapping is the distributional residual that is re-checked against genealogical and areal constraints. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** packing-observation neighbor (cross-linguistic structural inventory). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
