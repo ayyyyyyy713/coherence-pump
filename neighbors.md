@@ -566,3 +566,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of relational knowledge into topological residual maps. The residual that remains navigable across domains is the abstract cognitive map that is rearticulated without relocating the spatial codes. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** packing-observation neighbor (mental navigation / cognitive maps). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 55. Parental Variability-Dependent Inheritance as residual of cultural transmission
+
+**Source:** Kutsos, Chlup, Akoko & Tureček, “The shape of the cultural transmission of shapes,” Evolution and Human Behavior 48 (2027) 106994. Cross-cultural transmission-chain experiment with 3D-printed artifacts. Parental Variability-Dependent Inheritance (offspring variance scales with parental variance) outperforms constant-variance and null models. https://doi.org/10.1016/j.evolhumbehav.2026.106994
+
+**Loop:** Parental trait-variance residual → PVDI scaling → offspring variance residual → Bayesian model comparison favoring proportional inheritance.
+
+**mbcad reading:** Residual-control packing of cultural transmission. The residual that remains proportional rather than constant is the offspring variance that is re-checked against the parental residual. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** residual-control / packing-observation neighbor (cultural transmission variance). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
