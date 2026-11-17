@@ -599,3 +599,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of grammatical form under frequency residual. The residual that remains after predictability is imposed is the coding-length asymmetry that is re-checked across languages. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** packing-observation neighbor (grammatical coding asymmetries). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 58. Linguisticality as residual packing of biological capacity under cultural evolution
+
+**Source:** Martin Haspelmath, “Human linguisticality and the building blocks of languages.” Frontiers in Psychology 10: 3056, 2020. Linguisticality is the biological capacity for language; concrete features, categories, and architectures of particular languages are not treated as an innate blueprint once convergent cultural evolution is admitted. Cross-linguistic comparison is Greenbergian. https://doi.org/10.3389/fpsyg.2019.03056
+
+**Loop:** Biological capacity residual → cut from historically unique grammatical systems → cultural evolution re-union → thin domain-general substrate rather than rich innate inventory.
+
+**mbcad reading:** Packing observation of biological capacity under cultural residual. The residual that remains after cultural evolution is imposed is the thin linguisticality substrate that is re-checked against unique systems. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** packing-observation neighbor (linguisticality / cultural evolution). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
