@@ -489,3 +489,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Pack-side example of residual-controlled, kernel-checked formalization of a claimed physical residual. “Zero-axiom TVE core” and “Beltrami master action” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster.
 
 **Status:** formal-methods neighbor (Lean TVE formalization). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 48. Freespace twistronics for optical supertopologies
+
+**Source:** Vasu Dev and Yijie Shen, “Freespace twistronics for optical supertopologies.” arXiv:2511.06728 (Light Sci Appl 15, 396, 2026).
+
+**Loop:** Two volumes of periodic topological optical lattices are superposed at a controlled relative twist \(\theta\) about the propagation axis. The resulting free-space moiré field hosts 3D textures (skyrmionium bags, clusters, nested targets, quasicrystals). Topology is nondiffractive; skyrmion number \(N_{\rm sk}\) is conserved under propagation and recovers after obstacles. Twist is digitally retunable via spatial light modulator.
+
+**mbcad reading:** Packing observation of topological residual under a twist gate. \(N_{\rm sk}\) is a conserved certificate that freezes while local intensity may fluctuate or vanish. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** optical / topological packing neighbor. Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
