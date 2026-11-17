@@ -610,3 +610,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of biological capacity under cultural residual. The residual that remains after cultural evolution is imposed is the thin linguisticality substrate that is re-checked against unique systems. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** packing-observation neighbor (linguisticality / cultural evolution). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 59. Spontaneity-scale residual packing of causative and anticausative coding
+
+**Source:** Martin Haspelmath, “Universals of causative and anticausative verb formation and the spontaneity scale.” Lingua Posnaniensis 58(2): 33–63, 2016. Verb pairs whose noncausal member is higher on the spontaneity scale tend to be causative; pairs lower on the scale tend to be anticausative. The pattern is treated as a special case of form–frequency correspondence. https://doi.org/10.1515/linpo-2016-0009
+
+**Loop:** Causal/noncausal opposition ordered by spontaneity scale → less expected face receives special coding → more expected face receives reduced coding → form-frequency residual.
+
+**mbcad reading:** Packing observation of verbal coding under a spontaneity residual. The residual that remains after frequency and predictability are imposed is the causative/anticausative asymmetry that is re-checked across languages. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** packing-observation neighbor (causative / anticausative coding). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
