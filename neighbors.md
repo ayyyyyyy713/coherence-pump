@@ -500,3 +500,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of topological residual under a twist gate. \(N_{\rm sk}\) is a conserved certificate that freezes while local intensity may fluctuate or vanish. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** optical / topological packing neighbor. Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 49. Quantum residual of Causal Friendliness in an instrumental Wigner’s-friend network
+
+**Source:** Polino et al., “Quantum violation of Causal Friendliness.” arXiv:2611.17431. Causal Friendliness combines Absoluteness of Observed Events with generalized nonclassical causal constraints. Quantum correlations violate the resulting CF polytope in a Wigner’s-friend instrumental scenario; the residual is measured in a photonic experiment at more than 120 standard deviations. https://arxiv.org/pdf/2611.17431
+
+**Loop:** Instrumental causal structure + friend’s measurement → CF assumptions (AOE + OPT causal constraints) → CF polytope → quantum correlations outside the polytope → experimental residual >120σ.
+
+**mbcad reading:** Residual-control packing of classical causal assumptions under a communication-allowed network. The residual that remains after the CF constraints are imposed is the object that is bounded and measured. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (Causal Friendliness). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
