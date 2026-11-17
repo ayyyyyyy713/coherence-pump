@@ -511,3 +511,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of classical causal assumptions under a communication-allowed network. The residual that remains after the CF constraints are imposed is the object that is bounded and measured. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (Causal Friendliness). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 50. Strong decay of correlations as residual for fast mixing of thermal phases
+
+**Source:** Yin & Khemani, “Fast mixing and thermal phases from strong decay of correlations.” arXiv:2611.17433. Strong decay of correlations in Gibbs states of geometrically local commuting Hamiltonians implies exact O(1)-time quasi-local Lindbladian and Hamiltonian connections and a constant spectral gap for Glauber dynamics. Applies to models that may violate strong spatial mixing. https://arxiv.org/pdf/2611.17433
+
+**Loop:** Path of commuting Hamiltonians with strong decay of correlations → O(1)-time quasi-local Lindbladian / unitary connections → constant spectral gap of Glauber dynamics → fast mixing of the thermal phase.
+
+**mbcad reading:** Residual-control packing of thermal phases. The residual that freezes the mixing time is the strong-decay certificate. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** dynamical-systems / residual-control neighbor (fast mixing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
