@@ -643,3 +643,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of an open-system orbital residual. The residual that remains after finite-size diffusion is the contracted geometry that is re-checked against the slow Liouvillian spectrum. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (quantum limit cycles). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 62. CRAM energy residual packing of constraint-satisfaction puzzles
+
+**Source:** Hoover, Blayney & Whittington, “Classical Energies Learn to Reason 1,000× Faster than Looped Models.” arXiv:2611.17309. Learned Hopfield–Tank pairwise energy (CRAM) for Sudoku and maze puzzles. Continuous-time energy descent; local pseudolikelihood training; sparse interpretable weights as constraint graphs. https://arxiv.org/abs/2611.17309
+
+**Loop:** Incomplete puzzle residual → pairwise energy residual → energy descent → fixed-point solution residual → early-stop on energy threshold.
+
+**mbcad reading:** Residual-control packing of a constraint residual under explicit energy descent. The residual that is driven to a fixed point is the energy residual that is re-checked against the sparse interaction graph. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** residual-control / packing-observation neighbor (energy-based reasoning). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
