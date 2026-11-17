@@ -665,3 +665,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Formal-methods residual control of published theorems. The residual that is kernel-checked is the Lean residual that is re-checked against the declared axioms. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** formal-methods neighbor (Lean CFSG applications). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 64. Hybrid uncertainty residual of optimized commutator bounds
+
+**Source:** Hu, Yang & Jing, “Hybrid Uncertainty in the Real Forms.” arXiv:2611.17896. Optimized commutator bound equals the quantum infimum in positive discrete series of su(1,1) if and only if the covariance matrix of the minimizing state is diagonal. When the residual is non-diagonal, a strict positive gap remains. Excess mean-squared error in delayed-target protocols equals twice the hybrid uncertainty residual. https://arxiv.org/pdf/2611.17896
+
+**Loop:** Prescribed observables residual → optimized commutator bound residual → covariance residual (diagonal or not) → quantum-infimum gap residual → excess measurement-error residual.
+
+**mbcad reading:** Residual-control packing of an uncertainty residual. The residual that remains when the covariance fails to be diagonal is the positive gap that is re-checked against the hybrid uncertainty functional. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (hybrid uncertainty). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
