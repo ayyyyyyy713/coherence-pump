@@ -654,3 +654,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of a constraint residual under explicit energy descent. The residual that is driven to a fixed point is the energy residual that is re-checked against the sparse interaction graph. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** residual-control / packing-observation neighbor (energy-based reasoning). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 63. CFSG-applications residual packing of published theorems in Lean
+
+**Source:** AxiomMath/CFSG-applications. Lean 4 formalizations of thirty published theorems outside the Classification of Finite Simple Groups, built on the CFSG corpus (commit 69cb972). Conditional and unconditional forms; kernel-checked; comparator-verified. https://github.com/AxiomMath/CFSG-applications
+
+**Loop:** Published theorem residual → conditional corpus hypotheses residual → unconditional standard-axiom residual → Lean kernel residual.
+
+**mbcad reading:** Formal-methods residual control of published theorems. The residual that is kernel-checked is the Lean residual that is re-checked against the declared axioms. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods neighbor (Lean CFSG applications). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
