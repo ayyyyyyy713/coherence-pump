@@ -632,3 +632,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Packing observation of structural features under areal and genealogical residual. The residual that remains after mapping is the distributional residual that is re-checked against genealogical and areal constraints. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** packing-observation neighbor (cross-linguistic structural inventory). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 61. Orbital U(1) residual packing in quantum limit cycles
+
+**Source:** Chong Chen, “Underlying orbital U(1) symmetry in quantum limit cycles.” arXiv:2611.17890. A similarity transformation maps the harmonic nondecaying Liouvillian sector onto a Hermitian angular-momentum Hamiltonian, yielding an effective orbital U(1) structure. Finite-size phase diffusion damps slow harmonics and contracts the effective geometry in a manner predicted by the slow Liouvillian spectrum. https://arxiv.org/pdf/2611.17890
+
+**Loop:** Quantum limit cycle → harmonic Liouvillian residual → similarity map to angular-momentum Hamiltonian → effective orbital U(1) → finite-size phase-diffusion residual that contracts geometry.
+
+**mbcad reading:** Residual-control packing of an open-system orbital residual. The residual that remains after finite-size diffusion is the contracted geometry that is re-checked against the slow Liouvillian spectrum. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (quantum limit cycles). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
