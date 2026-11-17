@@ -533,3 +533,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of higher-order quantum transformations. The residual that remains after fixed-order simulation is the query overhead that is bounded and recovered. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (causal-order simulation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 52. Finite-time residual of non-Markovian reservoir response in quantum thermometry
+
+**Source:** Naseem et al., “Finite-time spectral enhancement of transient quantum thermometry.” arXiv:2611.17522. Retaining the finite-time reservoir response in a second-order time-convolutionless master equation raises the quantum Fisher information for temperature about fivefold above the Markovian prediction. The information rate peaks inside the reservoir memory time. https://arxiv.org/pdf/2611.17522
+
+**Loop:** Oscillator probe in a number state weakly coupled to a thermal reservoir → finite-time filter retains off-resonant modes → residual contribution to transition probabilities → elevated quantum Fisher information and information rate within the memory time.
+
+**mbcad reading:** Residual-control packing of a non-Markovian reservoir response. The residual that enhances the temperature sensitivity is the finite-time filter contribution that is bounded and re-checked. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (transient thermometry). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
