@@ -555,3 +555,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of a constrained search space. The residual that remains after each elimination is the feasible subproblem that is re-checked for closure. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (constrained RQAOA). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 54. Mental navigation as residual packing of relational knowledge into topological maps
+
+**Source:** Deniz Vatansever, “Mental navigation as a default computational mode in human cognition,” Current Opinion in Behavioral Sciences 2026, 70:101671. Hippocampal-entorhinal circuitry together with the default mode network supports goal-directed navigation in physical and nonphysical domains. Association, abstraction, and anticipation construct and deploy topologically structured abstract cognitive maps. https://doi.org/10.1016/j.cobeha.2026.101671
+
+**Loop:** Observed experience residual → association / abstraction / anticipation → topologically structured abstract cognitive map → inference and generalization beyond immediate input.
+
+**mbcad reading:** Packing observation of relational knowledge into topological residual maps. The residual that remains navigable across domains is the abstract cognitive map that is rearticulated without relocating the spatial codes. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** packing-observation neighbor (mental navigation / cognitive maps). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
