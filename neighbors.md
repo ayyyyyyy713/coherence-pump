@@ -687,3 +687,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of an error residual in the scientific literature. The residual that remains after verification is the uncorrected claim that is re-checked against later citations. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** residual-control / verification neighbor (machine audit of physics literature). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 66. Photonics Atlas residual packing of component specifications
+
+**Source:** outside five sigma, Photonics Atlas. o5s.org/photonics-atlas. AI-assisted extraction of component specifications, foundries, and suppliers from photonics papers into a structured residual. Conflicts and mistakes tracked. https://o5s.org/photonics-atlas/
+
+**Loop:** Photonics paper residual → AI extraction residual → structured specification residual (components, foundries, suppliers) → conflict residual.
+
+**mbcad reading:** Residual-control packing of a literature residual. The residual that remains after extraction is the structured specification residual that is re-checked against conflicts. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** residual-control / packing-observation neighbor (photonics literature residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
