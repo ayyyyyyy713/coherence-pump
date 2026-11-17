@@ -577,3 +577,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of cultural transmission. The residual that remains proportional rather than constant is the offspring variance that is re-checked against the parental residual. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** residual-control / packing-observation neighbor (cultural transmission variance). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 56. Hierarchical residual packing of musical sequences under predictive temporal memory
+
+**Source:** Bonetti et al., “The Well-Tempered Brain: A research programme on musical sequences and predictive temporal memory.” Physics of Life Reviews, available online 12 November 2026. Controlled musical sequences probe hierarchical auditory long-term memory and predictive coding. Familiar sequences engage slower, more distributed hippocampal–cingulate participation; novel sequences remain faster and more locally auditory. https://doi.org/10.1016/j.plrev.2026.100994
+
+**Loop:** Sequential auditory residual → memorised versus novel path cut → hierarchical feedforward/backward re-union → differential participation residual (slower distributed vs faster local).
+
+**mbcad reading:** Packing observation of sequential structure under hierarchical residual connectivity. The residual that distinguishes familiar from novel is the participation residual that is re-checked across the hierarchy. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** packing-observation neighbor (musical sequences / predictive temporal memory). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
