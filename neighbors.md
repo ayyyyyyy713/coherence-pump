@@ -544,3 +544,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of a non-Markovian reservoir response. The residual that enhances the temperature sensitivity is the finite-time filter contribution that is bounded and re-checked. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (transient thermometry). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 53. Residual packing of feasible subspace under recursive QAOA
+
+**Source:** Binkowski & Flannigan, “Recursive Quantum Approximate Optimization Algorithm for Constrained Problems.” arXiv:2611.17537. Feasibility-preserving mixers and initial states confine the variational evolution to the feasible subspace. Constraint classes closed under substitution keep every residual subproblem well-defined; recursion terminates on a classical residual. https://arxiv.org/pdf/2611.17537
+
+**Loop:** Constrained problem → feasible initial state and mixer → quantum measurement of correlations → variable elimination that preserves feasibility → residual subproblem → classical residual.
+
+**mbcad reading:** Residual-control packing of a constrained search space. The residual that remains after each elimination is the feasible subproblem that is re-checked for closure. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (constrained RQAOA). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
