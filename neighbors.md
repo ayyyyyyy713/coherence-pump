@@ -709,3 +709,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Formal-methods residual control of an algebraic residual. The residual that is kernel-checked is the MMP residual that is re-checked against the standard axioms. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** formal-methods neighbor (Lean MMP). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 68. Bohmian trajectory residual of indefinite causal order in the quantum switch
+
+**Source:** Aurélien Drezet, “Indefinite causal order with definite Bohmian trajectories for the quantum switch.” arXiv:2611.17906. In de Broglie–Bohm theory the quantum switch admits definite non-intersecting trajectories with strict causal order. Apparent indefinite causal order is an interference residual in the guiding wave; nonlocality preserves the trajectory residual while allowing inequality violations. https://arxiv.org/pdf/2611.17906
+
+**Loop:** Quantum-switch residual → guiding-wave residual → definite trajectory residual (strict causal order) → apparent ICO residual controlled by interference.
+
+**mbcad reading:** Residual-control packing of a causal residual. The residual that remains after Bohmian guidance is the definite trajectory residual that is re-checked against the guiding wave. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (Bohmian trajectories / causal order). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
