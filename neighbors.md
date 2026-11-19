@@ -966,7 +966,7 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 
 **Loop:** Candidate QCCD device and operating rules (as compiler input) plus untrusted router / agent proposals → cut by a proved checker inside the compiler → residual target code that preserves program behavior and obeys the hardware rules → re-checked once by Lean’s kernel for all designs, with a dependency audit limited to the three standard axioms.
 
-**mbcad reading:** Residual-control packing of a hardware-parameterized compilation residual. The residual that remains after the cut is the accepted target code covered by one kernel-checked theorem, independent of which agent or router proposed it. Adjacent to the quantum neighbors already registered (11, 14, 82), but a distinct verified-compiler observation. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+**mbcad reading:** Residual-control packing of a hardware-parameterized compilation residual. The residual that remains after the cut is the accepted target code covered by one kernel-checked theorem, independent of which agent or router proposed it. Adjacent to the quantum neighbors already registered (11, 14, 83), but a distinct verified-compiler observation. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** formal-methods neighbor (Lean-verified quantum compiler). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
@@ -1006,6 +1006,6 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 
 **Loop:** Clifford+\(T\) circuit → cut by verified lowering and outcome-preserving optimization → residual synthesis error bounded by a compositional approximation relation → re-checked by a certificate-checked selection and a Lean-checked proof-dependency audit.
 
-**mbcad reading:** Residual-control packing of a bounded synthesis-error residual. The residual that remains after the cut is the certified error and depth allowance that is re-checked by certificate, not trusted from the synthesizer. Same group as neighbor 86 and adjacent to neighbor 82, but a distinct fault-tolerant compilation observation. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+**mbcad reading:** Residual-control packing of a bounded synthesis-error residual. The residual that remains after the cut is the certified error and depth allowance that is re-checked by certificate, not trusted from the synthesizer. Same group as neighbor 87 and adjacent to neighbor 83, but a distinct fault-tolerant compilation observation. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** formal-methods neighbor (Lean-verified fault-tolerant quantum compilation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
