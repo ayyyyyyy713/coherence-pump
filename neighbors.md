@@ -720,3 +720,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of a causal residual. The residual that remains after Bohmian guidance is the definite trajectory residual that is re-checked against the guiding wave. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (Bohmian trajectories / causal order). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 69. Tessa residual packing of classical data on a quantum coupling graph
+
+**Source:** Daniel Bultrini, “Tessa: Encoding Classical Data Across an Entire Quantum Processor.” arXiv:2611.18440. Hardware-aware checkerboard of address and data qubits on the device coupling graph. Classical values packed into local super-pixels; reduced state of each super-pixel depends only on local angles; area-law entanglement. https://arxiv.org/pdf/2611.18440
+
+**Loop:** Classical data residual → local address-neighborhood residual → super-pixel encoding residual → local reduced-state residual.
+
+**mbcad reading:** Residual-control packing of a classical residual onto a hardware graph. The residual that remains after local encoding is the super-pixel residual that is re-checked against neighboring address qubits. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (hardware data encoding). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
