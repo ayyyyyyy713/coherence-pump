@@ -742,3 +742,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of a qubit residual onto a fermionic face. The residual that selects the face is the vanishing-variance residual that is re-checked against the fermionic RDM. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control / formal-methods neighbor (qubit marginals). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 71. Dissipative residual purification of a high-spin mediator for entanglement
+
+**Source:** Fernandes & Souza, “Dissipation as a Resource for Entanglement via High-Spin Mediator Purification.” arXiv:2611.18489. Dissipative optical-pumping Lindblad channel raises the purity of a high-spin mediator above the thermal residual preserved by unitary evolution. The purified residual enables mediated qubit entanglement and persists after the pulse. https://arxiv.org/pdf/2611.18489
+
+**Loop:** Thermal mediator residual → unitary purity freeze residual → dissipative entropy-export residual → purified mediator residual → mediated entanglement residual.
+
+**mbcad reading:** Residual-control packing of a mediator residual. The residual that is raised by dissipation is the purified state residual that is re-checked against the mediating coupling. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (dissipative purification). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
