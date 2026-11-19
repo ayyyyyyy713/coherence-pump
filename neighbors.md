@@ -731,3 +731,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of a classical residual onto a hardware graph. The residual that remains after local encoding is the super-pixel residual that is re-checked against neighboring address qubits. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (hardware data encoding). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 70. Qubit-marginal residual packing onto the fermionic N-representable face
+
+**Source:** David A. Mazziotti, “Solution of the Qubit Marginal Problem from Fermionic Representability.” arXiv:2611.18503. Representable p-qubit marginals form an exposed face of the N-representable fermionic RDMs, selected by vanishing site-occupation variance. Complete fermionic representability hierarchies transfer without modification; Majorana basis equates Pauli weight with body order. https://arxiv.org/pdf/2611.18503
+
+**Loop:** Qubit marginal residual → site-occupation variance residual → exposed fermionic face residual → transferred (2p)-positivity hierarchy residual.
+
+**mbcad reading:** Residual-control packing of a qubit residual onto a fermionic face. The residual that selects the face is the vanishing-variance residual that is re-checked against the fermionic RDM. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control / formal-methods neighbor (qubit marginals). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
