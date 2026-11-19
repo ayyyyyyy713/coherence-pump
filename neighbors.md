@@ -69,6 +69,10 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 
 **Status:** empirical / theoretical neighbor (Address-first reordering of optical occurrence). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
+Technical residual-control / formal-methods / packing entries begin at §8. Entries 1–7 and the further-attested index are empirical language neighbors under an earlier criterion.
+
+
+
 ## 9. Yang–Mills one-cube estimate and constrained block gap
 
 **Source:** Bhattacharjee, Bhattacharya, Lockwood, Romanov, “One Cube Estimate Implies the Yang–Mills Mass Gap.” hexagonmath.org/2610.00341v7, 18 October 2026. Plus the Lockwood constrained block gap (forest-gauge fields with zero block-average constraints).
