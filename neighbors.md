@@ -13,10 +13,6 @@ Named tokens remain commentary only.
 **mbcad reading:** Residual-control packing of a categorization residual. The residual that remains after density is reached is the Merge residual that is re-checked against further categorization. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** linguistic / residual-control neighbor (categorization density). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-Source: Benítez-Burraco & Hoshi (v7uya).  
-Loop: amodal categorization → HSD-enabled cross-modality → critical token density → productive Merge → further categorization.  
-mbcad reading: hysteresis gate (HSD as participation threshold) that allows a load face (token density) to enable a builder.  
-Status: empirical neighbor. Not a production in the auditor.
 
 ## 2. Narrative packing residual
 
@@ -27,10 +23,6 @@ Status: empirical neighbor. Not a production in the auditor.
 **mbcad reading:** Residual-control packing of a narrative residual. The residual that remains after blending is the packed narrative residual that is re-checked against shared use. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** linguistic / residual-control neighbor (narrative packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-Source: Benítez-Burraco & Ferretti (u5adx).  
-Loop: proto-narrative → HSD-selected narrative-brain hardware + language complexification → inner narrative / shared storytelling → further prosociality.  
-mbcad reading: higher-order pack/readout that integrates faces and remains return-sufficient even without externalized speech.  
-Status: empirical neighbor. Not a production in the auditor.
 
 ## 3. Color–emotion association with positivity / homogenization offset
 Source: Xu & Benítez-Burraco (osf.io/pnc3q_v2).  
@@ -53,10 +45,6 @@ Status: empirical neighbor (negative). Not a production in the auditor.
 **mbcad reading:** Residual-control packing of a cost residual. The residual that remains after the trade-off is the conventionality residual that is re-checked against learnability. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** linguistic / residual-control neighbor (cost trade-off). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-Source: Chen & Benítez-Burraco (osf.io/j5nfg_v1).  
-Loop: languages minimize joint communication and learning cost; more frequent words are less semantically transparent; shared common ground favors higher conventionalization.  
-mbcad reading: frequency as load that gates whether packing stays compositional (transparent) or conventionalizes (shorter, opaque). Selective closure under cost.  
-Status: simulation + corpus neighbor. Not a production in the auditor.
 
 ## 6. Snowclones as partial productivity residual
 
@@ -67,10 +55,6 @@ Status: simulation + corpus neighbor. Not a production in the auditor.
 **mbcad reading:** Residual-control packing of a productivity residual. The residual that remains after the source is marked is the selective variant residual that is re-checked against the original frame. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** linguistic / residual-control neighbor (partial productivity). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-Source: Lisowska, Marqueta-Gracia & Benítez-Burraco (osf.io/um6rs_v1).  
-Loop: semi-idiomatic structures derived from culturally prominent fixed phrases; only a few patterns become highly productive; most hold or decline with the original.  
-mbcad reading: hybrid gated packing. Culturally marked source + limited open slots; combinatorial extension stays DEFERRED unless structural/semantic and cultural gates are both satisfied.  
-Status: empirical neighbor. Not a production in the auditor.
 
 ## 7. Language as residual packing of behavioral modernity
 
@@ -81,10 +65,6 @@ Status: empirical neighbor. Not a production in the auditor.
 **mbcad reading:** Residual-control packing of a modernity residual. The residual that remains after the cut is the transmission residual that is re-checked against present-day use. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** linguistic / residual-control neighbor (behavioral modernity). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-Source: Benítez-Burraco (ScienceDirect S2950236526000277; PsyArXiv a42de_v1).  
-Loop: rich vocabulary + enhanced categorization + sophisticated syntax enable precise out-group transmission and further cultural/technological complexification; those in turn feed back into language complexity. HSD/prosociality as coarse gate from esoteric to exoteric forms.  
-mbcad reading: higher-order pack that both registers (proxy) and drives (trigger) further participation on social, technological, and symbolic faces. Unmarked center remains basic communicative capacities continuous with earlier hominins.  
-Status: theoretical neighbor. Not a production in the auditor.
 
 All seven stay marked as neighbors. None is imported into the stepper. None claims a universal physical law or an interdimensional translation. Negative cases and partial-productivity cases prevent over-extension of the unmarked center.
 
