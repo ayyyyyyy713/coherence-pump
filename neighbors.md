@@ -771,6 +771,9 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 
 ## 73. Selective archaic allelic residual of occipital volume and schizophrenia risk
 
+**Grain note:** Biological residual-control entry. Not a linguistic participation face. General-cognition residual is negligible. Remains commentary only.
+
+
 **Source:** “A Neandertal-derived genetic variant reduces occipital brain volume in present-day humans.” PNAS 123(48), e2624837123, 16 November 2026. https://doi.org/10.1073/pnas.2624837123
 
 **Loop:** Neandertal-derived allele residual → cut against occipital volume residual → cut against DAAM1 expression residual → cut against schizophrenia-risk residual → negligible general-cognition residual → selective re-union.
