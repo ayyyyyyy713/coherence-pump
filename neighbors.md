@@ -69,7 +69,7 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 
 **Status:** empirical / theoretical neighbor (Address-first reordering of optical occurrence). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
-Technical residual-control / formal-methods / packing entries begin at §8. Entries 1–7 and the further-attested index are empirical language neighbors under an earlier criterion.
+Technical residual-control / formal-methods / packing entries begin at §8. Entries 1–7 are empirical language neighbors under an earlier criterion; later language-relevant entries carry their own Status tag.
 
 
 
