@@ -813,3 +813,14 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 **mbcad reading:** Residual-control packing of a hygiene residual. The residual that remains after the cut is the non-inheritance residual that is re-checked against any selection narrative. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** hygiene / residual-control neighbor (overlay rejection). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 77. AI-swarm residual packing of the Enormous Theorem and Stacks Project in Lean
+
+**Source:** Benjamin Skuse, “Startup Makes Headway Towards Formalizing All of Math With AI,” IEEE Spectrum. Axiom Math AI swarm produced a kernel-checked Lean formalization of the Classification of Finite Simple Groups (~43 M lines) and of the Stacks Project. Gaps in the informal record were surfaced under the same verification residual. https://spectrum.ieee.org/enormous-theorem-ai
+
+**Loop:** Informal proof residual → AI-swarm decomposition residual → Lean kernel residual of termination and gap closure → reusable formal library residual.
+
+**mbcad reading:** Formal-methods residual control of a large informal residual. The residual that is kernel-checked is the Lean residual that is re-checked against the original theorems. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods neighbor (AI-assisted Lean formalization). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
