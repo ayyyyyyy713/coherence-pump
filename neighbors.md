@@ -774,3 +774,14 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of a selective residual. The residual that remains after the cut is the volumetric and risk residual that is re-checked against general cognition. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** biological / residual-control neighbor (archaic allelic residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 74. Cartridges residual packing of long contexts into tiny caches
+
+**Source:** HazyResearch/cartridges. Storing long contexts in tiny caches with self-study. https://github.com/HazyResearch/cartridges
+
+**Loop:** Long-context residual → self-study residual → tiny-cache residual that remains addressable.
+
+**mbcad reading:** Residual-control packing of a context residual. The residual that remains after self-study is the cache residual that is re-checked against the original long sequence. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** residual-control / packing-observation neighbor (context caching). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
