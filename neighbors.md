@@ -888,3 +888,144 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 **mbcad reading:** Formal-methods residual control of a large informal residual. The residual that is kernel-checked is the Lean residual that is re-checked against the original theorems. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** formal-methods neighbor (AI-assisted Lean formalization). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 78. Isabelle Pool Server as pooled verification residual
+
+**Source:** Ren & Li, “Isabelle Pool Server: a pooled verification service for prover training and multi-agent proving.” arXiv:2611.24788, 18 November 2026. A pool of warm headless Isabelle sessions behind an HTTP API, with session leasing, memory-aware admission control, and a time budget on every call. Verification spans single-step execution, block-level proof checking, and whole-theory builds, with checkpoints for cheap branching and a build from scratch as the final arbiter. A problem counts as solved only when `isabelle build` passes with no `sorry` or `oops` and the target theorem present. https://arxiv.org/abs/2611.24788. Implementation: https://github.com/Deep-LCF/Isabelle-Pool-Server
+
+**Loop:** Candidate proof steps from training loops or multi-agent clients → pooled Isabelle session execution under a time budget → residual of incomplete or failed attempts is cheap to undo → re-checked by a from-scratch `isabelle build` that admits a solve only when the target theorem is present and no `sorry` or `oops` remains.
+
+**mbcad reading:** Pack-side example of audit-gated, Isabelle-checked proof infrastructure. “Build-from-scratch arbiter” and “no-sorry close” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the Lean verification-service neighbors already registered.
+
+**Status:** formal-methods neighbor (Isabelle verification service). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 79. Parameterized DRAT lemmas proved once and elaborated
+
+**Source:** Bryant, Battleman & Heule, “Apply All, Prove Once: Embedding Parameterized Lemmas in DRAT.” arXiv:2611.23574, 17 November 2026. DRATL extends the deletion resolution-asymmetric-tautology (DRAT) proof format with parameterized lemmas, so a single proof can capture repeated patterns that differ only in variable identities and phases. Proofs may be hierarchical, with the proof of one lemma containing instantiations of others. An elaborator expands a DRATL proof into a standard DRAT proof and yields compact proofs in which a single sequencing of each lemma’s steps covers all of its instantiations. https://arxiv.org/abs/2611.23574
+
+**Loop:** Flat, repetitive DRAT proof → cut into parameterized lemmas proved once → hierarchical residual proof → re-checked by elaboration into standard DRAT, with one sequencing covering every instantiation.
+
+**mbcad reading:** Residual-control packing of SAT unsatisfiability certificates. The residual that remains after the cut is the compact lemma-packed proof that is re-checked by elaboration into DRAT. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods neighbor (DRAT lemma packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 80. Path abstraction for Markov reward models (Isabelle formalisation)
+
+**Source:** Hartmanns & Modderman, “Path Abstraction for Markov Reward Models: An Isabelle Formalisation in a Free Monoid View.” arXiv:2611.22523, 17 November 2026. The free-monoid view of discrete-time Markov chains is extended to cumulative rewards on Markov reward models and formalised in Isabelle/HOL, using discrete finite-prefix semantics with Isabelle’s HOL-Analysis library. The path-abstraction algorithm and its key correctness properties (well-definedness and monotonic absorption) are mechanised, establishing preservation of reachability probabilities and expected rewards, and yielding a verified abstract implementation as a foundation for executable refinement. https://arxiv.org/abs/2611.22523
+
+**Loop:** Markov reward model in the free-monoid view → path abstraction over selected state sets → residual of reachability probabilities and expected rewards → re-checked in Isabelle/HOL against well-definedness, monotonic absorption, and preservation.
+
+**mbcad reading:** Pack-side example of Isabelle-checked residual control for a probabilistic model-checking abstraction. “Mechanized preservation of reachability and expected rewards” can be named as commentary. No import path into the energy-sheet stepper.
+
+**Status:** formal-methods neighbor (Isabelle MRM formalization). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 81. Python code generation for Isabelle/HOL
+
+**Source:** Huber, Perera & Orchard, “Python Code Generation for Isabelle/HOL.” arXiv:2611.22613, 17 November 2026. A Python backend for Isabelle’s code generator translates functions in the executable fragment of HOL into Python, so verified algorithms can be used in Python applications or serve as verified references for differential testing of established libraries. The backend is validated on regression suites covering large parts of the HOL library and by testing six verified data structures and algorithms against established Python libraries. Software artefact: https://doi.org/10.5281/zenodo.24106993. https://arxiv.org/abs/2611.22613
+
+**Loop:** Executable HOL function → Isabelle code generation into Python → residual of a verified algorithm in a conventional language → re-checked against HOL-library regression suites and by differential testing with established Python libraries.
+
+**mbcad reading:** Pack-side example of residual packing of a verified implementation into a conventional language. “Generated Python as verified reference” can be named as commentary. No import path into the energy-sheet stepper.
+
+**Status:** formal-methods neighbor (Isabelle code generation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 82. Empty-abstraction residual in the Linux eBPF verifier
+
+**Source:** Vishwanatha, Narayana & Nagarakatte, “Detecting Empty Abstractions and Pruning Dead Paths in the Linux eBPF Verifier with Abstract Step Functions.” arXiv:2611.23584, 17 November 2026. The Linux eBPF verifier tracks registers with interval domains and a bitwise tristate-number domain, but lacked an empty-set representation and so continued to analyze dead paths when refined branch constraints were mutually contradictory. The paper gives a sound and complete constant-time emptiness check across those domains, built on `tnum_step`, a formally verified constant-time operator that jumps to the next integer satisfying a tristate bitmask. The operator has been upstreamed into the mainline Linux kernel; the technique is reported to incur 1.48% overhead on kernel selftests and production suites such as Cilium. https://arxiv.org/abs/2611.23584
+
+**Loop:** Abstract state at a conditional branch → cut against multi-domain intersection (intervals and tristate numbers) → empty-intersection residual marking a dead path → re-checked by a constant-time emptiness test `tnum_step` that prunes the unreachable branch.
+
+**mbcad reading:** Residual-control packing of an abstract-interpretation emptiness residual. The residual that remains after the cut is the contradictory, unreachable path that is re-checked by the verified emptiness operator. Adjacent to the Keel proof-carrying BPF checker already registered as neighbor 10, but a distinct present-day observation about the existing Linux verifier. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods / residual-control neighbor (eBPF empty-abstraction residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 83. QECLean: Lean specification and verification of quantum error-correcting codes
+
+**Source:** Jain, Raveendran & Albarghouthi, “Specifying & Verifying Quantum Error-Correcting Codes.” arXiv:2611.21236, 16 November 2026. QECLean is a Lean-based framework that backs every claimed QEC-code property with a machine-checked proof and unifies diverse presentations of codes through common abstractions. A compositional technique, code combinators, is used to prove code distance analytically, including a proof that IBM’s \([[360, 12, \le 24]]\) code has distance 24, previously known only as an upper bound, and to formalize entire code families such as the surface code. https://arxiv.org/abs/2611.21236. Implementation: https://github.com/Stavan-Jain/QECLean
+
+**Loop:** QEC code presented in a diverse or informal formalism → cut against a common Lean specification → residual of claimed parameters (encoding rate, distance) → re-checked by machine-checked proofs, including combinatorial distance proofs for large codes and code families.
+
+**mbcad reading:** Pack-side example of Lean-checked residual control for quantum error-correcting codes. “Machine-checked distance” and “code combinators” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to other quantum residual-control neighbors, but a distinct formal-methods observation.
+
+**Status:** quantum / formal-methods neighbor (Lean QEC verification). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 84. TrustBound: mechanized completeness of a payment epoch
+
+**Source:** Nandi, Bose, Bose & Bakshi, “TrustBound: Mechanized Completeness for Payment Epochs Initiated by AI Agents.” arXiv:2611.19551, 14 November 2026. A Lean model records operations before they receive execution authority and serializes both actions with an admission fence. The paper proves that fencing fixes a journal covering every modeled effect and outstanding right; that discharging those rights prevents further effects; and that truthful outcomes for the recorded identities then give exact accounting. Six service histories are checked against the model in Lean. https://arxiv.org/abs/2611.19551
+
+**Loop:** Agent-initiated payment operations that may complete after the agent stops → cut against record-before-authority and an admission fence → residual journal of effects and outstanding rights → re-checked in Lean for future-effect exclusion and exact identity-level accounting of the epoch.
+
+**mbcad reading:** Residual-control packing of a payment-epoch completeness residual. The residual that remains after the cut is the fenced journal that is re-checked for exclusion of further effects and exact accounting. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods neighbor (Lean payment-epoch completeness). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 85. DeCompCert: verified decompilation residual of CompCert AArch64
+
+**Source:** Priya, Shivakumar, Gilray & Micinski, “DeCompCert: A Verified Decompiler for CompCert-Generated AArch64.” arXiv:2611.18055, 13 November 2026. A Rocq-verified decompiler reconstructs CompCert Csyntax from CompCert-generated AArch64 through nine stages, using directly verified reconstruction and translation validation. Untrusted OCaml and Datalog analyses propose candidates; provably-correct validators accept only candidates equivalent to a lower-level input. For every accepted reconstruction from a typed CompCert Asm program, a composed theorem guarantees that every well-defined, safe observable behavior of the reconstructed program under CompCert’s Cstrategy semantics is matched by the Asm program. With exact function and call signatures, all 3,173 eligible contexts reconstruct and recompile under both unoptimized and optimized CompCert pipelines; without retained signatures, validator-checked chains are reported for 2,606 of 3,164 contexts (82.4%). Failed searches produce no certified C result. https://arxiv.org/abs/2611.18055
+
+**Loop:** CompCert-generated AArch64 → staged reconstruction with untrusted candidate analyses → residual Csyntax accepted only by translation validators → re-checked by a composed Rocq theorem relating reconstructed Cstrategy behavior to the original Asm program.
+
+**mbcad reading:** Pack-side example of kernel-checked residual control for a verified decompiler. “Translation-validated reconstruction” can be named as commentary. Adjacent to the CompCert4Lean compiler residual already registered as neighbor 40, but a distinct decompiler observation. No import path into the energy-sheet stepper.
+
+**Status:** formal-methods neighbor (verified decompiler residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 86. R2C2: Rocq translation validation of C-to-Rust at LLVM IR
+
+**Source:** Kim, Ryu & Hong, “C-to-Rust Translation Validation at the LLVM IR Level via AI-Assisted Refinement Proof.” arXiv:2611.18036, 13 November 2026. R2C2 validates a C-to-Rust translation by proving in Rocq that the Rust program refines the C program at LLVM IR, so every Rust-side behavior is also a C-side behavior. A common abstraction relates differing C and Rust data representations through abstract values. The refinement proof is a chain of relations of which only one is program-specific and proved at validation time; proof construction is automated by AI agents, and Rocq checks the proofs, so the agents need not be trusted. On LLM translations of 519 C programs, R2C2 proves 486 translations correct without bounding executions and discovers three incorrect translations with valid counterexamples. https://arxiv.org/abs/2611.18036
+
+**Loop:** C program and its Rust translation, both compiled to LLVM IR → cut against a chain of Rocq refinement relations (one program-specific) → residual of refinement or a counterexample → re-checked by Rocq, with agents untrusted.
+
+**mbcad reading:** Residual-control packing of a translation-validation residual. The residual that remains after the cut is the Rocq-checked refinement (or the counterexample) that is re-checked independently of the proposing agents. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods neighbor (Rocq translation validation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 87. QCCDCert: one Lean theorem for every QCCD co-design candidate
+
+**Source:** Ye, Palsberg, Sun & Haeffner, “QCCDCert: Formally Verified Compilation for QCCD Co-Design.” arXiv:2611.23469, 17 November 2026. A co-design framework for trapped-ion quantum charge-coupled device (QCCD) architectures built on one Lean-verified compiler. The hardware description and its operating rules are compiler inputs, so a single theorem covers every candidate design: the target code of every compilation preserves its program’s behavior and obeys the hardware rules. Routers and an AI agent only propose; the compiler checks every proposed step. Each pass is proved in Lean 4 and the proofs are composed into one declaration `verified_compilation`; an audit of the dependencies of 739 headline declarations admits only `propext`, `Classical.choice` and `Quot.sound`. Across 75 benchmark programs (11–130 qubits) the best design takes 66% less modeled execution time on average than the worst design of equal capacity; the verified compiler provably avoids 11 defects reported in three previous compilers. Artifact stated at https://anonymous.4open.science/r/ISCA27ArtifactQCCD-129C/ (not opened this run). https://arxiv.org/abs/2611.23469
+
+**Loop:** Candidate QCCD device and operating rules (as compiler input) plus untrusted router / agent proposals → cut by a proved checker inside the compiler → residual target code that preserves program behavior and obeys the hardware rules → re-checked once by Lean’s kernel for all designs, with a dependency audit limited to the three standard axioms.
+
+**mbcad reading:** Residual-control packing of a hardware-parameterized compilation residual. The residual that remains after the cut is the accepted target code covered by one kernel-checked theorem, independent of which agent or router proposed it. Adjacent to the quantum neighbors already registered (11, 14, 82), but a distinct verified-compiler observation. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods neighbor (Lean-verified quantum compiler). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 88. IsaGraphLib: verified graph-algorithm library in Isabelle/HOL
+
+**Source:** Abdulaziz, Ammer, Rimpapa & Lammich, “IsaGraphLib: Formally Verified Efficient Graph Algorithms in Isabelle/HOL.” arXiv:2611.20039, 15 November 2026. A library of formally verified graph algorithms covering reachability, shortest paths, minimum spanning trees, matching, maximum flow, and minimum-cost flow, about 300,000 lines of Isabelle/HOL. Each algorithm is verified independently of its data structures, and the main algorithms are refined to efficient imperative implementations from which code is generated in Standard ML, Scala, and Go. Parts were developed with LLMs, and the library labels which parts were developed by humans, by LLMs, or collaboratively. Formal development at https://github.com/mabdula/Isabelle-Graph-Library (tag `tacas27-artefact`); experiment scripts at https://doi.org/10.5281/zenodo.23805452. https://arxiv.org/abs/2611.20039
+
+**Loop:** Abstract graph algorithm with specification → cut against shared graph representations via adaptors and refinement → residual efficient imperative implementation → re-checked by Isabelle/HOL and exported as generated code, with human / LLM / collaborative provenance labels kept.
+
+**mbcad reading:** Pack-side example of kernel-checked, provenance-labelled algorithm infrastructure. “Human / LLM / collaborative” can be named as commentary tokens on an existing receipt, as with the Core / Frontier split in neighbor 13. No import path into the energy-sheet stepper.
+
+**Status:** formal-methods neighbor (Isabelle/HOL verified algorithm library). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 89. qlin: latency-preserving rewrites with a Lean-proved checker for dynamic quantum circuits
+
+**Source:** Malarchick, “Latency-Preserving Rewrites and Translation Validation for Dynamic Quantum Circuits.” arXiv:2611.19618, 14 November 2026. qlin is a compiler that moves operations out of mid-circuit-measurement branches without delaying the program, a property proved in Lean 4, and compiles likely error-correction syndromes into one multiway branch while keeping the original program for the rest. On all benchmarks qlin checks that the compiled program computes what its source computes, and the checker is proved sound in Lean 4. The paper reports 73 listed theorems checked by a script to depend only on `propext`, `Classical.choice` and `Quot.sound`, with no `sorry`; a distance-5 repetition decoder on the QubiC register-transfer logic selects its correction in 21.3 instead of 151.1 expected cycles, while IBM-device timing runs were too noisy to confirm or reject the cost model’s ranking. Artifact: https://github.com/rylanmalarchick/qlin. https://arxiv.org/abs/2611.19618
+
+**Loop:** Dynamic quantum circuit → cut by latency-preserving rewrites and the syndrome fast path → residual compiled program → re-checked per program by a translation validator proved sound in Lean, so a semantic bug in the untrusted Rust passes surfaces as a rejected output rather than a wrong program.
+
+**mbcad reading:** Residual-control packing of a translation-validation residual for quantum control flow. The residual that remains after the cut is the validator-accepted program; the noisy-device timing result is an explicitly unresolved residual, not a close. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods neighbor (Lean translation validation, quantum). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 90. Lean residual of a classic system-identification lemma
+
+**Source:** Mejari, Piga & Forgione, “From Pen-and-Paper to Machine-Checked Proofs: Lean for System Identification.” arXiv:2611.18220, 13 November 2026. An introduction to Lean 4 for a system-identification and control audience, with worked examples on identifiability and set invariance. Formalizing a classic lemma on inversion of the noise filter in prediction-error identification (Ljung, 1999, Lemma 3.1) brings to light that the original claim holds almost surely, not for every realisation as its statement may suggest; a simple counterexample makes this concrete. Accompanying code at https://github.com/manasdm/Lean-SysID (tested with Lean v4.35.0); the paper states every theorem relies only on Lean’s standard classical axioms, with no unproved steps. https://arxiv.org/abs/2611.18220
+
+**Loop:** Published pen-and-paper lemma → cut by a Lean 4 formalization that demands every step → residual: the statement holds only almost surely, witnessed by a counterexample → re-checked by Lean’s kernel against Mathlib.
+
+**mbcad reading:** Residual-control observation in which kernel checking surfaces an overclaim in the literature and narrows it to an almost-sure statement. “Almost-sure versus every-realisation” can be named as commentary. No import path into the energy-sheet stepper.
+
+**Status:** formal-methods neighbor (Lean, control / system identification). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 91. QPPM: Lean-mechanized Pauli-product measurement compilation
+
+**Source:** Ye & Palsberg, “Verified Pauli-Product Measurement Compilation for Fault-Tolerant Quantum Computation.” arXiv:2610.31694, 20 October 2026. QPPM is a language for Pauli-product measurement programs with a weakest-precondition semantics over store-indexed matrix assertions, following quantum Hoare logic with classical variables. All results are mechanized in Lean. The paper verifies lowering of Clifford+\(T\) circuits to QPPM with private outcomes and supplied magic states, and an optimizer that eliminates measurements, fuses and reorders rotations, and schedules logical rounds while preserving every outcome that later code can read. A compositional approximation relation bounds the effect of synthesis error, and a certificate-checked pipeline selects the synthesized circuit with the lowest certified depth bound within the user’s error limit. On QASMBench, verified fusion and scheduling reduce logical measurement depth by a median of 17.9%. Artifact stated at https://anonymous.4open.science/r/PPMCompilation-FE38/ (not opened this run). https://arxiv.org/abs/2610.31694
+
+**Loop:** Clifford+\(T\) circuit → cut by verified lowering and outcome-preserving optimization → residual synthesis error bounded by a compositional approximation relation → re-checked by a certificate-checked selection and a Lean-checked proof-dependency audit.
+
+**mbcad reading:** Residual-control packing of a bounded synthesis-error residual. The residual that remains after the cut is the certified error and depth allowance that is re-checked by certificate, not trusted from the synthesizer. Same group as neighbor 86 and adjacent to neighbor 82, but a distinct fault-tolerant compilation observation. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods neighbor (Lean-verified fault-tolerant quantum compilation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
