@@ -785,3 +785,24 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of a context residual. The residual that remains after self-study is the cache residual that is re-checked against the original long sequence. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** residual-control / packing-observation neighbor (context caching). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 75. Voluntary-imagery residual packing under reduced frontoparietal–visual connectivity
+
+**Source:** Zeman et al. 2015 (Cortex), Zeman 2024 (Trends in Cognitive Sciences), Liu et al. 2025 (Cortex, 7T fMRI), Chang et al. 2025 (Current Biology). Voluntary imagery residual under reduced frontoparietal–visual connectivity; early-visual activation preserved but transformed; dream imagery and object recognition residual intact.
+
+**Loop:** Extreme low VVIQ residual → cut against voluntary conscious visual retrieval → residual reduction in frontoparietal–visual connectivity → residual early-visual activation with transformed decoding → continuous trait residual.
+
+**mbcad reading:** Residual-control packing of a voluntary-retrieval residual. The residual that remains after the cut is the reduced-participation residual that is re-checked against dream imagery and object recognition. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** cognitive / residual-control neighbor (voluntary imagery). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 76. Empirical/overlay hygiene residual for voluntary-imagery findings
+
+**Source:** Internal hygiene against evolutionary overlay (language as imagination-instruction technology). Present-day voluntary-imagery, connectivity, and decoding residues treated solely as independent observations.
+
+**Loop:** Present-day voluntary-imagery residual → cut from ancestral-eidetic or selective-pressure claim → residual statement that the neural findings do not select among developmental, genetic, experience-dependent, or evolutionary accounts.
+
+**mbcad reading:** Residual-control packing of a hygiene residual. The residual that remains after the cut is the non-inheritance residual that is re-checked against any selection narrative. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** hygiene / residual-control neighbor (overlay rejection). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
