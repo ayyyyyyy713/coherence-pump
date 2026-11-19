@@ -18,7 +18,7 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 ## Language-layer evolutions (pack-side only)
 
-These annotate existing receipt keys. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
+These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
 
 | Layer | Constraint | Receipt key it may annotate | Notes |
 |---|---|---|---|
