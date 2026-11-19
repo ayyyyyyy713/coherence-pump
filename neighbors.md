@@ -4,13 +4,29 @@ These are empirical or theoretical neighbors. They are not core laws, not faces,
 They do not write \(\dot E\). Schema id remains `mbcad.receipt.v0` on the kernel receipt.
 Named tokens remain commentary only.
 
-## 1. Categorization-density-Merge under HSD
+## 1. Categorization-density residual under cross-modal categorization
+
+**Source:** Benítez-Burraco & Hoshi (OSF preprint). Cross-modal categorization co-opted into lexicalization and syntactic combinatorics.
+
+**Loop:** Amodal categorization residual → critical token density residual → productive Merge residual.
+
+**mbcad reading:** Residual-control packing of a categorization residual. The residual that remains after density is reached is the Merge residual that is re-checked against further categorization. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** linguistic / residual-control neighbor (categorization density). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 Source: Benítez-Burraco & Hoshi (v7uya).  
 Loop: amodal categorization → HSD-enabled cross-modality → critical token density → productive Merge → further categorization.  
 mbcad reading: hysteresis gate (HSD as participation threshold) that allows a load face (token density) to enable a builder.  
 Status: empirical neighbor. Not a production in the auditor.
 
-## 2. Narrative packing under the same HSD gate
+## 2. Narrative packing residual
+
+**Source:** Benítez-Burraco et al. (related preprint). Inner narrative and conceptual blending under resource constraints.
+
+**Loop:** Conceptual residual → blending residual → narrative packing residual.
+
+**mbcad reading:** Residual-control packing of a narrative residual. The residual that remains after blending is the packed narrative residual that is re-checked against shared use. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** linguistic / residual-control neighbor (narrative packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 Source: Benítez-Burraco & Ferretti (u5adx).  
 Loop: proto-narrative → HSD-selected narrative-brain hardware + language complexification → inner narrative / shared storytelling → further prosociality.  
 mbcad reading: higher-order pack/readout that integrates faces and remains return-sufficient even without externalized speech.  
@@ -28,19 +44,43 @@ Result: sr-–contempt association appears only among Polish speakers and is str
 mbcad reading: negative case. Candidate universal packing fails to close outside the language-specific lexical source.  
 Status: empirical neighbor (negative). Not a production in the auditor.
 
-## 5. Conventionality–transparency cost trade-off
+## 5. Conventionality–transparency residual
+
+**Source:** Chen & Benítez-Burraco (OSF preprint). Joint minimization of communication and learning cost.
+
+**Loop:** Transparency residual → conventionality residual under frequency and shared exposure.
+
+**mbcad reading:** Residual-control packing of a cost residual. The residual that remains after the trade-off is the conventionality residual that is re-checked against learnability. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** linguistic / residual-control neighbor (cost trade-off). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 Source: Chen & Benítez-Burraco (osf.io/j5nfg_v1).  
 Loop: languages minimize joint communication and learning cost; more frequent words are less semantically transparent; shared common ground favors higher conventionalization.  
 mbcad reading: frequency as load that gates whether packing stays compositional (transparent) or conventionalizes (shorter, opaque). Selective closure under cost.  
 Status: simulation + corpus neighbor. Not a production in the auditor.
 
-## 6. Snowclones as partial productivity under cultural salience
+## 6. Snowclones as partial productivity residual
+
+**Source:** Related Spanish corpus analysis of semi-idiomatic constructions.
+
+**Loop:** Source frame residual → selective slot residual under cultural salience.
+
+**mbcad reading:** Residual-control packing of a productivity residual. The residual that remains after the source is marked is the selective variant residual that is re-checked against the original frame. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** linguistic / residual-control neighbor (partial productivity). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 Source: Lisowska, Marqueta-Gracia & Benítez-Burraco (osf.io/um6rs_v1).  
 Loop: semi-idiomatic structures derived from culturally prominent fixed phrases; only a few patterns become highly productive; most hold or decline with the original.  
 mbcad reading: hybrid gated packing. Culturally marked source + limited open slots; combinatorial extension stays DEFERRED unless structural/semantic and cultural gates are both satisfied.  
 Status: empirical neighbor. Not a production in the auditor.
 
-## 7. Language as both proxy and trigger of behavioral modernity
+## 7. Language as residual packing of behavioral modernity
+
+**Source:** Related evolutionary linguistics materials on language and modernity.
+
+**Loop:** Communicative residual → cultural transmission residual → behavioral modernity residual.
+
+**mbcad reading:** Residual-control packing of a modernity residual. The residual that remains after the cut is the transmission residual that is re-checked against present-day use. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** linguistic / residual-control neighbor (behavioral modernity). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 Source: Benítez-Burraco (ScienceDirect S2950236526000277; PsyArXiv a42de_v1).  
 Loop: rich vocabulary + enhanced categorization + sophisticated syntax enable precise out-group transmission and further cultural/technological complexification; those in turn feed back into language complexity. HSD/prosociality as coarse gate from esoteric to exoteric forms.  
 mbcad reading: higher-order pack that both registers (proxy) and drives (trigger) further participation on social, technological, and symbolic faces. Unmarked center remains basic communicative capacities continuous with earlier hominins.  
@@ -596,6 +636,14 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 
 ## 57. Form–frequency residual packing of grammatical coding asymmetries
 
+**Source:** Martin Haspelmath, Journal of Linguistics 2021. Form–frequency correspondence for coding asymmetries.
+
+**Loop:** Frequency residual → coding residual under predictability.
+
+**mbcad reading:** Residual-control packing of a coding residual. The residual that remains after the frequency cut is the special-coding residual that is re-checked against the higher-frequency face. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** linguistic / residual-control neighbor (coding asymmetry). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
 **Source:** Martin Haspelmath, “Explaining grammatical coding asymmetries: Form–frequency correspondences and predictability.” Journal of Linguistics 57(3): 605–633, 2021. Less frequent members of minimal meaning oppositions receive special coding; more frequent members are reduced. The pattern holds unless coding is uniformly explicit or uniformly zero. https://doi.org/10.1017/S0022226720000535
 
 **Loop:** Minimal meaning opposition with frequency contrast → higher-frequency face receives reduced coding → lower-frequency face receives special coding → predictability residual under communicative efficiency.
@@ -605,7 +653,15 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 **Status:** packing-observation neighbor (grammatical coding asymmetries). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
 
-## 58. Linguisticality as residual packing of biological capacity under cultural evolution
+## 58. Linguisticality as typological particularity under Greenbergian comparison
+
+**Source:** Martin Haspelmath, Frontiers in Psychology 2020. Biological capacity versus historically unique systems.
+
+**Loop:** Biological capacity residual → cultural evolution residual → typological particularity residual.
+
+**mbcad reading:** Residual-control packing of a typological residual. The residual that remains after the cut is the particularity residual that is re-checked against Greenbergian comparison. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** linguistic / residual-control neighbor (typological particularity). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
 **Source:** Martin Haspelmath, “Human linguisticality and the building blocks of languages.” Frontiers in Psychology 10: 3056, 2020. Linguisticality is the biological capacity for language; concrete features, categories, and architectures of particular languages are not treated as an innate blueprint once convergent cultural evolution is admitted. Cross-linguistic comparison is Greenbergian. https://doi.org/10.3389/fpsyg.2019.03056
 
@@ -617,6 +673,14 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 
 
 ## 59. Spontaneity-scale residual packing of causative and anticausative coding
+
+**Source:** Martin Haspelmath, Lingua Posnaniensis 2016. Spontaneity scale and form-frequency correspondence.
+
+**Loop:** Spontaneity residual → coding residual under form-frequency.
+
+**mbcad reading:** Residual-control packing of a coding residual. The residual that remains after the scale cut is the special-coding residual that is re-checked against the more expected residual. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** linguistic / residual-control neighbor (spontaneity scale). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
 **Source:** Martin Haspelmath, “Universals of causative and anticausative verb formation and the spontaneity scale.” Lingua Posnaniensis 58(2): 33–63, 2016. Verb pairs whose noncausal member is higher on the spontaneity scale tend to be causative; pairs lower on the scale tend to be anticausative. The pattern is treated as a special case of form–frequency correspondence. https://doi.org/10.1515/linpo-2016-0009
 
