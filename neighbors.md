@@ -753,3 +753,24 @@ All stay marked as neighbors. None is imported into the stepper. Schema id on th
 **mbcad reading:** Residual-control packing of a mediator residual. The residual that is raised by dissipation is the purified state residual that is re-checked against the mediating coupling. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (dissipative purification). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 72. Null residual of writing on syntactic hierarchy and clause-combining asymmetry
+
+**Source:** Meloni, Ivani, Zakharko, You, Cathcart & Bickel, “No evidence for a universal effect of writing on language use or the evolution of syntax.” PNAS 123(47), e2527946123, 16 November 2026. https://doi.org/10.1073/pnas.2527946123
+
+**Loop:** Writing residual → cut against hierarchy depth and sentence length (spoken vs written, 30 languages) → cut against phylogenetic clause-combining asymmetry (59 languages) → null residual on both complexity measures → residual of reduced variance consistent with normativity.
+
+**mbcad reading:** Residual-control packing of a null residual. The residual that remains after the cut is the null residual that is re-checked against hierarchy and asymmetry measures. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** linguistic / residual-control neighbor (null writing residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 73. Selective archaic allelic residual of occipital volume and schizophrenia risk
+
+**Source:** “A Neandertal-derived genetic variant reduces occipital brain volume in present-day humans.” PNAS 123(48), e2624837123, 16 November 2026. https://doi.org/10.1073/pnas.2624837123
+
+**Loop:** Neandertal-derived allele residual → cut against occipital volume residual → cut against DAAM1 expression residual → cut against schizophrenia-risk residual → negligible general-cognition residual → selective re-union.
+
+**mbcad reading:** Residual-control packing of a selective residual. The residual that remains after the cut is the volumetric and risk residual that is re-checked against general cognition. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** biological / residual-control neighbor (archaic allelic residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
