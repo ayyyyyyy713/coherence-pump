@@ -25,16 +25,24 @@ Named tokens remain commentary only.
 **Status:** linguistic / residual-control neighbor (narrative packing). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
 ## 3. Color–emotion association with positivity / homogenization offset
-Source: Xu & Benítez-Burraco (osf.io/pnc3q_v2).  
-Loop: color × emotion terms; humans maintain cross-linguistic variance; GPT-4o tracks the average but applies positivity bias and reduces intensity differences.  
-mbcad reading: minimal blending case. Provenance-sensitive load versus a gated statistical readout that is return-sufficient for the mean yet fail-closed on marked variance.  
-Status: empirical neighbor. Not a production in the auditor.
+
+**Source:** Xu & Benítez-Burraco (osf.io/pnc3q_v2). Color × emotion term associations; humans maintain cross-linguistic variance, while GPT-4o tracks the average but applies a positivity bias and reduces intensity differences.
+
+**Loop:** Human color–emotion associations across languages → cut against the model's averaged readout → residual of positivity bias and flattened intensity differences → re-checked against marked cross-linguistic variance.
+
+**mbcad reading:** Minimal blending case. The residual that remains after the cut is the variance the averaged readout drops: return-sufficient for the mean, fail-closed on marked variance. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** linguistic / empirical neighbor (blending offset). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
 ## 4. Absence of cross-linguistic phonosymbolism (sr- reduplications)
-Source: Benítez-Burraco, Xu & Lisowska (osf.io/8pdxq_v1).  
-Result: sr-–contempt association appears only among Polish speakers and is stronger for real words; not shared elsewhere.  
-mbcad reading: negative case. Candidate universal packing fails to close outside the language-specific lexical source.  
-Status: empirical neighbor (negative). Not a production in the auditor.
+
+**Source:** Benítez-Burraco, Xu & Lisowska (osf.io/8pdxq_v1). The sr-–contempt association appears only among Polish speakers and is stronger for real words; it is not shared elsewhere.
+
+**Loop:** Candidate universal sound–meaning packing → cut against speakers of other languages → residual confined to the Polish lexical source → re-checked against real versus nonce words.
+
+**mbcad reading:** Negative case. The candidate universal packing fails to close outside its language-specific lexical source; the residual is lexical, not phonosymbolic. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** linguistic / empirical neighbor (negative). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
 ## 5. Conventionality–transparency residual
 
