@@ -1039,3 +1039,14 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 **mbcad reading:** Residual-control packing of a voluntary-imagery residual. The residual that remains after the visual cut is the non-visual participation residual that is re-checked against the practice. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** cognitive / residual-control neighbor (non-visual compensation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 94. Neuron-pole residual packing in a public atlas
+
+**Source:** Curt Tigges, Matthew Kowal, Thomas McGrath, Owen Lewis, Nick Cammarata, “Neurons as an Interpretable Basis,” Goodfire, 10 November 2026. Public atlas of ~10 M neuron poles in Qwen3.6. https://www.goodfire.com/research/public_neuron_atlas/all_labels
+
+**Loop:** Neuron activation residual → pole residual of sparse computational function → ablation residual of weakest activations → residual model with modest degradation.
+
+**mbcad reading:** Residual-control packing of a neuron residual. The residual that remains after ablation is the sparse pole residual that is re-checked against the residual stream. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** residual-control / packing-observation neighbor (neuron atlas). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
