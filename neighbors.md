@@ -1028,3 +1028,14 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 **mbcad reading:** Residual-control packing of a symmetry-breaking residual. The residual that remains after the critical relaxation is the weak-SSB residual that is re-checked against the strong residual. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** residual-control / packing-observation neighbor (critical dynamics of SSB). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 93. Non-visual residual packing of meditation practice under absent voluntary imagery
+
+**Source:** “A Mind That Sees in Words: Meditating Without a Mind’s Eye,” Aphantasia Network. Personal account of meditation practice when voluntary visual imagery is absent. Visualization instructions are non-starters; practice redirects to non-visual anchors (breath, body scan of actual sensation, sound, interoception, conceptual listing). https://aphantasia.com/article/stories/meditating-without-a-minds-eye
+
+**Loop:** Voluntary visual retrieval residual cut → non-visual participation residual (sensation, sound, interoception, conceptual listing) re-unioned → meditative access residual remains intact.
+
+**mbcad reading:** Residual-control packing of a voluntary-imagery residual. The residual that remains after the visual cut is the non-visual participation residual that is re-checked against the practice. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** cognitive / residual-control neighbor (non-visual compensation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
