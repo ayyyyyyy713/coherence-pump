@@ -1061,3 +1061,14 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 **mbcad reading:** Residual-control packing of a statistical residual. The residual that remains after the symmetry cut is the geometric manifold residual that is re-checked against the latent variable. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** linguistic / residual-control neighbor (statistical symmetry → geometry). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 96. Sheared-flow residual control of kink residual in magnetized plasma jets
+
+**Source:** Yue Zhang, Dustin M. Fisher, Mark Gilmore, Scott C. Hsu, Alan G. Lynn, “Experimental investigation of coaxial-gun-formed plasmas injected into a background transverse magnetic field or plasma.” arXiv:1712.05829 (physics.plasm-ph). https://arxiv.org/abs/1712.05829
+
+**Loop:** Magnetic-tension residual → sheared axial-flow residual → kink residual stabilized above threshold \(dV_z/dr \ge 0.1\,k\,V_A\) → residual lifetime extended.
+
+**mbcad reading:** Residual-control packing of a plasma residual. The residual that remains after the tension cut is the sheared-flow residual that is re-checked against the kink residual. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** residual-control / packing-observation neighbor (MHD stabilization residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
