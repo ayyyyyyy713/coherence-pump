@@ -1050,3 +1050,14 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 **mbcad reading:** Residual-control packing of a neuron residual. The residual that remains after ablation is the sparse pole residual that is re-checked against the residual stream. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** residual-control / packing-observation neighbor (neuron atlas). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 95. Statistical-symmetry residual packing of representational geometry in language models
+
+**Source:** Dhruva Karkada, Daniel J. Korchinski, Andres Nava, Matthieu Wyart, Yasaman Bahri, “Symmetry in language statistics shapes the geometry of model representations.” arXiv:2602.15029 (ICML 2026). https://arxiv.org/abs/2602.15029
+
+**Loop:** Translation-symmetric co-occurrence residual → Fourier eigenmode residual → manifold geometry residual (circles, open loops, rippled 1-D) re-unioned in embeddings and LLM activations.
+
+**mbcad reading:** Residual-control packing of a statistical residual. The residual that remains after the symmetry cut is the geometric manifold residual that is re-checked against the latent variable. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** linguistic / residual-control neighbor (statistical symmetry → geometry). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
