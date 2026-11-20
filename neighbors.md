@@ -1017,3 +1017,14 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 **mbcad reading:** Residual-control packing of a bounded synthesis-error residual. The residual that remains after the cut is the certified error and depth allowance that is re-checked by certificate, not trusted from the synthesizer. Same group as neighbor 87 and adjacent to neighbor 83, but a distinct fault-tolerant compilation observation. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** formal-methods neighbor (Lean-verified fault-tolerant quantum compilation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 92. Relaxation critical dynamics residual of strong-to-weak spontaneous symmetry breaking
+
+**Source:** Jiaqiang Li, Xianquan Yan, Han-Ze Li, Shuai Yin, Shuo Liu, “Relaxation Critical Dynamics of Strong-to-Weak Spontaneous Symmetry Breaking.” arXiv:2611.20581, quant-ph / cond-mat.stat-mech / cond-mat.str-el. https://arxiv.org/abs/2611.20581
+
+**Loop:** Strong-to-weak SSB residual → critical relaxation residual under dynamical scaling → residual packing of the order-parameter residual that remains after the transition.
+
+**mbcad reading:** Residual-control packing of a symmetry-breaking residual. The residual that remains after the critical relaxation is the weak-SSB residual that is re-checked against the strong residual. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** residual-control / packing-observation neighbor (critical dynamics of SSB). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
