@@ -22,6 +22,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | RH critical-line residual | side-quest note only | classical error/gap residual under critical-line location; never a face |
 
+| origin-node residual (RIS-13) | side-quest note only | critical-point residual of coherence potential; author-reported; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
