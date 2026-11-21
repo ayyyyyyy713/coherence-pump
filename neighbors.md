@@ -1155,3 +1155,12 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Packing observation of density-driven residual on LLM syntactic output. The residual is compressed syntax that exceeds human processing cost. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Overlay readings (training as selection, human language as optimized) remain cut-from.
 
 **Status:** linguistic / packing-observation neighbor (LLM syntactic residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+## 105. Lean community certification of Alpöge RH formalization
+
+**Source:** Joint statement by the Lean and Mathlib communities (Lean FRO and Mathlib Initiative), leanprover-community.github.io/blog/posts/riemann-hypothesis/, 21 November 2026. Companion: leanprover-community/riemann-hypothesis. ~17 M-line Lean library by Levent Alpöge claiming RH (and GRH for Dirichlet L-functions), depending only on Mathlib.
+
+**Loop:** Classical RH residual → Lean formalization (~17 M lines) → independent community verification (compiles, statement matches Mathlib, accepted by official kernel + multiple independent checkers, only standard axioms) → certified residual.
+
+**mbcad reading:** Pack-side example of formal-methods residual control. “Lean community certified RH” and “independent kernel residual on ~17 M-line development” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster and prior RH residual commentary.
+
+**Status:** formal-methods neighbor (Lean-certified RH). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
