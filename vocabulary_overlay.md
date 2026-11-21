@@ -18,6 +18,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | GCI (RIS-13) | side-quest note only | descriptive scalar residual of dimensional alignment; never a face |
 
+| RIS-13 → 7D spectral reduction | side-quest note only | conjectural coherence-preserving dimensional reduction; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
