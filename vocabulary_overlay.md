@@ -24,6 +24,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | origin-node residual (RIS-13) | side-quest note only | critical-point residual of coherence potential; author-reported; never a face |
 
+| SETI coherence residual (RIS-13) | side-quest note only | proposed detection criterion; unexecuted; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
