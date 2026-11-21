@@ -1136,3 +1136,13 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Pack-side example of kernel-checked, postulate-free syntactic metatheory. “Typechecker-checked” versus “semantic counterpart open” can be named as commentary, since the paper places the open semantic side of University Algebra outside the formalisation. Adjacent to neighbor 19 (Lean/Agda formalization infrastructure) and neighbor 88 (kernel-checked library). No import path into the energy-sheet stepper.
 
 **Status:** formal-methods neighbor (Agda-mechanized type isomorphisms). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 103. Alpöge Lean formalization of the Riemann Hypothesis
+
+**Source:** Levent Alpöge, Lean 4 formalization of the Riemann Hypothesis (and GRH for Dirichlet L-functions), released 20 November 2026 as a 14-part archive (~17 million lines). Independently certified 21 November 2026 by the Lean FRO and Mathlib Initiative. Archive: https://alpo.ge/lean.tar.gz.part01–part14. Community statement: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/
+
+**Loop:** Classical RH residual (non-trivial zeros on the critical line) → Lean formalization of the argument → independent kernel checks and statement comparator → certified proof residual under Mathlib definitions and the three standard axioms only.
+
+**mbcad reading:** Pack-side example of residual-controlled, kernel-checked formalization of a major arithmetic residual. “Lean-certified RH” and “independent kernel acceptance of the critical-line residual” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster (neighbors 13, 39, 50, etc.).
+
+**Status:** formal-methods neighbor (Lean-certified RH). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
