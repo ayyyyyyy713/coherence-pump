@@ -16,6 +16,8 @@ Named tokens are commentary. They do not claim a measurement the run did not mak
 Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side objects use `pack-side.decorated.v0` and do not reuse the frozen id. No greybin term enters \(\dot E\).
 
 
+| GCI (RIS-13) | side-quest note only | descriptive scalar residual of dimensional alignment; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
