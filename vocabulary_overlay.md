@@ -28,6 +28,9 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | eternal-genesis residual | side-quest note only | non-zero residual as generator of next space; fixed point as gateway; never a face |
 
+| heavy-tail measurement residual | side-quest note only | Student-t / near-Cauchy residual on uncertainty-normalized differences (Bailey 2016); never a face |
+| forecast-evaluation residual | side-quest note only | RMSE / MAE residual between predicted and observed fields (weatherbenchX); never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
