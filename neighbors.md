@@ -1146,3 +1146,12 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Pack-side example of residual-controlled, kernel-checked formalization of a major arithmetic residual. “Lean-certified RH” and “independent kernel acceptance of the critical-line residual” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster (neighbors 13, 39, 50, etc.).
 
 **Status:** formal-methods neighbor (Lean-certified RH). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+## 104. Density-driven syntactic compression residual in LLM output
+
+**Source:** Thomas Hikaru Clark, Matias B. Martin, “Why is AI-generated language so hard to understand?” arXiv:2610.29162.
+
+**Loop:** Post-training density / compression pressure → cut against human-like longer syntactic variants → residual: overuse of high-processing-cost features (object relatives, long dependencies, low-frequency n-grams, stacked nouns, reduced relatives) relative to human baselines → re-union as model-specific compressed syntax that persists under paraphrase.
+
+**mbcad reading:** Packing observation of density-driven residual on LLM syntactic output. The residual is compressed syntax that exceeds human processing cost. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Overlay readings (training as selection, human language as optimized) remain cut-from.
+
+**Status:** linguistic / packing-observation neighbor (LLM syntactic residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
