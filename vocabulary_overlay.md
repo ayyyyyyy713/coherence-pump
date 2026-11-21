@@ -26,6 +26,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | SETI coherence residual (RIS-13) | side-quest note only | proposed detection criterion; unexecuted; never a face |
 
+| eternal-genesis residual | side-quest note only | non-zero residual as generator of next space; fixed point as gateway; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
