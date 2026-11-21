@@ -20,6 +20,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | RIS-13 → 7D spectral reduction | side-quest note only | conjectural coherence-preserving dimensional reduction; never a face |
 
+| RH critical-line residual | side-quest note only | classical error/gap residual under critical-line location; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
