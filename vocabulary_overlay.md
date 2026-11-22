@@ -46,6 +46,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | bioelectrome residual | side-quest note only | atlas residual of ion-driven electrical networks coordinating multicellular morphogenesis and regeneration; never a face |
 
+| bioelectric-circuit residual | side-quest note only | Levin 2021 Cell residual of ion-channel/gap-junction networks processing morphogenetic information; kickstart residual on Xenopus limb regeneration; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
