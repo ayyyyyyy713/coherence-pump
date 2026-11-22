@@ -42,6 +42,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 | R^4 incompatibility residual | side-quest note only | Lean 4 negative-resolution residual on non-compact R^4 (Osterwalder–Schrader vs spectral gap); never a face |
 | IT3 spectral residual | side-quest note only | zero-parameter O_h sphere ladder + discrete Diophantine projection residual; source-reported empirical audit; never a face |
 
+| agent-society residual | side-quest note only | observational residual of 936 autonomous agents across 35 labs; reproducibility audits and norm-emergence residual; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
