@@ -35,6 +35,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | neuron-family residual | side-quest note only | 323 shared families across models; co-movement ~93–98 % with closest match; calculation-group lesion/graft residual on GSM8K; never a face |
 
+| branching residual | side-quest note only | Multi-Branch Transformer residual at matched compute; Joint-KV reduces KV-cache storage 19–34 % and raises decoding throughput; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
