@@ -1200,3 +1200,12 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Pack-side example of formal-methods residual control. “Lean-verified lattice Yang–Mills residual” and “spectral no-go residual” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster.
 
 **Status:** formal-methods neighbor (Lean lattice Yang–Mills). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+## 110. Zed dependency-graph residual packing
+
+**Source:** Luke Hutchison, Zed (zedlanguage/zed). Reactive dataflow programming language in which a program is a dependency graph of once-defined values. Compiler handles scheduling, parallelism, memory, incremental recomputation, and static rejection of failure classes. https://github.com/zedlanguage/zed
+
+**Loop:** Source definitions → cut by dependency graph → residual: only affected residuals recompute; failure, units, and cost residuals are statically gated → closed by bit-identical parallel results and first-class failure propagation.
+
+**mbcad reading:** Packing observation of dependency-graph residual. Unused work is cut; participation constraints are enforced at the face of the program. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Overlay readings remain cut-from. Adjacent to language-relay and packing-observation neighbors.
+
+**Status:** linguistic / packing-observation neighbor (dependency-graph residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
