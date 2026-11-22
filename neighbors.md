@@ -1191,3 +1191,12 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Pack-side example of residual-controlled organization. The energy residual is driven toward the Parisi residual while the geometric residual remains atypical. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to residual-control and formal-methods neighbors.
 
 **Status:** residual-control / packing-observation neighbor (QAOA Parisi residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+## 109. Lean formalization of lattice Yang–Mills residuals (4Y-M)
+
+**Source:** jlthermoelectric/4Y-M. Kernel-checked Lean 4 + Mathlib formalisation of lattice Yang–Mills results: Dobrushin/Wasserstein comparison for heat-bath couplings, strong-coupling thresholds for SU(2), and Lean-verified obstructions to a continuum limit (spectral no-go, running coupling). 428 theorems, standard axioms only. https://github.com/jlthermoelectric/4Y-M
+
+**Loop:** Published lattice Yang–Mills residual → cut by Dobrushin/Wasserstein comparison and strong-coupling thresholds → residual: spectral no-go and running-coupling obstruction to continuum limit → closed by Lean kernel residual under standard axioms only.
+
+**mbcad reading:** Pack-side example of formal-methods residual control. “Lean-verified lattice Yang–Mills residual” and “spectral no-go residual” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster.
+
+**Status:** formal-methods neighbor (Lean lattice Yang–Mills). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
