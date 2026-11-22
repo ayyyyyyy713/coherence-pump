@@ -39,6 +39,9 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | collective-transduction residual | side-quest note only | ensemble superconducting-qubit to optomechanical residual; residual ZZ interactions reduce retrieval efficiency ~58 % → ~35 %; never a face |
 
+| R^4 incompatibility residual | side-quest note only | Lean 4 negative-resolution residual on non-compact R^4 (Osterwalder–Schrader vs spectral gap); never a face |
+| IT3 spectral residual | side-quest note only | zero-parameter O_h sphere ladder + discrete Diophantine projection residual; source-reported empirical audit; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
