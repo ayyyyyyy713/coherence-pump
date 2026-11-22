@@ -1182,3 +1182,12 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Pack-side example of geometric residual packing. The duplex residual packs the codon space under a fixed-point-free isometry. Exact analytic residuals are certified to \(<10^{-15}\). No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to geometric-packing and residual-control neighbors.
 
 **Status:** geometric packing / residual-control neighbor (codon-torus duplex). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+## 108. Parisi energy residual before Parisi geometry in QAOA
+
+**Source:** Maxime Dupont, Bhuvanesh Sundar, “Parisi Energy before Parisi Geometry in the Quantum Approximate Optimization Algorithm,” arXiv:2611.23645, 18 November 2026.
+
+**Loop:** QAOA output distribution residual → cut by macroscopic overlap coupling in the thermodynamic limit → residual: typical samples remain uncorrelated while low-energy tail develops Parisi-like organization → closed by energy residual approaching the Parisi residual before geometry becomes typical (separation vanishes only as \(p\to\infty\)).
+
+**mbcad reading:** Pack-side example of residual-controlled organization. The energy residual is driven toward the Parisi residual while the geometric residual remains atypical. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to residual-control and formal-methods neighbors.
+
+**Status:** residual-control / packing-observation neighbor (QAOA Parisi residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
