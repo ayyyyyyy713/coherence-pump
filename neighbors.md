@@ -1173,3 +1173,12 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Pack-side example of residual-controlled expressivity. The area-law residual determines the bond-dimension residual of the exact TNS representation. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to formal-methods and geometric-packing neighbors.
 
 **Status:** formal-methods / packing-observation neighbor (Gaussian fermionic TNS expressivity). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+## 107. Codon-torus duplex residual packing
+
+**Source:** Dr-Logvinovich/codon-torus-syntax. Double-stranded codon torus \(\mathbb{T}_4^3 = (\mathbb{Z}/4\mathbb{Z})^3\); duplex fibration; zero-RNG analytic residual decompositions of codon mutual information across 100 RefSeq genomes. https://github.com/Dr-Logvinovich/codon-torus-syntax
+
+**Loop:** 64 codons → cut by reverse-complement isometry and duplex fibration → residual: 56 duplex channels + 8 doublets → closed by exact analytic residual decompositions (antisense dominance 74–88 %, isochore-free screen memory in 100/100 genomes, Klein \(V_4\) quadrant residual).
+
+**mbcad reading:** Pack-side example of geometric residual packing. The duplex residual packs the codon space under a fixed-point-free isometry. Exact analytic residuals are certified to \(<10^{-15}\). No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to geometric-packing and residual-control neighbors.
+
+**Status:** geometric packing / residual-control neighbor (codon-torus duplex). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
