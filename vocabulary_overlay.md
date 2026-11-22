@@ -44,6 +44,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | agent-society residual | side-quest note only | observational residual of 936 autonomous agents across 35 labs; reproducibility audits and norm-emergence residual; never a face |
 
+| bioelectrome residual | side-quest note only | atlas residual of ion-driven electrical networks coordinating multicellular morphogenesis and regeneration; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
