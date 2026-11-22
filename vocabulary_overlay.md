@@ -48,6 +48,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | bioelectric-circuit residual | side-quest note only | Levin 2021 Cell residual of ion-channel/gap-junction networks processing morphogenetic information; kickstart residual on Xenopus limb regeneration; never a face |
 
+| Frobenius solver residual | side-quest note only | self-reported hybrid SAT-solver residual (3.7× to >7500× on HAMD instances); unreleased; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
