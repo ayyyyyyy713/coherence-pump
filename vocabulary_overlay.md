@@ -37,6 +37,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | branching residual | side-quest note only | Multi-Branch Transformer residual at matched compute; Joint-KV reduces KV-cache storage 19–34 % and raises decoding throughput; never a face |
 
+| collective-transduction residual | side-quest note only | ensemble superconducting-qubit to optomechanical residual; residual ZZ interactions reduce retrieval efficiency ~58 % → ~35 %; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
