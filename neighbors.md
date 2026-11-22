@@ -1164,3 +1164,12 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Pack-side example of formal-methods residual control. “Lean community certified RH” and “independent kernel residual on ~17 M-line development” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster and prior RH residual commentary.
 
 **Status:** formal-methods neighbor (Lean-certified RH). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+## 106. Area-law residual control of Gaussian fermionic TNS bond dimension
+
+**Source:** Pok Man Tam, William Musk, Zhehao Dai, “Expressivity of two-dimensional Gaussian fermionic tensor network states,” arXiv:2611.23227, 17 November 2026.
+
+**Loop:** Area law on Rényi-0 entropy residual → cut by compactly supported Wannier-type orbital of controlled size → residual: momentum-space wavefunction as ratio of trigonometric polynomials → closed by exact Gaussian fermionic TNS with finite bond dimension determined by the entropy (Chevalley).
+
+**mbcad reading:** Pack-side example of residual-controlled expressivity. The area-law residual determines the bond-dimension residual of the exact TNS representation. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to formal-methods and geometric-packing neighbors.
+
+**Status:** formal-methods / packing-observation neighbor (Gaussian fermionic TNS expressivity). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
