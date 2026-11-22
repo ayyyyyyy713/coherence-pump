@@ -33,6 +33,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | PEMF bone-healing residual | side-quest note only | meta-analytic residual on delayed/non-union fracture healing (FDA-cleared indication); signal-parameter constraints (0.5–15 Hz, microtesla); never a face |
 
+| neuron-family residual | side-quest note only | 323 shared families across models; co-movement ~93–98 % with closest match; calculation-group lesion/graft residual on GSM8K; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
