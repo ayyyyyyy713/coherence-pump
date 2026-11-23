@@ -27,6 +27,9 @@ Named tokens are commentary. They do not claim a measurement the run did not mak
 | Telegram-admin residual | commentary only | Imandaneshi/TeleSeed; operational moderation residual; weak |
 | formal-verification job-board residual | commentary only | typetheoryforall/FVjobs; stack-filter catalog residual; weak |
 
+
+| gravity-regularity residual | commentary only | Carballo-Rubio et al. arXiv:2611.27367; matter-supported regular geometries under second-order spherical theories; weak |
+
 Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side objects use `pack-side.decorated.v0` and do not reuse the frozen id. No greybin term enters \(\dot E\).
 
 
