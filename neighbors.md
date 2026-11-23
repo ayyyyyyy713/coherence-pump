@@ -1228,3 +1228,13 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Packing observation of residual process memory under intervention. Finite Markov order packs the memory residual into a finite-dimensional space; the idle transfer map retains residual process correlations after measurement while the instrument can cut them. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** quantum / residual-control neighbor (stationary process memory). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 113. Lieb–Robinson residual of weakly interacting versus free quantum dynamics
+
+**Source:** Jorge Acuña Flores, Joscha Henheik, Marius Lemm, and Daniele Toniolo, “Comparing Weakly Interacting and Free Quantum Dynamics Locally.” arXiv:2611.27707, 20 November 2026. Uses Lieb–Robinson bounds to locally approximate weakly interacting many-body dynamics by free one-body dynamics on large perturbative time scales. Three-step procedure: initial localization, local comparison via Duhamel, optional extension. Transfers one-body transport results to many-body systems: quantum diffusion in weakly interacting disordered Fermi systems (D ≥ 2) on finite scales, and local multi-time spin-up correlations (including OTOCs) in low-density Fermi–Hubbard models. Explicit error bounds (e.g., O(ε t^{D+3}) for operator-spreading diagnostics). https://arxiv.org/abs/2611.27707
+
+**Loop:** Weakly interacting many-body evolution → cut by Lieb–Robinson light-cone localization → residual: local free one-body dynamics with controlled error → re-union under one-body transport results (diffusion, path-count OTOC patterns).
+
+**mbcad reading:** Residual-control packing of interacting dynamics under a perturbative light-cone constraint. The residual between weakly interacting and free evolution is controlled by LRBs; free dynamics pack the local residual without requiring a spectral gap. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** mathematical-physics / residual-control neighbor (Lieb–Robinson approximation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
