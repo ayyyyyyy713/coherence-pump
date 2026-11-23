@@ -13,6 +13,16 @@ Named tokens are commentary. They do not claim a measurement the run did not mak
 | commentary:return-exceeds-perturbation | named token | commentary only |
 | commentary:irreducible-under-current-sheet | named token | commentary only |
 
+
+| Frobenius SAT residual | commentary only | Neon / Hutchison arXiv:2602.04914; factor-base residual; weak |
+| Nb₃Sn coil residual | commentary only | HL-LHC IEEE Spectrum; wind-and-react residual; weak |
+| perfect-resilience residual | commentary only | Bentert & Schmid arXiv:2602.03827; forbidden-minor residual; weak |
+| RH formalization residual | commentary only | riemann.verifytask.cn; Lean compression residual; weak |
+| AI-math residual | commentary only | Quanta Transformation dispatch; multi-claim formalization residual; weak |
+| cognitive-surrender residual | commentary only | Shaw & Nave SSRN 6097646; System-3 residual; weak |
+| LM harness residual | commentary only | Zhang et al. alphaXiv; compositional harness residual; weak |
+| lattice Yang–Mills residual | commentary only | Bhattacharjee et al. Preprints.org; conditional spectral residual; weak |
+
 Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side objects use `pack-side.decorated.v0` and do not reuse the frozen id. No greybin term enters \(\dot E\).
 
 
