@@ -52,6 +52,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | Nb3Sn magnet residual | side-quest note only | wind-and-react residual on HL-LHC Nb₃Sn quadrupoles (peak 11.3 T, ~90 % coil yield); manufacturing residual; never a face |
 
+| quantum-circuit-cut residual | side-quest note only | QWeaver residual of MLIR-based circuit cutting + quasi-probability reconstruction (exact in infinite-shot limit); never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
