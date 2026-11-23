@@ -1209,3 +1209,12 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Packing observation of dependency-graph residual. Unused work is cut; participation constraints are enforced at the face of the program. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Overlay readings remain cut-from. Adjacent to language-relay and packing-observation neighbors.
 
 **Status:** linguistic / packing-observation neighbor (dependency-graph residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+## 111. Exact Bloch residual of the trigonometric Rosen-Morse model
+
+**Source:** Ulysses Camara da Silva, H. G. Vianna, “Renormalization and exact Bloch bands: the trigonometric Rosen-Morse model,” arXiv:2611.23649, 18 November 2026.
+
+**Loop:** Trigonometric Rosen-Morse residual → cut by independent renormalization (strong regime) or transmitting self-adjoint matching (weak-medium regime) → residual: exact Bloch dispersion, band widths, gaps, and effective masses → closed by exponential bandwidth suppression at large Coulomb coupling and Efimov-like spectral scaling.
+
+**mbcad reading:** Pack-side example of exact residual packing. The band-structure residual is controlled by an exact Bloch relation under renormalization and matching conditions. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to residual-control and formal-methods neighbors.
+
+**Status:** residual-control / formal-methods neighbor (exact Bloch residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
