@@ -54,6 +54,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | quantum-circuit-cut residual | side-quest note only | QWeaver residual of MLIR-based circuit cutting + quasi-probability reconstruction (exact in infinite-shot limit); never a face |
 
+| quantification-horizon residual | side-quest note only | singularity residual of a system’s own compression of itself as model-side marker for qualia (QHT); never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
