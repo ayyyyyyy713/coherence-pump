@@ -33,6 +33,9 @@ Named tokens are commentary. They do not claim a measurement the run did not mak
 
 | vector-soliton residual | commentary only | Zhou et al. Communications Physics 2024; topological mechanical lattice; superposed-kink residual on multistable potential; weak |
 
+
+| unreasonable-effectiveness residual | commentary only | Wigner 1960; mathematical concepts invented for internal reasons later fit physical law; weak |
+
 Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side objects use `pack-side.decorated.v0` and do not reuse the frozen id. No greybin term enters \(\dot E\).
 
 
