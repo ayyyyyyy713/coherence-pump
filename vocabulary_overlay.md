@@ -58,6 +58,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side 
 
 | perplexity residual | side-quest note only | log-perplexity compression residual on held-out codebase; reported capability thresholds ~0.99 → ~0.76; proposed safety limits; never a face |
 
+| CV entanglement residual | side-quest note only | digital reconstruction residual of CV entanglement over 23 km deployed fibre; Simon-Duan 1.915 < 2; never a face |
+
 ## Language-layer evolutions (pack-side only)
 
 These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
