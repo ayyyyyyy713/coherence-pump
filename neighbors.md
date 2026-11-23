@@ -1218,3 +1218,13 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Pack-side example of exact residual packing. The band-structure residual is controlled by an exact Bloch relation under renormalization and matching conditions. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to residual-control and formal-methods neighbors.
 
 **Status:** residual-control / formal-methods neighbor (exact Bloch residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 112. Stationary quantum time series residual packing of process memory
+
+**Source:** Hai Wang, “Stationary Quantum Time Series: Spectral Theory of Process Memory and Measurement Records.” arXiv:2611.23809v2, 19 November 2026. Process-tensor framework for stationary quantum time series. Finite quantum Markov order relative to an informationally complete causal break yields a finite-dimensional generating triple (dimension bounded by system dimension and order). Autocorrelation splits into idle-gap process-level correlation (governed by the idle transfer map) and instrument-specific record correlation. Spectral criteria for ergodicity and mixing; measurement records can mix when the underlying process does not (and vice versa). Identity intervention is the unique unital transfer map. Numerical checks on collision models. https://arxiv.org/abs/2611.23809
+
+**Loop:** Stationary quantum process → cut by informationally complete causal break → residual: finite-dimensional generating triple and idle transfer map → instrument can further cut or reshape record correlations → spectral residual of ergodicity/mixing rates.
+
+**mbcad reading:** Packing observation of residual process memory under intervention. Finite Markov order packs the memory residual into a finite-dimensional space; the idle transfer map retains residual process correlations after measurement while the instrument can cut them. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** quantum / residual-control neighbor (stationary process memory). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
