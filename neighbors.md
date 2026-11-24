@@ -6,7 +6,7 @@ Named tokens remain commentary only.
 
 ## 1. Categorization-density residual under cross-modal categorization
 
-**Source:** Clark, Martin & Mahowald.  Benítez-Burraco & Hoshi (OSF preprint). Cross-modal categorization co-opted into lexicalization and syntactic combinatorics.
+**Source:** Benítez-Burraco & Hoshi (OSF preprint). Cross-modal categorization co-opted into lexicalization and syntactic combinatorics.
 
 **Loop:** Amodal categorization residual → critical token density residual → productive Merge residual.
 
@@ -623,15 +623,6 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 
 
 ## 57. Form–frequency residual packing of grammatical coding asymmetries
-
-**Source:** Martin Haspelmath, Journal of Linguistics 2021. Form–frequency correspondence for coding asymmetries.
-
-**Loop:** Frequency residual → coding residual under predictability.
-
-**mbcad reading:** Residual-control packing of a coding residual. The residual that remains after the frequency cut is the special-coding residual that is re-checked against the higher-frequency face. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
-
-**Status:** linguistic / residual-control neighbor (coding asymmetry). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-
 **Source:** Martin Haspelmath, “Explaining grammatical coding asymmetries: Form–frequency correspondences and predictability.” Journal of Linguistics 57(3): 605–633, 2021. Less frequent members of minimal meaning oppositions receive special coding; more frequent members are reduced. The pattern holds unless coding is uniformly explicit or uniformly zero. https://doi.org/10.1017/S0022226720000535
 
 **Loop:** Minimal meaning opposition with frequency contrast → higher-frequency face receives reduced coding → lower-frequency face receives special coding → predictability residual under communicative efficiency.
@@ -642,15 +633,6 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 
 
 ## 58. Linguisticality as typological particularity under Greenbergian comparison
-
-**Source:** Martin Haspelmath, Frontiers in Psychology 2020. Biological capacity versus historically unique systems.
-
-**Loop:** Biological capacity residual → cultural evolution residual → typological particularity residual.
-
-**mbcad reading:** Residual-control packing of a typological residual. The residual that remains after the cut is the particularity residual that is re-checked against Greenbergian comparison. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
-
-**Status:** linguistic / residual-control neighbor (typological particularity). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-
 **Source:** Martin Haspelmath, “Human linguisticality and the building blocks of languages.” Frontiers in Psychology 10: 3056, 2020. Linguisticality is the biological capacity for language; concrete features, categories, and architectures of particular languages are not treated as an innate blueprint once convergent cultural evolution is admitted. Cross-linguistic comparison is Greenbergian. https://doi.org/10.3389/fpsyg.2019.03056
 
 **Loop:** Biological capacity residual → cut from historically unique grammatical systems → cultural evolution re-union → thin domain-general substrate rather than rich innate inventory.
@@ -661,15 +643,6 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 
 
 ## 59. Spontaneity-scale residual packing of causative and anticausative coding
-
-**Source:** Martin Haspelmath, Lingua Posnaniensis 2016. Spontaneity scale and form-frequency correspondence.
-
-**Loop:** Spontaneity residual → coding residual under form-frequency.
-
-**mbcad reading:** Residual-control packing of a coding residual. The residual that remains after the scale cut is the special-coding residual that is re-checked against the more expected residual. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
-
-**Status:** linguistic / residual-control neighbor (spontaneity scale). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-
 **Source:** Martin Haspelmath, “Universals of causative and anticausative verb formation and the spontaneity scale.” Lingua Posnaniensis 58(2): 33–63, 2016. Verb pairs whose noncausal member is higher on the spontaneity scale tend to be causative; pairs lower on the scale tend to be anticausative. The pattern is treated as a special case of form–frequency correspondence. https://doi.org/10.1515/linpo-2016-0009
 
 **Loop:** Causal/noncausal opposition ordered by spontaneity scale → less expected face receives special coding → more expected face receives reduced coding → form-frequency residual.
@@ -1055,7 +1028,7 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 
 ## 96. Sheared-flow residual control of kink residual in magnetized plasma jets
 
-**Source:** Yue Zhang, Dustin M. Fisher, Mark Gilmore, Scott C. Hsu, Alan G. Lynn, “Experimental investigation of coaxial-gun-formed plasmas injected into a background transverse magnetic field or plasma.” arXiv:1712.05829 (physics.plasm-ph). https://arxiv.org/abs/1712.05829
+**Source:** Yue Zhang, Dustin M. Fisher, Mark Gilmore, Scott C. Hsu, Alan G. Lynn, “Experimental investigation of coaxial-gun-formed plasmas injected into a background transverse magnetic field or plasma.” arXiv:1712.05829 (physics.plasm-ph). https://arxiv.org/abs/1712.05829 The 0.1 k V_A kink-stabilization threshold is cited in this review from Zhang et al., Phys. Plasmas 24, 110702 (2017).
 
 **Loop:** Magnetic-tension residual → sheared axial-flow residual → kink residual stabilized above threshold \(dV_z/dr \ge 0.1\,k\,V_A\) → residual lifetime extended.
 
@@ -1127,7 +1100,7 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 
 **Status:** formal-methods neighbor (Agda-mechanized type isomorphisms). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
-## 103.
+## 103. Alpöge Lean formalization of the Riemann Hypothesis
 
 **Certification:** Lean FRO / Mathlib Initiative confirmed compilation and kernel acceptance of the 14-part archive (alpo.ge/lean.tar.gz.part01–part14). Alpöge Lean formalization of the Riemann Hypothesis
 
@@ -1140,13 +1113,54 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **Status:** formal-methods neighbor (Lean-certified RH). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 ## 104. Density-driven syntactic compression residual in LLM output
 
-**Source:** Thomas Hikaru Clark, Matias B. Martin, “Why is AI-generated language so hard to understand?” arXiv:2610.29162.
+**Source:** Thomas Hikaru Clark, Matias B. Martin, Kyle Mahowald, “Why is AI-generated language so hard to understand?” arXiv:2610.29162.
 
 **Loop:** Post-training density / compression pressure → cut against human-like longer syntactic variants → residual: overuse of high-processing-cost features (object relatives, long dependencies, low-frequency n-grams, stacked nouns, reduced relatives) relative to human baselines → re-union as model-specific compressed syntax that persists under paraphrase.
 
 **mbcad reading:** Packing observation of density-driven residual on LLM syntactic output. The residual is compressed syntax that exceeds human processing cost. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Overlay readings (training as selection, human language as optimized) remain cut-from.
 
 **Status:** linguistic / packing-observation neighbor (LLM syntactic residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 106. Area-law residual control of Gaussian fermionic TNS bond dimension
+
+**Source:** Pok Man Tam, William Musk, Zhehao Dai, “Expressivity of two-dimensional Gaussian fermionic tensor network states,” arXiv:2611.23227, 17 November 2026.
+
+**Loop:** Area law on Rényi-0 entropy residual → cut by compactly supported Wannier-type orbital of controlled size → residual: momentum-space wavefunction as ratio of trigonometric polynomials → closed by exact Gaussian fermionic TNS with finite bond dimension determined by the entropy (Chevalley).
+
+**mbcad reading:** Pack-side example of residual-controlled expressivity. The area-law residual determines the bond-dimension residual of the exact TNS representation. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to formal-methods and geometric-packing neighbors.
+
+**Status:** residual-control / mathematical-physics neighbor (Gaussian fermionic TNS expressivity). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 108. Parisi energy residual before Parisi geometry in QAOA
+
+**Source:** Maxime Dupont, Bhuvanesh Sundar, “Parisi Energy before Parisi Geometry in the Quantum Approximate Optimization Algorithm,” arXiv:2611.23645, 18 November 2026.
+
+**Loop:** QAOA output distribution residual → cut by macroscopic overlap coupling in the thermodynamic limit → residual: typical samples remain uncorrelated while low-energy tail develops Parisi-like organization → closed by energy residual approaching the Parisi residual before geometry becomes typical (separation vanishes only as \(p	o\infty\)).
+
+**mbcad reading:** Pack-side example of residual-controlled organization. The energy residual is driven toward the Parisi residual while the geometric residual remains atypical. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to residual-control and formal-methods neighbors.
+
+**Status:** residual-control / packing-observation neighbor (QAOA Parisi residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 109. Lean formalization of lattice Yang–Mills residuals (4Y-M)
+
+**Source:** jlthermoelectric/4Y-M. Kernel-checked Lean 4 + Mathlib formalisation of lattice Yang–Mills results: Dobrushin/Wasserstein comparison for heat-bath couplings, strong-coupling thresholds for SU(2), and Lean-verified obstructions to a continuum limit (spectral no-go, running coupling). 428 theorems, standard axioms only. https://github.com/jlthermoelectric/4Y-M Unreviewed repository; its README states it does not prove the mass gap. Continuum-limit obstructions hold only under the repo's lattice hypotheses.
+
+**Loop:** Published lattice Yang–Mills residual → cut by Dobrushin/Wasserstein comparison and strong-coupling thresholds → residual: spectral no-go and running-coupling obstruction to continuum limit → closed by Lean kernel residual under standard axioms only.
+
+**mbcad reading:** Pack-side example of formal-methods residual control. “Lean-verified lattice Yang–Mills residual” and “spectral no-go residual” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster.
+
+**Status:** formal-methods neighbor (Lean lattice Yang–Mills). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 111. Exact Bloch residual of the trigonometric Rosen-Morse model
+
+**Source:** Ulysses Camara da Silva, H. G. Vianna, “Renormalization and exact Bloch bands: the trigonometric Rosen-Morse model,” arXiv:2611.23649, 18 November 2026.
+
+**Loop:** Trigonometric Rosen-Morse residual → cut by independent renormalization (strong regime) or transmitting self-adjoint matching (weak-medium regime) → residual: exact Bloch dispersion, band widths, gaps, and effective masses → closed by exponential bandwidth suppression at large Coulomb coupling and Efimov-like spectral scaling.
+
+**mbcad reading:** Pack-side example of exact residual packing. The band-structure residual is controlled by an exact Bloch relation under renormalization and matching conditions. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to residual-control and formal-methods neighbors.
+
+**Status:** residual-control / mathematical-physics neighbor (exact Bloch residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
 ## 112. Stationary quantum time series residual packing of process memory
 
