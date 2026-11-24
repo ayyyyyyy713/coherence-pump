@@ -6,7 +6,7 @@ Named tokens remain commentary only.
 
 ## 1. Categorization-density residual under cross-modal categorization
 
-**Source:** Benítez-Burraco & Hoshi (OSF preprint). Cross-modal categorization co-opted into lexicalization and syntactic combinatorics.
+**Source:** Clark, Martin & Mahowald.  Benítez-Burraco & Hoshi (OSF preprint). Cross-modal categorization co-opted into lexicalization and syntactic combinatorics.
 
 **Loop:** Amodal categorization residual → critical token density residual → productive Merge residual.
 
@@ -1030,16 +1030,6 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 **Status:** residual-control / packing-observation neighbor (critical dynamics of SSB). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
 
-## 93. Non-visual residual packing of meditation practice under absent voluntary imagery
-
-**Source:** “A Mind That Sees in Words: Meditating Without a Mind’s Eye,” Aphantasia Network. Personal account of meditation practice when voluntary visual imagery is absent. Visualization instructions are non-starters; practice redirects to non-visual anchors (breath, body scan of actual sensation, sound, interoception, conceptual listing). https://aphantasia.com/article/stories/meditating-without-a-minds-eye
-
-**Loop:** Voluntary visual retrieval residual cut → non-visual participation residual (sensation, sound, interoception, conceptual listing) re-unioned → meditative access residual remains intact.
-
-**mbcad reading:** Residual-control packing of a voluntary-imagery residual. The residual that remains after the visual cut is the non-visual participation residual that is re-checked against the practice. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
-
-**Status:** cognitive / residual-control neighbor (non-visual compensation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-
 
 ## 94. Neuron-pole residual packing in a public atlas
 
@@ -1137,7 +1127,9 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 
 **Status:** formal-methods neighbor (Agda-mechanized type isomorphisms). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
-## 103. Alpöge Lean formalization of the Riemann Hypothesis
+## 103.
+
+**Certification:** Lean FRO / Mathlib Initiative confirmed compilation and kernel acceptance of the 14-part archive (alpo.ge/lean.tar.gz.part01–part14). Alpöge Lean formalization of the Riemann Hypothesis
 
 **Source:** Levent Alpöge, Lean 4 formalization of the Riemann Hypothesis (and GRH for Dirichlet L-functions), released 20 November 2026 as a 14-part archive (~17 million lines). Independently certified 21 November 2026 by the Lean FRO and Mathlib Initiative. Archive: https://alpo.ge/lean.tar.gz.part01–part14. Community statement: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/
 
@@ -1155,69 +1147,6 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Packing observation of density-driven residual on LLM syntactic output. The residual is compressed syntax that exceeds human processing cost. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Overlay readings (training as selection, human language as optimized) remain cut-from.
 
 **Status:** linguistic / packing-observation neighbor (LLM syntactic residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-## 105. Lean community certification of Alpöge RH formalization
-
-**Source:** Joint statement by the Lean and Mathlib communities (Lean FRO and Mathlib Initiative), leanprover-community.github.io/blog/posts/riemann-hypothesis/, 21 November 2026. Companion: leanprover-community/riemann-hypothesis. ~17 M-line Lean library by Levent Alpöge claiming RH (and GRH for Dirichlet L-functions), depending only on Mathlib.
-
-**Loop:** Classical RH residual → Lean formalization (~17 M lines) → independent community verification (compiles, statement matches Mathlib, accepted by official kernel + multiple independent checkers, only standard axioms) → certified residual.
-
-**mbcad reading:** Pack-side example of formal-methods residual control. “Lean community certified RH” and “independent kernel residual on ~17 M-line development” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster and prior RH residual commentary.
-
-**Status:** formal-methods neighbor (Lean-certified RH). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-## 106. Area-law residual control of Gaussian fermionic TNS bond dimension
-
-**Source:** Pok Man Tam, William Musk, Zhehao Dai, “Expressivity of two-dimensional Gaussian fermionic tensor network states,” arXiv:2611.23227, 17 November 2026.
-
-**Loop:** Area law on Rényi-0 entropy residual → cut by compactly supported Wannier-type orbital of controlled size → residual: momentum-space wavefunction as ratio of trigonometric polynomials → closed by exact Gaussian fermionic TNS with finite bond dimension determined by the entropy (Chevalley).
-
-**mbcad reading:** Pack-side example of residual-controlled expressivity. The area-law residual determines the bond-dimension residual of the exact TNS representation. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to formal-methods and geometric-packing neighbors.
-
-**Status:** formal-methods / packing-observation neighbor (Gaussian fermionic TNS expressivity). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-## 107. Codon-torus duplex residual packing
-
-**Source:** Dr-Logvinovich/codon-torus-syntax. Double-stranded codon torus \(\mathbb{T}_4^3 = (\mathbb{Z}/4\mathbb{Z})^3\); duplex fibration; zero-RNG analytic residual decompositions of codon mutual information across 100 RefSeq genomes. https://github.com/Dr-Logvinovich/codon-torus-syntax
-
-**Loop:** 64 codons → cut by reverse-complement isometry and duplex fibration → residual: 56 duplex channels + 8 doublets → closed by exact analytic residual decompositions (antisense dominance 74–88 %, isochore-free screen memory in 100/100 genomes, Klein \(V_4\) quadrant residual).
-
-**mbcad reading:** Pack-side example of geometric residual packing. The duplex residual packs the codon space under a fixed-point-free isometry. Exact analytic residuals are certified to \(<10^{-15}\). No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to geometric-packing and residual-control neighbors.
-
-**Status:** geometric packing / residual-control neighbor (codon-torus duplex). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-## 108. Parisi energy residual before Parisi geometry in QAOA
-
-**Source:** Maxime Dupont, Bhuvanesh Sundar, “Parisi Energy before Parisi Geometry in the Quantum Approximate Optimization Algorithm,” arXiv:2611.23645, 18 November 2026.
-
-**Loop:** QAOA output distribution residual → cut by macroscopic overlap coupling in the thermodynamic limit → residual: typical samples remain uncorrelated while low-energy tail develops Parisi-like organization → closed by energy residual approaching the Parisi residual before geometry becomes typical (separation vanishes only as \(p\to\infty\)).
-
-**mbcad reading:** Pack-side example of residual-controlled organization. The energy residual is driven toward the Parisi residual while the geometric residual remains atypical. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to residual-control and formal-methods neighbors.
-
-**Status:** residual-control / packing-observation neighbor (QAOA Parisi residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-## 109. Lean formalization of lattice Yang–Mills residuals (4Y-M)
-
-**Source:** jlthermoelectric/4Y-M. Kernel-checked Lean 4 + Mathlib formalisation of lattice Yang–Mills results: Dobrushin/Wasserstein comparison for heat-bath couplings, strong-coupling thresholds for SU(2), and Lean-verified obstructions to a continuum limit (spectral no-go, running coupling). 428 theorems, standard axioms only. https://github.com/jlthermoelectric/4Y-M
-
-**Loop:** Published lattice Yang–Mills residual → cut by Dobrushin/Wasserstein comparison and strong-coupling thresholds → residual: spectral no-go and running-coupling obstruction to continuum limit → closed by Lean kernel residual under standard axioms only.
-
-**mbcad reading:** Pack-side example of formal-methods residual control. “Lean-verified lattice Yang–Mills residual” and “spectral no-go residual” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster.
-
-**Status:** formal-methods neighbor (Lean lattice Yang–Mills). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-## 110. Zed dependency-graph residual packing
-
-**Source:** Luke Hutchison, Zed (zedlanguage/zed). Reactive dataflow programming language in which a program is a dependency graph of once-defined values. Compiler handles scheduling, parallelism, memory, incremental recomputation, and static rejection of failure classes. https://github.com/zedlanguage/zed
-
-**Loop:** Source definitions → cut by dependency graph → residual: only affected residuals recompute; failure, units, and cost residuals are statically gated → closed by bit-identical parallel results and first-class failure propagation.
-
-**mbcad reading:** Packing observation of dependency-graph residual. Unused work is cut; participation constraints are enforced at the face of the program. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Overlay readings remain cut-from. Adjacent to language-relay and packing-observation neighbors.
-
-**Status:** linguistic / packing-observation neighbor (dependency-graph residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-## 111. Exact Bloch residual of the trigonometric Rosen-Morse model
-
-**Source:** Ulysses Camara da Silva, H. G. Vianna, “Renormalization and exact Bloch bands: the trigonometric Rosen-Morse model,” arXiv:2611.23649, 18 November 2026.
-
-**Loop:** Trigonometric Rosen-Morse residual → cut by independent renormalization (strong regime) or transmitting self-adjoint matching (weak-medium regime) → residual: exact Bloch dispersion, band widths, gaps, and effective masses → closed by exponential bandwidth suppression at large Coulomb coupling and Efimov-like spectral scaling.
-
-**mbcad reading:** Pack-side example of exact residual packing. The band-structure residual is controlled by an exact Bloch relation under renormalization and matching conditions. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to residual-control and formal-methods neighbors.
-
-**Status:** residual-control / formal-methods neighbor (exact Bloch residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
 ## 112. Stationary quantum time series residual packing of process memory
 

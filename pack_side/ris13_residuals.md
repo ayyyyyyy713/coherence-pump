@@ -1,7 +1,7 @@
 # RIS-13 residual statements (pack-side commentary only)
 
 These residual-control statements are addressable from the public node.
-They annotate existing receipt keys or side-quest notes.
+They annotate side-quest notes only; no receipt key is read, annotated, or extended.
 None is a face. None writes \(\dot{E}\). Schema remains `mbcad.receipt.v0`.
 All numerical values are author-reported and unconfirmed.
 
@@ -76,3 +76,5 @@ Conjectural map \(\Phi\) with residual bound \(|\Phi(t_n)-g_n|\le C(\log n)^{-\a
 - Explicit formula residual \(\psi(x)=x-\sum_\rho x^\rho/\rho-\cdots\).
 
 These are the residual statements. No further promotion.
+
+Coherence-wave law, P3 and P4 are unsourced author hypotheses; no physical claim is adopted.

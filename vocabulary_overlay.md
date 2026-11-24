@@ -36,6 +36,9 @@ Named tokens are commentary. They do not claim a measurement the run did not mak
 
 | unreasonable-effectiveness residual | commentary only | Wigner 1960; mathematical concepts invented for internal reasons later fit physical law; weak |
 
+
+| hypophantasia residual | commentary only | Hal Warfield personal account; external imagery supply (screen, music, short phrases); weak |
+
 Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side objects use `pack-side.decorated.v0` and do not reuse the frozen id. No greybin term enters \(\dot E\).
 
 
