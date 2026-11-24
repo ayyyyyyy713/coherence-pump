@@ -623,6 +623,7 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 
 
 ## 57. Form–frequency residual packing of grammatical coding asymmetries
+
 **Source:** Martin Haspelmath, “Explaining grammatical coding asymmetries: Form–frequency correspondences and predictability.” Journal of Linguistics 57(3): 605–633, 2021. Less frequent members of minimal meaning oppositions receive special coding; more frequent members are reduced. The pattern holds unless coding is uniformly explicit or uniformly zero. https://doi.org/10.1017/S0022226720000535
 
 **Loop:** Minimal meaning opposition with frequency contrast → higher-frequency face receives reduced coding → lower-frequency face receives special coding → predictability residual under communicative efficiency.
@@ -633,6 +634,7 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 
 
 ## 58. Linguisticality as typological particularity under Greenbergian comparison
+
 **Source:** Martin Haspelmath, “Human linguisticality and the building blocks of languages.” Frontiers in Psychology 10: 3056, 2020. Linguisticality is the biological capacity for language; concrete features, categories, and architectures of particular languages are not treated as an innate blueprint once convergent cultural evolution is admitted. Cross-linguistic comparison is Greenbergian. https://doi.org/10.3389/fpsyg.2019.03056
 
 **Loop:** Biological capacity residual → cut from historically unique grammatical systems → cultural evolution re-union → thin domain-general substrate rather than rich innate inventory.
@@ -643,6 +645,7 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 
 
 ## 59. Spontaneity-scale residual packing of causative and anticausative coding
+
 **Source:** Martin Haspelmath, “Universals of causative and anticausative verb formation and the spontaneity scale.” Lingua Posnaniensis 58(2): 33–63, 2016. Verb pairs whose noncausal member is higher on the spontaneity scale tend to be causative; pairs lower on the scale tend to be anticausative. The pattern is treated as a special case of form–frequency correspondence. https://doi.org/10.1515/linpo-2016-0009
 
 **Loop:** Causal/noncausal opposition ordered by spontaneity scale → less expected face receives special coding → more expected face receives reduced coding → form-frequency residual.
@@ -992,17 +995,6 @@ Technical residual-control / formal-methods / packing entries begin at §8. Entr
 **Status:** formal-methods neighbor (Lean-verified fault-tolerant quantum compilation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
 
 
-## 92. Relaxation critical dynamics residual of strong-to-weak spontaneous symmetry breaking
-
-**Source:** Jiaqiang Li, Xianquan Yan, Han-Ze Li, Shuai Yin, Shuo Liu, “Relaxation Critical Dynamics of Strong-to-Weak Spontaneous Symmetry Breaking.” arXiv:2611.20581, quant-ph / cond-mat.stat-mech / cond-mat.str-el. https://arxiv.org/abs/2611.20581
-
-**Loop:** Strong-to-weak SSB residual → critical relaxation residual under dynamical scaling → residual packing of the order-parameter residual that remains after the transition.
-
-**mbcad reading:** Residual-control packing of a symmetry-breaking residual. The residual that remains after the critical relaxation is the weak-SSB residual that is re-checked against the strong residual. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
-
-**Status:** residual-control / packing-observation neighbor (critical dynamics of SSB). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
-
-
 
 ## 94. Neuron-pole residual packing in a public atlas
 
@@ -1102,15 +1094,16 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 
 ## 103. Alpöge Lean formalization of the Riemann Hypothesis
 
-**Certification:** Lean FRO / Mathlib Initiative confirmed compilation and kernel acceptance of the 14-part archive (alpo.ge/lean.tar.gz.part01–part14). Alpöge Lean formalization of the Riemann Hypothesis
+**Source:** Levent Alpöge, Lean 4 formalization of the Riemann Hypothesis
 
-**Source:** Levent Alpöge, Lean 4 formalization of the Riemann Hypothesis (and GRH for Dirichlet L-functions), released 20 November 2026 as a 14-part archive (~17 million lines). Independently certified 21 November 2026 by the Lean FRO and Mathlib Initiative. Archive: https://alpo.ge/lean.tar.gz.part01–part14. Community statement: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/
+**Certification:** Lean FRO / Mathlib Initiative statement (21 November 2026) reports compilation and kernel acceptance of the 14-part archive; folded from former neighbor 105. (and GRH for Dirichlet L-functions), released 20 November 2026 as a 14-part archive (~17 million lines). Independently certified 21 November 2026 by the Lean FRO and Mathlib Initiative. Archive: https://alpo.ge/lean.tar.gz.part01–part14. Community statement: https://leanprover-community.github.io/blog/posts/riemann-hypothesis/
 
 **Loop:** Classical RH residual (non-trivial zeros on the critical line) → Lean formalization of the argument → independent kernel checks and statement comparator → certified proof residual under Mathlib definitions and the three standard axioms only.
 
 **mbcad reading:** Pack-side example of residual-controlled, kernel-checked formalization of a major arithmetic residual. “Lean-certified RH” and “independent kernel acceptance of the critical-line residual” can be named as commentary. No import path into the energy-sheet stepper. Adjacent to the formal-methods cluster (neighbors 13, 39, 50, etc.).
 
 **Status:** formal-methods neighbor (Lean-certified RH). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
 ## 104. Density-driven syntactic compression residual in LLM output
 
 **Source:** Thomas Hikaru Clark, Matias B. Martin, Kyle Mahowald, “Why is AI-generated language so hard to understand?” arXiv:2610.29162.
@@ -1191,3 +1184,24 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Pack-side example of a kernel-checked residual budget: cancellation across steps tightens the certified remainder, while the analytic corollaries stay outside the checked core. “Lean-checked remainder” versus “analytic specialization” can be named as commentary. Adjacent to neighbor 14 (GQSP Hamiltonian simulation) and neighbor 83 (QECLean). No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** formal-methods / residual-control neighbor (Lean-checked Trotter error remainder). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+
+## 115. Lean-checked linear-entanglement f-routing with the residual moved into the message
+
+**Source:** Kevin Bogner, “Linear entanglement suffices for \(f\)-routing.” arXiv:2611.30947, 23 November 2026 (quant-ph). https://arxiv.org/abs/2611.30947
+
+**Loop:** Shared-entanglement budget → cut to \(2n+2\) EPR pairs for every \(f\) → residual: the \(2^{n+1}+1\)-qubit message that a shared-state-only count leaves out → closed by a Lean-checked Theorem 1.
+
+**mbcad reading:** Pack-side example of a resource residual that is relocated rather than removed. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods / residual-control neighbor (Lean-checked quantum routing resource bound). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 116. Lean-checked sharp cut of the John ellipsoid with a nonnegative contact-defect residual
+
+**Source:** Zhou Longfei, “Sharp Volume Contraction of a Centrally Cut John Ellipsoid.” arXiv:2611.29323, 22 November 2026 (math.OC). https://arxiv.org/abs/2611.29323
+
+**Loop:** Central cut of the inscribed ellipsoid → sharp contraction ratio \(R_n\) → residual: the volume deficit against the sharp bound → closed by the nonnegative contact defect that controls the conic certificate.
+
+**mbcad reading:** Pack-side example of an exact residual identity. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods / residual-control neighbor (Lean-checked convex-geometry contraction bound). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
