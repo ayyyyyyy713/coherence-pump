@@ -1202,3 +1202,13 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error 
 **mbcad reading:** Pack-side example of an exact residual identity: the deficit is named, and its nonnegativity is the certificate. “Sharp bound” versus “deficit identity” can be named as commentary. Adjacent to neighbor 99 (Verus-verified SDP solver with a controlled eigensolver residual) and neighbor 101 (optimal radius ratio of compact nonuniform disk packings). No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
 
 **Status:** formal-methods / residual-control neighbor (Lean-checked convex-geometry contraction bound). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
+
+## 117. Cairn residual of research state under implication routes
+
+**Source:** SauersML/Cairn. Python 3.9+ stdlib-only single-file CLI `cairn.py` that treats open research questions as build targets. Knowledge is a graph of Markdown files `research/<id>.md`. Two object types: Claim and Route, the latter a justified implication `AND(requires) ⟹ target`. Status of claims is always computed, never declared: Solved(Q) = OR over routes into Q of (AND over their requires). `cairn check` solves a fixpoint over the claim/route graph (claims `ESTABLISHED` / `OPEN` / `REFUTED`; routes `COMPLETE` / `OPEN` / `INVALIDATED`); failed routes are preserved; frontier, impact, and goal cones are derived. Apache-2.0. https://github.com/SauersML/Cairn
+
+**Loop:** Open research claim → cut by implication routes (requires → target) → residual: computed status (ESTABLISHED / OPEN / REFUTED) via fixpoint → frontier residual of reachable unresolved holes under goals.
+
+**mbcad reading:** Residual-control packing of research state. Status is the residual of the route graph; established claims pack the residual of their prerequisites without a status field. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+
+**Status:** formal-methods / residual-control neighbor (research build system). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
