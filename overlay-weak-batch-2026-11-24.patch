@@ -1,0 +1,36 @@
+diff --git a/vocabulary_overlay.md b/vocabulary_overlay.md
+index 688b2e4..3f3531e 100644
+--- a/vocabulary_overlay.md
++++ b/vocabulary_overlay.md
+@@ -39,6 +39,22 @@ Named tokens are commentary. They do not claim a measurement the run did not mak
+ 
+ | hypophantasia residual | commentary only | Hal Warfield personal account; external imagery supply (screen, music, short phrases); weak |
+ 
++| blood-moon residual | commentary only | Mohammadamini et al., N=1 Blood Moon protocol (~178 pp.); drift–coherence residual as qualitative heuristic, not a residual-control inequality; weak. Main share [2055] 2026-11-21 5:14:15 AM ET |
++| vacuous-RH residual | commentary only | Nielsen, PhilPapers NIEIOT-2, 20 Nov 2026; gap between a type-checking certificate and a non-vacuous geometric or lattice identification; weak. Main share [2123] 2026-11-23 3:00:44 AM ET |
++| cognitive-irreducibility residual | commentary only | Skycak, 22 Nov 2026; gap between a type-checked or compiled artifact and a form that remains human-cognitively irreducible; weak. Main share [2133] 2026-11-23 7:45:39 AM ET |
++| vortex-mirror residual | commentary only | CTFTHEORY / Voltardark, Tesla patent 487,796 reconstruction; gap between a mechanical speed-ratio patent and a nested arithmetic cycle hierarchy; weak. Main share [2135] 2026-11-23 1:03:03 PM ET |
++| P=NP fleet residual | commentary only | pequalnp.com; Lean 4 as sole checker for an AI-agent fleet attacking P versus NP; weak. Main share [2139] 2026-11-23 1:37:08 PM ET |
++| sample-compression residual | commentary only | Cai et al., arXiv:2611.25011; near-quadratic sample compression for all VC classes; weak. Main share [2141] 2026-11-23 8:05:13 PM ET |
++| VP≠VNP residual | commentary only | anthropics/formal-math vp-vnp artifact (Apache-2.0); claimed VP ≠ VNP over every field; weak. Main share [2143] 2026-11-23 9:46:10 PM ET |
++| VP≠VNP arithmetic residual | commentary only | Claude (Anthropic), alphaXiv 2611.vp-vnp-arithmetic-lower-bounds; same VP ≠ VNP claim, arithmetic-circuit residual; weak. Main share [2145] 2026-11-23 9:54:26 PM ET |
++| doomerism residual | commentary only | Pinker, “Will We All Go Together When We Go?,” Quillette, 23 Nov 2026; gap between a single extinction probability and the product of chain conditionals; weak. Main share [2147] 2026-11-23 9:57:33 PM ET |
++| oracle residual | commentary only | Aegean Intelligence Group Oracle; gap between a locked pre-outcome forecast and a graded result against a named public source; weak. Main share [2149] 2026-11-23 9:58:56 PM ET |
++| abliteration residual | commentary only | satellitedown/inkling-2-mini-abliterated-ingine (Apache-2.0); gap between original refusal behavior and modified weights; weak. Main share [2151] 2026-11-23 10:00:44 PM ET |
++| RH-replay residual | commentary only | rohanarun/alpoge-rh-replay; independent community replay of Alpöge’s claimed Lean RH proof; weak. Main share [2153] 2026-11-23 10:05:09 PM ET |
++| SAT-benchmark residual | commentary only | lukehutch/SAT-benchmarks; curated SAT-solver benchmark suites; weak. Main share [2155] 2026-11-23 10:10:15 PM ET |
++| cross-review residual | commentary only | lukehutch/skills cross-review.md; multi-vendor agent review process; weak. Main share [2159] 2026-11-23 10:16:30 PM ET |
++| quantum-compilation residual | commentary only | Sun et al. arXiv:2611.24886; CREST GNN circuit–region scorer with residual fusion head; weak. Hippiquant [825] 2026-11-23 10:02:40 AM ET |
++
+ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side objects use `pack-side.decorated.v0` and do not reuse the frozen id. No greybin term enters \(\dot E\).
+ 
+ 
+@@ -86,6 +102,8 @@ Schema id remains `mbcad.receipt.v0` on the kernel receipt. Decorated pack-side
+ 
+ | CV entanglement residual | side-quest note only | digital reconstruction residual of CV entanglement over 23 km deployed fibre; Simon-Duan 1.915 < 2; never a face |
+ 
++| agentic-reasoning-cache residual | side-quest note only | CPU-executable residual of LLM reasoning traces; on-par performance with 16–291× lower invocation cost; never a face. Hippiquant [763] 2026-11-22 7:47:30 AM ET |
++
+ ## Language-layer evolutions (pack-side only)
+ 
+ These may annotate existing receipt keys where noted. They do not write \(\dot{E}\). They do not become faces. Schema remains `mbcad.receipt.v0`.
