@@ -1,0 +1,58 @@
+diff --git a/neighbors.md b/neighbors.md
+index f4e5d32..fa6a857 100644
+--- a/neighbors.md
++++ b/neighbors.md
+@@ -1212,3 +1212,53 @@ Vert_F\) is controlled and, via Hoffman–Wielandt, bounds the eigenvalue error
+ **mbcad reading:** Residual-control packing of research state. Status is the residual of the route graph; established claims pack the residual of their prerequisites without a status field. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
+ 
+ **Status:** formal-methods / residual-control neighbor (research build system). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
++
++## 118. Lean-checked VP ≠ VNP over every field
++
++**Source:** anthropics/formal-math/vp-vnp. Lean 4 formalization and paper proving that VP is a proper subset of VNP over every field. Circuits for the Hamiltonian cycle polynomial and for the permanent (outside characteristic 2) require more than \( m^{c (\log m)^{1/3}} \) gates for all large \( m \); the same holds for approximating circuits. Discovered by an internal research Claude model; paper and formalization written by AI models. Apache-2.0. https://github.com/anthropics/formal-math/tree/main/vp-vnp
++
++**Loop:** Circuit lower-bound residual for Hamiltonian cycle and permanent → Lean formalization under Mathlib → independent kernel checks (comparator + nanoda) → certified separation residual (VP ⊊ VNP) under the three standard axioms only.
++
++**mbcad reading:** Pack-side example of residual-controlled, kernel-checked formalization of a complexity residual. “Lean-checked VP ≠ VNP” can be named as commentary. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to the formal-methods cluster (neighbors 13, 39, 50, 103, etc.).
++
++**Status:** formal-methods neighbor (Lean-checked circuit-complexity separation). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
++
++## 119. Interface invariants of rhombohedral graphene under layer potentials and couplings
++
++**Source:** Yuelong Li, “Interface invariants of rhombohedral graphene with layer-dependent potentials and couplings.” arXiv:2611.29093, 21 November 2026 (cond-mat.mes-hall). Domain walls in the perpendicular bias of ABC-stacked graphene bind valley-resolved chiral modes whose signed number is fixed by a bulk-difference invariant. The invariant equals the difference of occupied angular weights of the zero-momentum levels. At equal coupling, nonlinear monotone potentials reproduce the same invariant set as linear potentials; bond-dependent coupling fills gaps inside that set beginning at five layers without enlarging the range. Exact transfer-matrix calculations reproduce every predicted signed crossing count. Code: https://github.com/YuelongLi/RHG_Spectral_Indices
++
++**Loop:** Layer-potential and coupling residual → cut by zero-momentum angular-weight occupation → residual: bulk-difference invariant of interface modes → closed by combinatorial characterization of admissible configurations and exact spectral matching.
++
++**mbcad reading:** Packing observation of an interface residual under layer constraints. The bulk-difference invariant is the residual of occupied angular weights; bond-dependent coupling fills gaps without expanding the attainable range. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\).
++
++**Status:** geometric / packing-observation neighbor (interface invariants). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
++
++## 120. Lean-checked exact circuit size of the edge function
++
++**Source:** “Lower bounds for the edge function: a readable account of ten Lean-checked statements.” pequalnp.com/papers/note-1. Ten Lean 4 statements (Mathlib, no `sorry` in key proof chains) on the circuit size of the edge function \(f_G = \bigvee_{uv \in E} (x_u \land x_v)\). Forests attain exact size \(|E| + \tau(G) - 1\); paths and cycles \(\ge 5\) attain matching exact sizes. Gate-elimination and reader lemmas formalized. Lean code: https://github.com/brilliant-hq/pequalnp-proofs (lean/PEqualNP/MetaComplexity/).
++
++**Loop:** Edge-function residual of graph \(G\) → cut by gate elimination and structural hypotheses (cycles \(\ge 7\), hub walks \(\ge 7\)) → residual: exact circuit size under vertex-cover and monotone upper bounds → closed by Lean-checked matching lower and upper bounds.
++
++**mbcad reading:** Pack-side example of residual-controlled, kernel-checked circuit-complexity residual. “Lean-checked exact edge-function size” can be named as commentary. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to the formal-methods cluster.
++
++**Status:** formal-methods neighbor (Lean-checked circuit-size residual). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
++
++## 121. OpenAI Lean-checked VP ≠ VNP
++
++**Source:** OpenAI, “VP and VNP are different” (November 23, 2026 edition). Border arithmetic circuit size lower bound \(\exp(\Omega((\log n)^{5/4}))\) for an explicit VNP family over every field; transfers to the directed Hamiltonian cycle polynomial over every field and to the permanent outside characteristic 2. Exact VP–VNP separation formalized in Lean at lean/OAI/Computability/VPVNP/ClassSeparation.lean. https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026
++
++**Loop:** Explicit VNP family residual → cut by border arithmetic circuit lower bound → residual: Lean-checked separation (VP ⊊ VNP) under the stated bound → closed by transfer to Hamiltonian cycle and permanent.
++
++**mbcad reading:** Pack-side example of residual-controlled, kernel-checked circuit-complexity residual. “Lean-checked VP ≠ VNP (OpenAI)” can be named as commentary. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to neighbor 118 and the formal-methods cluster.
++
++**Status:** formal-methods neighbor (Lean-checked VP ≠ VNP). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
++
++## 122. Lean-checked Poisson vertex algebra of pure SU(2) N=2 operators
++
++**Source:** Ahsan Z. Khan, “Lie Algebra Cohomology and Seiberg-Witten Theory.” arXiv:2611.29713, 22 November 2026. The algebra of perturbative holomorphic-topological local operators of pure \(\mathcal N=2\) SU(2) gauge theory is the Poisson vertex algebra generated by a Virasoro element \(X\) of central charge zero and an odd primary \(Y\) of weight three subject only to \(X^2=0\). Equivalently, relative Lie algebra cohomology \(H^*(\mathfrak{sl}_2[z,w]/(w^2),\mathfrak{sl}_2)\). Complete Lean 4 formalization of the main isomorphism (~121k lines, only standard axioms propext, Classical.choice, Quot.sound). https://github.com/qqz3ro/pure-su2-pva
++
++**Loop:** Perturbative local-operator residual of pure SU(2) \(\mathcal N=2\) → cut by factorization on configuration spaces, depth argument, and coefficient deformations → residual: Poisson vertex algebra generated by \(X,Y\) with \(X^2=0\) → closed by Lean-checked graded differential PVA isomorphism under standard axioms only.
++
++**mbcad reading:** Pack-side example of residual-controlled, kernel-checked algebraic residual. “Lean-checked pure-SU(2) PVA” can be named as commentary. No shared adjacency with the energy-sheet faces and no term that writes \(\dot{E}\). Adjacent to the formal-methods cluster.
++
++**Status:** formal-methods neighbor (Lean-checked PVA isomorphism). Not a production in the auditor. Does not write \(\dot{E}\). Does not become a face. Schema remains `mbcad.receipt.v0`.
